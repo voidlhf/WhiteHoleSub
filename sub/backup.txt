@@ -1,0 +1,234 @@
+  {
+    "极品影视": {
+      "链接": "https://www.jpysvip.net/",
+      "屏蔽请求": "https://img10.360buyimg.com/ddimg/jfs/t1/133888/15/2798/61297/5ef5cd54E69f6dc60/93231446b43a6b1b.jpg||k.jinxiuzhilv.com||xm.tytfbdgg.cn||www.zhongbolm.com||js.handanxinkai.com||ia.51.la||www.fzdeng.com||www.ranqibio.com||js.users.51.la||www.hqwlm.com||https://bbsk.simaoer.com/||load.png||load_w.png",
+      "屏蔽元素": {
+        "www.jpysvip.net": "div.tips.close-box,marquee,ul.myui-header__user\u003eli:nth-child(3),div.myui-header__logo,#layui-layer1,#layui-layer-shade1,a[href\u003d\"/index.php/gbook\"],a.open-share,a.btnskin,a.language,div.myui-foot.clearfix,div.myui-nav__tabbar,ul.myui-header__user\u003eli:nth-child(4),a[title\u003d\"站长统计\"],div#bottommob,ul.myui-extra.clearfix",
+        "vodsearch": "ul.myui-vodlist.clearfix"
+      },
+      "js植入": "var selector \u003d \"div.myui-panel.myui-panel-bg.clearfix,div.myui-panel_bd,div.myui-panel.myui-panel-bg.clearfix.hiddex-xs,div.myui-panel.myui-panel-bg.hiddex-xs.clearfix\";var inText \u003d [\"猜你喜欢\",\"大家正在看\",\"同类型推荐\",\"影片评论\",\"友情链接\",\"最新资讯\",\"荧屏巨星\",\"电影总榜单\",\"热播影片\",\"热门资讯\",\"热门专题\",\"最新香港剧\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();",
+      "屏蔽标题": "正在播放||-||%%",
+      "嗅探类型": ""
+    }
+  },
+  {
+    "孤单影院": {
+      "链接": "https://gudanys.com/",
+      "屏蔽请求": "js.handanxinkai.com||https://img14.360buyimg.com/ddimg/jfs/t1/146069/9/10521/54253/5f831bb2Ef3992c15/2b6baff2a41c6e69.jpg||https://ae01.alicdn.com/kf/Hd77b33dc731f4c128d30fb092102c9ab2.jpg||http://data.video.iqiyi.com/v.mp4",
+      "屏蔽元素": {
+        "gudanys.com": "div.myui-foot.clearfix,ul.myui-extra.clearfix,div.myui-header__logo,a[href=\"/gbook\"],div.tips.close-box,a[href=\"https://hanmiys.com/app.html\"],div#layui-layer1,div#layui-layer-shade1"
+      },
+      "js植入": "var selector \u003d \"div.myui-panel-box.clearfix,div.myui-panel.myui-panel-bg.clearfix,div.col-pd.mb10\";\nvar inText \u003d [\"备用域名\",\"猜你喜欢\",\"评论\",\"APP更新速度\",\"点击前往下载\"];\nfunction ad() {\n  if (selector.length \u003d\u003d 0) return;\n  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];\n  var a \u003d document.querySelectorAll(selector);\n  if (a.length \u003d\u003d 0) return;\n  for (var i \u003d 0; i \u003c a.length; i++) {\n    var str1 \u003d a[i].innerText;\n    for (var j \u003d 0; j \u003c inText.length; j++) {\n      var str2 \u003d inText[j];\n      if (str2.length \u003d\u003d 0) break;\n      if (str1.indexOf(str2) !\u003d -1) {\n        a[i].style.cssText \u003d \"display:none !important\";\n      }\n    }\n  }\n} ad();function setTitle() {document.title \u003d document.querySelector(\"span.vod_history.hide\").getAttribute(\"data-name\")+document.querySelector(\"span.vod_history.hide\").getAttribute(\"data-part\");}setTitle();",
+      "屏蔽标题": "##||-在线观看||%%",
+      "嗅探类型": "",
+      "嗅探类型屏蔽":"data.video.iqiyi.com/v.mp4"
+    }
+  },
+  {
+    "TVB云播": {
+      "链接": "https://www.hktvyb.com/",
+      "屏蔽请求": "",
+      "屏蔽元素": {
+        "hktvyb.com": ""
+      },
+      "js植入": "var selector \u003d \"div[align='center'],div.stui-pannel.stui-pannel-bg.clearfix\";\nvar inText \u003d [\"春节\",\"猜你喜欢\"];\nfunction ad() {\n  if (selector.length \u003d\u003d 0) return;\n  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];\n  var a \u003d document.querySelectorAll(selector);\n  if (a.length \u003d\u003d 0) return;\n  for (var i \u003d 0; i \u003c a.length; i++) {\n    var str1 \u003d a[i].innerText;\n    for (var j \u003d 0; j \u003c inText.length; j++) {\n      var str2 \u003d inText[j];\n      if (str2.length \u003d\u003d 0) break;\n      if (str1.indexOf(str2) !\u003d -1) {\n        a[i].style.cssText \u003d \"display:none !important\";\n      }\n    }\n  }\n} ad();function setTitle() {document.title \u003d vod_name+vod_part;}setTitle();",
+      "屏蔽标题": "##||-在线观看||%%",
+      "嗅探类型": ""
+    }
+  },
+  {
+    "桔子TV": {
+      "链接": "https://www.juztv.com/",
+      "屏蔽请求": "",
+      "屏蔽元素": {
+        "juztv.com": "div.stui-header__logo,ul.stui-extra.clearfix,div.stui-foot.clearfix,span.more.text-muted.pull-right,div#globalAd,div.layer"
+      },
+      "js植入": "var selector \u003d \"div.stui-pannel.clearfix,div.stui-pannel.stui-pannel-bg.clearfix\";var inText \u003d [\"猜你喜欢\",\"剧情介绍\",\"专题\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();function removeDt() {  var a \u003d document.querySelectorAll(\"a[data-type\u003d\\\"mip\\\"]\"); for (var i \u003d 0; i \u003c a.length; i++) {    a[i].removeAttribute(\"data-type\");  }}removeDt();",
+      "屏蔽标题": "##||在线播放||-@@##",
+      "嗅探类型": ""
+    }
+  },
+	{
+		"暮光影视": {
+			"链接": "https://www.muguangys.com/",
+			"屏蔽请求": "loading.gif",
+			"屏蔽元素": {
+				"www.muguangys": "div.tips.close-box,div.myui-header__logo,#globalAd,body \u003e div.myui-panel.radius-0.padding-0.clearfix,a.btnskin,div.myui-foot.clearfix,div.myui-nav__tabbar,ul.myui-header__user\u003eli:nth-child(3),ul.myui-header__user\u003eli:nth-child(4),div#content,ul.myui-extra.clearfix,a.btn.btn-info"
+			},
+			"js植入": "function changeCss19() {var a = document.querySelectorAll(\"#header-top\");for (var i = 0; i < a.length; i++) {a[i].style.boxShadow = \"none\";}}changeCss19();function changeCss1() {var a = document.querySelectorAll(\"#header-top > div > div > div > ul.myui-header__menu.nav-menu > li.dropdown-hover > div\");for (var i = 0; i < a.length; i++) {a[i].style.left = \"130px\";}}changeCss1();function ad2() {\n  var a \u003d document.querySelectorAll(\"div.col-xs-1\"); for (var i \u003d 0; i \u003c a.length; i++) {\n    var str \u003d a[i].innerText; if (str.indexOf(\"刚修改了\") !\u003d -1) {\n      a[i].style.cssText \u003d \"display:none !important\";\n    }\n  }\n} ad2();\nvar selector \u003d \"div.myui-panel.active.myui-panel-bg2.clearfix,div.myui-panel.myui-panel-bg.clearfix,div.col-pd.mb10\";\nvar inText \u003d [\"本站最差\",\"猜你喜欢\",\"大家正在看\",\"友情链接\",\"资讯\",\"影片评论\",\"无法播放\",\"热门专题\"];\nfunction ad() {\n  if (selector.length \u003d\u003d 0) return;\n  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];\n  var a \u003d document.querySelectorAll(selector);\n  if (a.length \u003d\u003d 0) return;\n  for (var i \u003d 0; i \u003c a.length; i++) {\n    var str1 \u003d a[i].innerText;\n    for (var j \u003d 0; j \u003c inText.length; j++) {\n      var str2 \u003d inText[j];\n      if (str2.length \u003d\u003d 0) break;\n      if (str1.indexOf(str2) !\u003d -1) {\n        a[i].style.cssText \u003d \"display:none !important\";\n      }\n    }\n  }\n} ad();function bbb(){document.querySelector(\"#desc > div > div.myui-panel_bd > div > span.sketch.content\").innerText = document.querySelector(\"#desc > div > div.myui-panel_bd > div > span.sketch.content\").innerText.replace(\"本视频由暮光影视影视www.muguangys.com全网络收集并分享发布,仅供用于学习和交流。\",\"\");document.querySelector(\"#desc > div > div.myui-panel_bd > div > span.data\").innerText = document.querySelector(\"#desc > div > div.myui-panel_bd > div > span.data\").innerText.replace(\"本视频由暮光影视影视www.muguangys.com全网络收集并分享发布,仅供用于学习和交流。\",\"\");}bbb();",
+			"屏蔽标题": "正在播放||-||%%",
+			"嗅探类型": "aliyuncs.com"
+		}
+	},
+  {
+    "COKEMV": {
+      "链接": "https://cokemv.cn/",
+      "屏蔽请求": "",
+      "屏蔽元素": {
+        "cokemv.cn": "div.index-logo,h1.slogan.white,footer#footer,div.tips-box,li.grid-item.grid-more.android,div.nav.content \u003e div.brand,#main \u003e div \u003e div.box.view-heading \u003e div.mobile-play \u003e div.module-item-cover"
+      },
+      "js植入": "\n\nfunction changeGreyTheme() {\n\tvar style1 \u003d document.createElement(\u0027style\u0027); style1.innerHTML \u003d \"html {-webkit-filter: grayscale(100%);-moz-filter: grayscale(100%);-ms-filter: grayscale(100%);-o-filter: grayscale(100%);filter: grayscale(100%);filter: url(\\\"data:image/svg+xml;utf8,\u003csvg xmlns\u003d\\\u0027http://www.w3.org/2000/svg\\\u0027\u003e\u003cfilter id\u003d\\\u0027grayscale\\\u0027\u003e\u003cfeColorMatrix type\u003d\\\u0027matrix\\\u0027 values\u003d\\\u00270.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\\\u0027/\u003e\u003c/filter\u003e\u003c/svg\u003e#grayscale\\\"); filter: progid:DXImageTransform.Microsoft.BasicImage(grayscale\u003d1);}}\"; \n\tif (window.location.href\u003d\u003d\"https://cokemv.cn/\") {\n\t\tdocument.head.appendChild(style1);\n\t} \n}\nchangeGreyTheme();function changeCss6() {document.querySelector(\"#header\").style.background \u003d \"#fff\";var style \u003d document.createElement(\u0027style\u0027);style.innerHTML \u003d \".homepage #header::after{height:0;}\";document.head.appendChild(style);}changeCss6();function changeCss7() {var style \u003d document.createElement(\u0027style\u0027);style.innerHTML \u003d \".icon-watch-history:before{color:#333;}\";document.head.appendChild(style);var style2 \u003d document.createElement(\u0027style\u0027);style2.innerHTML \u003d \".icon-all:before{color:#333;}\";document.head.appendChild(style2);var style3 \u003d document.createElement(\u0027style\u0027);style3.innerHTML \u003d \".view #header::after{background:#fff;}\";document.head.appendChild(style3);var style4 \u003d document.createElement(\u0027style\u0027);style4.innerHTML \u003d \".icon-search:before{color:#333;}\";document.head.appendChild(style4);var style5 \u003d document.createElement(\u0027style\u0027);style5.innerHTML \u003d \"#header::after, .library #header::after{background:#fff;}\";document.head.appendChild(style5);}changeCss7();var selector \u003d \"li.nav-menu-item,div.module\";var inText \u003d [\"APP\",\"正在热播\",\"相关影片\"];function ad1() {  document.querySelector(\"#main \u003e div.content\").style.background \u003d \"#fff\";document.querySelector(\"#header \u003e div.nav.content\").style.background \u003d \"#fff\";if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();function b1(){document.querySelector(\"span.sq_jj.red\").style.color \u003d \"#333\";document.querySelector(\"span.sq_jj.red\").innerText \u003d \"  \u003c\u003c  \";document.querySelector(\"span.zk_jj.red\").style.color \u003d \"#333\";document.querySelector(\"span.zk_jj.red\").innerText \u003d \"  \u003e\u003e  \";}b1();",
+      "屏蔽标题": "在线播放||-||%%",
+      "嗅探类型": ""
+    }
+  },
+	{
+		"素白白影视": {
+			"链接": "https://www.subaibai.com/",
+			"屏蔽请求": "www.ewtyewj.com||www.bibilm.com",
+			"屏蔽元素": {
+				"www.subaibai.com": "div.dla.ndb \u003e a.updlbox,div.footer,div.shuoming,a[title\u003d\"站长统计\"],div.right_btn,div.zshang,div#dplayer \u003e div.dplayer-notice,div#danmu,div.xiluxue,div#hdphome,div.mi_btcon.ad,div.mi_paly_box[style\u003d\"padding: 15px 0;\"],iframe[width\u003d\"0\"]"
+			},
+			"js植入": "var selector \u003d \"div.mikd\";var inText \u003d [\"发表评论\",\"猜您还喜欢\",\"资源被举报\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();function changeNotice() {document.querySelector(\"div.videoplay\").innerHTML \u003d \"\u003ch3 style\u003d\u0027color:white;text-align:center;\u0027\u003e你问我为什么会这样？\u003cbr\u003e因为网站自带的播放器出故障了\u003cbr\u003e什么？我为什么不修复？\u003cbr\u003e因为网站不是我的，我只是白洞影视而已\u003cbr\u003e什么？我辣鸡？\u003cbr\u003e😃骂我也没用！😃\u003c/h3\u003e\u003ch2 style\u003d\u0027color:white;text-align:center;margin-top:20px;\u0027\u003e\u003cspan style\u003d\u0027background-color:#10C469;\u0027\u003e请点击应用底部的橙红色资源嗅探按钮进行播放\u003c/span\u003e\u003cbr\u003e若没有出现该按钮，长按页面刷新网页即可\u003cbr\u003e按钮大概长下面这样\u003c/h2\u003e\u003cdiv style\u003d\u0027width:100%;height:20px;margin-top:20px;\u0027\u003e\u003cdiv style\u003d\u0027width: 12px;height: 12px;text-align:center;margin:0 auto;border-radius: 50%;background-image: linear-gradient(#ffab74,#ff4b6f);\u0027\u003e\u003c/div\u003e\u003c/div\u003e\";}changeNotice();",
+			"屏蔽标题": "##|| - 素白白影视||%%",
+			"嗅探类型": ""
+		}
+	}
+	
+	{
+		"1080影视": {
+			"链接": "https://www.ak1080.com/",
+			"屏蔽请求": "js.hldslgg.com||www.hnnuange.com||alibu.2526game.com||www.yhhls.com||js.abchinajn.com||js.kuxinqi.com||js.xihuangdushu.com||js.qudaoweiwang.com||wanpaig.4567.org||js.handanxinkai.com||http://www.0852m.com/||www.hqwlm.com||js.maidagu.com||dada.dadawm.cc||www.abcdlm.com",
+			"屏蔽元素": {
+				"ak1080.com": "a[href\u003d\"/label/rank.html\"],ul.myui-extra.clearfix,div.myui-header__logo,div.stui-header__logo,a.open-share,a[href\u003d\"/gbook.html\"],div.stui-foot.clearfix,a[href*\u003d\"https://www.k1080.net/app/\"],ul.myui-header__user \u003e li:nth-child(3),div.myui-foot.clearfix,div[style\u003d\"position: fixed; z-index: 2147483646; width: 100px; text-align: center; bottom: 3%; left: 3%;\"],div.mo-tabr-info.mo-back-white.mo-cols-minw.mo-line-top.mo-bord-muted.mo-cosm-none.mo-java-fadein,div.mo-foot-advs.mo-part-zero,div.mo-goto-info.mo-java-fadein,ul.mo-navs-boxs.mo-cols-zero \u003e li.mo-navs-item.mo-coxs-iblock.mo-fsxs-16px:nth-child(1),div.mo-back-white.mo-cols-rows.mo-comd-none,div.mo-swip-container.mo-cols-rows.mo-part-round.mo-mtxs-0px.mo-mtsm-10px.mo-mtmd-20px.swiper-container-horizontal.swiper-container-android"
+			},
+			"js植入": "function changeCss1() {document.querySelector(\"body\").style.cssText \u003d \"background-color:#fff !important\";var a \u003d document.querySelectorAll(\"body \u003e div.mo-head-info.mo-back-white.mo-cols-minw.mo-part-fixs \u003e div \u003e div.mo-navs-info \u003e div.mo-navs-left.mo-scre-navs.mo-part-slip.mo-cols-info.mo-cols-xs12.mo-cols-md6.mo-cols-lg7\");for (var i \u003d 0; i \u003c a.length; i++) {a[i].style.left \u003d \"10px\";}}changeCss1();var selector \u003d \"div.myui-panel.myui-panel-bg.clearfix,div.myui-panel.active.myui-panel-bg2.clearfix,li.hidden-md.hidden-sm.hidden-xs,div.myui-panel-box.clearfix,div.stui-pannel-box.clearfix,div.stui-pannel.stui-pannel-bg.clearfix,div[style\u003d\u0027font-size:18px;text-align:center\u0027],div.mo-cols-lays.mo-back-white.mo-part-round,div.mo-foot-info.mo-back-white.mo-cols-minw.mo-cols-lays.mo-paxs-10px.mo-pzmd-25px,div.mo-mtxs-0px.mo-mtsm-10px.mo-mtmd-20px.mo-back-white.mo-part-round\";\nvar inText \u003d [\"本站没有的\", \"电报群\", \"部分地区\", \"域名\", \"安卓app\",\"k1080\",\"猜你喜欢\",\"原资源\",\"评论\",\"新播放器\",\"友情链接\",\"热门专题\",\"新域名\",\"下载\",\"本站所有视频\",\"牢记域名\",\"卖站\"];\nfunction ad() {\n  if (selector.length \u003d\u003d 0) return;\n  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];\n  var a \u003d document.querySelectorAll(selector);\n  if (a.length \u003d\u003d 0) return;\n  for (var i \u003d 0; i \u003c a.length; i++) {\n    var str1 \u003d a[i].innerText;\n    for (var j \u003d 0; j \u003c inText.length; j++) {\n      var str2 \u003d inText[j];\n      if (str2.length \u003d\u003d 0) break;\n      if (str1.indexOf(str2) !\u003d -1) {\n        a[i].style.cssText \u003d \"display:none !important\";\n      }\n    }\n  }\n} ad();\n\nvar selector2 \u003d \"i.fa.fa-android\";\nfunction ad2() {\n  if (selector2.length \u003d\u003d 0) return;\n  var a \u003d document.querySelectorAll(selector2);\n  if (a.length \u003d\u003d 0) return;\n  for (var i \u003d 0; i \u003c a.length; i++) {\n    a[i].style.cssText \u003d \"display:none !important\";\n  }\n} ad2();function setTitle() {document.title \u003d document.querySelector(\"div.mo-cols-lays.mo-back-white.mo-part-round.mo-cols-rows.mo-part-over.mo-java-play.mo-java-page\").getAttribute(\"data-name\")+document.querySelector(\"div.mo-cols-lays.mo-back-white.mo-part-round.mo-cols-rows.mo-part-over.mo-java-play.mo-java-page\").getAttribute(\"data-nums\");}setTitle();",
+			"屏蔽标题": "我正在观看||，||《@@##%分割%》@@##",
+			"嗅探类型": ""
+		}
+	},
+	
+  
+  
+  {
+    "阿房影视": {
+      "链接": "https://www.bwl87.com/",
+      "屏蔽请求": "js.handanxinkai.com||js.maidagu.com||www.abcdlm.com",
+      "屏蔽元素": {
+        "www.bwl87.com": "a.logo,div.myui-nav__tabbar,ul.myui-header__user\u003eli:nth-child(3),ul.myui-header__user\u003eli:nth-child(4),ul.myui-header__user\u003eli:nth-child(5),div.myui-foot.clearfix,div.tips.close-box,div.myui-pannel_bd.clearfix,div#layui-layer-shade1,div#layui-layer1"
+      },
+      "js植入": "close1();function changeCss19() {var a \u003d document.querySelectorAll(\"#header-top\");for (var i \u003d 0; i \u003c a.length; i++) {a[i].style.boxShadow \u003d \"none\";}}changeCss19();function changeCss1() {var a \u003d document.querySelectorAll(\"#header-top \u003e div \u003e div \u003e div \u003e ul.myui-header__menu.nav-menu \u003e li.dropdown-hover \u003e div\");for (var i \u003d 0; i \u003c a.length; i++) {a[i].style.left \u003d \"130px\";}}changeCss1();var selector \u003d \"div.myui-panel.myui-panel-bg.hiddex-xs.clearfix,div.myui-panel.myui-panel-bg.clearfix,div.col-md-wide-3.col-xs-1.myui-sidebar,div.myui-panel_bd,li.col-lg-5.col-md-5.col-sm-5.col-xs-3\";var inText \u003d [\"总榜单\",\"友情链接\",\"热播影片\",\"猜你喜欢\",\"评论\",\"大家正在看\",\"同类型推荐\",\"热门专题\",\"最新连续剧\",\"APP\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();function changeColor() {  var a \u003d document.querySelectorAll(\"div.mi_ne_kd,body\");  for (var i \u003d 0; i \u003c a.length; i++) {    var currentUrl \u003d window.location.href;      a[i].style.cssText \u003d \"background-color:#FFFFFF;\";  }}changeColor();var selector2 \u003d \"div.dytop\";function ad2() {  if (selector2.length \u003d\u003d 0) return;  var a \u003d document.querySelectorAll(selector2);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    a[i].style.cssText \u003d \"display:none !important\";  }}ad2();function ad777() {var a \u003d document.querySelectorAll(\"div.myui-panel.myui-panel-bg.clearfix\");if (a.length \u003d\u003d 0) return;for (var i \u003d 0; i \u003c a.length; i++) {var str1 \u003d a[i].innerText;if (str1.indexOf(\"最新电影\") !\u003d -1) {if (i \u003d\u003d 10)a[i].style.cssText \u003d \"display:none !important\";}}} ad777();\n(function(){\n\t\tdocument.querySelector(\"div#layui-layer1 \u003e span.layui-layer-setwin \u003e a.layui-layer-ico.layui-layer-close.layui-layer-close2\").click();\n\t})();",
+      "屏蔽标题": "正在播放||-||%%",
+      "嗅探类型": "cn-south.myqcloud.com"
+    }
+  },
+  
+  {
+    "麦豆影视": {
+      "链接": "https://www.mdoutv.com/",
+      "屏蔽请求": "puep.qpic.cn/coral/Q3auHgzwzM4fgQ41VTF2rEahP2pcykyZ7kDl6s18CT9qlgAFd2fbtw/||loading_wi.gif||partner.googleadservices.com||googleads.g.doubleclick.net||pagead2.googlesyndication.com",
+      "屏蔽元素": {
+        "www.mdoutv.com": "a.updlbox,div.liange,div.ht-notification-wrap,div.shuoming,div[style\u003d\"text-align:center;\"],a[href\u003d\"https://www.mdoutv.com/app.html\"],div.right_btn,div.xiluxue,div#footer_info"
+      },
+      "js植入": "function changeCss19() {var a \u003d document.querySelectorAll(\"div.v-sort-nav,.mi_cont,div.mi_paly_box,div.dyxingq\");for (var i \u003d 0; i \u003c a.length; i++) {a[i].style.boxShadow \u003d \"none\";}}changeCss19();var selector \u003d \"div.mikd,div[style\u003d\u0027text-align:center\u0027]\";var inText \u003d [\"猜您还喜欢\",\"本站所有视频\",\"关注公众号\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();function changeColor() {  var a \u003d document.querySelectorAll(\"div.mi_ne_kd,div.dytop,body\");  for (var i \u003d 0; i \u003c a.length; i++) {    var currentUrl \u003d window.location.href;      a[i].style.cssText \u003d \"background-color:#FFFFFF;\";  }}changeColor();var selector2 \u003d \"div.dytop\";function ad2() {  if (selector2.length \u003d\u003d 0) return;  var a \u003d document.querySelectorAll(selector2);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    a[i].style.cssText \u003d \"display:none !important\";  }}ad2();function changeCss() {  var a \u003d document.querySelectorAll(\"div.souuo\");  for (var i \u003d 0; i \u003c a.length; i++) {    a[i].style.cssText \u003d \"left: -60%;\";  }}changeCss();",
+      "屏蔽标题": "##|| 在线观看|| - 麦豆TV@@##",
+      "嗅探类型": "api.lingchenyd.com||cdn.lingchenyd.com||sh-download.weiyun.com||youku.cdn10-yongjiu.com-play.ynitc.cn||youku.cdn"
+    }
+  },
+  
+  {
+		"素白白影视": {
+			"链接": "https://www.subaibai.com/",
+			"屏蔽请求": "run5.b1byou.com||wo1990.com||www.ewtyewj.com||www.bibilm.com",
+			"屏蔽元素": {
+				"www.subaibai.com": "div.dla.ndb \u003e a.updlbox,div.footer,div.shuoming,a[title\u003d\"站长统计\"],div.right_btn,div.zshang,div#dplayer \u003e div.dplayer-notice,div#danmu,div.xiluxue,div#hdphome,div.mi_btcon.ad,div.mi_paly_box[style\u003d\"padding: 15px 0;\"],iframe[width\u003d\"0\"]"
+			},
+			"js植入": "var selector \u003d \"div.mikd\";var inText \u003d [\"发表评论\",\"猜您还喜欢\",\"资源被举报\"];function ad1() {  if (selector.length \u003d\u003d 0) return;  if (inText.length \u003d\u003d 0) inText \u003d [\"需要屏蔽的文本\"];  var a \u003d document.querySelectorAll(selector);  if (a.length \u003d\u003d 0) return;  for (var i \u003d 0; i \u003c a.length; i++) {    var str1 \u003d a[i].innerText;    for (var j \u003d 0; j \u003c inText.length; j++) {      var str2 \u003d inText[j];      if (str2.length \u003d\u003d 0) break;      if (str1.indexOf(str2) !\u003d -1) {        a[i].style.cssText \u003d \"display:none !important\";      }    }  }}ad1();",
+			"屏蔽标题": "##|| - 素白白影视||%%",
+			"嗅探类型": ""
+		}
+	}
+	
+
+	{
+    "233动漫": {
+      "链接": "https://www.dm233.cc/",
+      "屏蔽请求": "pc.jinrongwang.net,dxs.00xvppy.cn,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/trans/logger.js,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/share/share_api.js,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/view/share_view.js,https://s4.cnzz.com/z_stat.php",
+      "js植入": "(function () {\n\t/*设置标题*/\n\ttry {\n\t\tdocument.title \u003d document.querySelector(\"#page-back \u003e div \u003e div \u003e div.playbox \u003e div.playtitle\").textContent;\n\t} catch (err) { }\n\n\t/*屏蔽元素*/\n\ttry {\n\t\tvar selector \u003d \"div.logo,footer,div.linkf,#dm-down,#page-back \u003e div \u003e div \u003e div.playtool,#cai_nodiv,a.bds_fbook,a.bds_twi,a.bds_tieba,a.bds_tsina,a.bds_tqq,a.bds_weixin,ul.info1-right,#report_section,div.spbc,span.find-light-icon\";\n\t\tvar elements \u003d document.querySelectorAll(selector);\n\t\tfor (var i \u003d 0; i \u003c elements.length; i++) {\n\t\t\telements[i].style.cssText \u003d \"display:none !important\";\n\t\t}\n\t} catch (err) { }\n\n\t/*改变主题*/\n\ttry {\n\t\tvar insertStyle \u003d document.createElement(\u0027style\u0027); insertStyle.innerHTML \u003d \".normal-wai1{background:white;} .nav3{background:white;} #page-back {border:none;} .container {box-shadow:none;}\";\n\t\tdocument.head.appendChild(insertStyle);\n\t} catch (err) { }\n\n})();",
+      "嗅探类型": "sf1-ttcdn-tos.pstatp.com,kol-fans.fp.ps.netease.com"
+    }
+  },
+  
+    {
+    "奈菲影视": {
+      "链接": "https://www.nfmovies.com/",
+      "屏蔽请求": "/cdn-cgi/rum?,dlads.cn/,cnzz.com/,cloudflareinsights.com/,googletagmanager.com/,zz.bdstatic.com/,https://www.nfmovies.com/templets/default/images/logos/06.png,googletagmanager,z_stat.php,alikes.php,www.nfmovies.com/playg,www.google-analytics.com,https://www.nfmovies.com/uploads/images/play2.jpg,pic.imgdb.cn/item/6097f4edd1a9ae528fb,google,static.cloudflareinsights.com/beacon.min.js,https://3690.dlads.cn/alikes.php,static.cloudflareinsights.com,www.googletagmanager.com,z_stat.php,hm.baidu.com,3690.dlads.cn,jsad.js,cdn.jinzhandaily.com,xunlei.com",
+      "js植入": "(function () {\n    /*设置标题*/\n    try {\n        document.title \u003d document.querySelector(\"span.vod_history.hide\").getAttribute(\"data-name\") + document.querySelector(\"span.vod_history.hide\").getAttribute(\"data-part\");\n    } catch (err) { }\n\n    /*关闭倒计时广告*/\n    try {\n        document.querySelector(\"#cciframe\").contentWindow.closeAd();\n    } catch (err) { }\n\n    /*跳过APP下载页*/\n    try {\n        var currentUrl \u003d window.location.href;\n        if (currentUrl.indexOf(\"app.htm\") !\u003d -1) {\n            window.location.replace(\"https://www.nfmovies.com/\");\n        }\n    } catch (err) { }\n\n    /*屏蔽元素*/\n    try {\n        var selector \u003d \"#header-top \u003e div.container \u003e div \u003e ul.myui-header__menu.nav-menu.hidden-sm.hidden-xs \u003e li:nth-child(6),div.myui-foot.clearfix,a[onclick\u003d\\\"openurl(); return false\\\"],div.tips.close-box,a[style\u003d\\\"display: block;margin-top: 2.5rem;\\\"],div.android,ul.myui-extra.clearfix,picture[style\u003d\\\"width: 100%\\\"],div.myui-header__logo,a[href*\u003d\\\"https://nf.brushshopy.com/\\\"],#header-top \u003e div.container \u003e div \u003e ul.myui-header__user \u003e li:nth-child(3)\";\n        var elements \u003d document.querySelectorAll(selector);\n        for (var i \u003d 0; i \u003c elements.length; i++) {\n            elements[i].style.cssText \u003d \"display:none !important\";\n        }\n    } catch (err) { }\n\n    /*屏蔽包含某字符串的元素*/\n    try {\n        var selector \u003d \"div.myui-panel.myui-panel-bg.clearfix,div.myui-ra-container.container\";\n        var includeText \u003d [\"友情链接\", \"猜你喜欢\", \"评论\", \"如果喜欢\",\"热门推荐\"];\n        var elements \u003d document.querySelectorAll(selector);\n        for (var i \u003d 0; i \u003c elements.length; i++) {\n            var tempStr1 \u003d elements[i].innerText;\n            for (var j \u003d 0; j \u003c includeText.length; j++) {\n                var tempStr2 \u003d includeText[j];\n                if (tempStr1.indexOf(tempStr2) !\u003d -1) {\n                    elements[i].style.cssText \u003d \"display:none !important\";\n                }\n            }\n        }\n    } catch (err) { }\n\n    /*改变主题*/\n    try {\n        var insertStyle \u003d document.createElement(\u0027style\u0027);\n        insertStyle.innerHTML \u003d \".myui-header__top.color .myui-header__menu \u003e li \u003e a, .myui-header__top.color .myui-header__user \u003e li \u003e a, .myui-header__top.color .myui-header__user \u003e li \u003e a .fa, .myui-header__top.color .myui-header__search li.search-box .form-control, .myui-header__top.color .myui-header__search li.search-ul .fa, .myui-header__top.color .myui-header__search li.search-select .text {color: #333;} .myui-header__top.color .myui-header__search .search-hot a {color: #333;} .text-fff {color: #333;} .btn-gray {color: #333;background: #eee;} .myui-player__operate \u003e li \u003e a {color: #666;} .btn-gray {box-shadow: none;} .btn-warm {box-shadow: none;} .myui-header__top {box-shadow: none;} .myui-header__search {border-top: none;} .myui-header__search li.search-ul {border-right: none;} .myui-header__search li.search-select {border-right: none;} .myui-panel-bg, .myui-panel-bg2 {box-shadow: none;}\";\n        document.head.appendChild(insertStyle);\n\n        try {\n\t\t\tdocument.querySelector(\"body \u003e div \u003e div:nth-child(1) \u003e div \u003e div\").style.background \u003d \"white\";\n\t\t} catch (err) { }\n\n\t\ttry {\n\t\t\tdocument.querySelector(\"#player-left \u003e ul\").style.background \u003d \"white\";\n\t\t} catch (err) { }\n\n        try {\n            document.querySelector(\"body \u003e div \u003e div:nth-child(1) \u003e div \u003e div\").style.background \u003d \"white\";\n        } catch (err) { }\n\n        try {\n            document.querySelector(\"#player-sidebar\").style.overflowY \u003d \"scroll\";\n        } catch (err) { }\n\n        try {\n            document.querySelector(\"#player-sidebar\").style.overflow \u003d \"visible\";\n        } catch (err) { }\n\n        try {\n            document.querySelector(\u0027div.tab-content.myui-panel_bd p\u0027).style.display \u003d \u0027none\u0027;\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"div.myui-panel.myui-panel-bg.clearfix\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.boxShadow \u003d \"none\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"body\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.background \u003d \"#fff\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"#slide \u003e div \u003e h4 \u003e a,#header-top \u003e div.myui-header__search \u003e div \u003e div \u003e ul \u003e li.search-select.dropdown-hover \u003e span,#wd,div.myui-content__detail\u003eh1\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.cssText \u003d \"color:#333;\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"body \u003e div.myui-topbg.clearfix\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.cssText \u003d \"background-image:none;\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"body\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.cssText \u003d \"background:#fff;\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"header i\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.cssText \u003d \"color:#333;\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\".myui-panel\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.marginBottom \u003d \"none\";\n            }\n        } catch (err) { }\n\n        try {\n            var a \u003d document.querySelectorAll(\"#header-top \u003e div.container \u003e div \u003e ul.myui-header__user \u003e li.dropdown-hover \u003e div\");\n            for (var i \u003d 0; i \u003c a.length; i++) {\n                a[i].style.left \u003d \"-10px\";\n            }\n        } catch (err) { }\n\n      setInterval(() \u003d\u003e {\n            try {\n                document.querySelector(\"#aaaDiv\").remove();\n            } catch (err) { }\n\n            try {\n                document.querySelector(\"#aaaDiv2\").remove();\n            } catch (err) { }\n        }, 100);\n    } catch (err) { }\n})();",
+      "嗅探类型": "cn-south.myqcloud.com"
+    }
+  },
+  
+    {
+    "233动漫": {
+      "链接": "https://www.dm233.cc/",
+      "屏蔽请求": "zhuhaigang.cn,whoareyouiamfine.xyz,ff-coder.cn,www.xj3666.com,dingyar.top,findzz,https://43pp.vip/,https://bpcostr.cn/,https://r9gx5cc.cn/,8d7.cn,dfg.penghy.top,pc.jinrongwang.net,dxs.00xvppy.cn,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/trans/logger.js,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/share/share_api.js,https://cdn.jsdelivr.net/gh/pltfans/xmoss6/yxsf/static/api/js/view/share_view.js,https://s4.cnzz.com/z_stat.php",
+      "js植入": "(function () {\n\n\t/*设置标题*/\ttry {\n\n\t\tdocument.title \u003d document.querySelector(\"#page-back \u003e div \u003e div \u003e div.playbox \u003e div.playtitle\").textContent;\n\n\t} catch (err) { }\n\n\t/*屏蔽元素*/\n\n\ttry {\n\n        setInterval(() \u003d\u003e {\n            try {\n                document.querySelector(\"hr.hrspace2\").remove();\n            } catch (err) { }\n        }, 100);\n\n\t\tvar selector \u003d \".searchbtn,div.logo,div.linkf,#dm-down,#page-back \u003e div \u003e div \u003e div.playtool,#cai_nodiv,a.bds_fbook,a.bds_twi,a.bds_tieba,a.bds_tsina,a.bds_tqq,a.bds_weixin,ul.info1-right,#report_section,div.spbc,span.find-light-icon\";\n\n\t\tvar elements \u003d document.querySelectorAll(selector);\n\n\t\tfor (var i \u003d 0; i \u003c elements.length; i++) {\n\n\t\t\telements[i].style.cssText \u003d \"display:none !important\";\n\n\t\t}\n\n\t} catch (err) { }\n\n\t/*改变主题*/\n\n\ttry {\n\n\t\tvar insertStyle \u003d document.createElement(\u0027style\u0027); insertStyle.innerHTML \u003d \".normal-wai1{background:white;} .nav3{background:white;} .more a:link, .more1 a:link,.root a:link,.xgyd li a:link,.root a:visited,.xgyd li a:visited,.nav-main a:link,.nav-main a:visited{color:#000;} .nav-main,.nav,.normal-wai, .week,.hd,.rankleft-title,.classify, .classify2, .classify3{background:white;border:none;} input.shinput {display: block;margin: 16px auto;width: 96%;height: 40px;border: 1px dashed #666;} .normal-wai1,.neirong,.neirong1,.ol-select ul,#container .reply-wrapper .reply-bottom,#rank_list{border:none !important;background:none;} .ol-select li,.classifyer,.pinglun{border:none;} .anime_info a,.mbx a:link,.mbx a:visited{color:#505050;} #page-back {border:none;} .container {box-shadow:none;} .nav1{margin-top:1.5em;} .down-start, .ol-start{background:none;color:#1e90ff;font-weight: bold;} .neirong1{margin: 2em .5em 0;} section.root.clearfix.sec2{margin-top:2em;} .pagelist li a{color:#000;}\";\n\n\t\tdocument.head.appendChild(insertStyle);\n\n\t} catch (err) { }\n\n})();",
+      "嗅探类型": "sf1-ttcdn-tos.pstatp.com,kol-fans.fp.ps.netease.com"
+    }
+  },
+
+  {
+    "1080影视": {
+      "链接": "https://www.ak1080.me/",
+      "屏蔽请求": "",
+      "js植入": "(function(){var newScript = document.createElement(\"script\");newScript.src = \"https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/ak1080.js?download=false\";document.head.appendChild(newScript);})();",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+    }
+  }
+
+  {
+    "看吧动漫": {
+      "链接": "https://www.k8dm.com/",
+      "屏蔽请求": "202009080800593f44a23cdfa858782aba92d45f530304.jpg,https://k.,k.braincf.com,k.ttzhongbao.com,k.13hangpifa.com,googletagmanager,k.40fenzhong.com,https://cdn.jsdelivr.net/gh/k8dmss/repository2@master/202009080800593f44a23cdfa858782aba92d45f530304.jpg,cdn.wuxiqiangheng.com,baidu.com,www.googletagmanager.com,s4.cnzz.com,kk.braincf.com,https://cdn.jsdelivr.net/gh/k8dmss/repository2@master/20200814104439bc133b6a36c6de1dae618e97fed9e3d9.jpg",
+      "js植入": "(function(){var newScript = document.createElement(\"script\");newScript.src = \"https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/kanba.js?download=false\";document.head.appendChild(newScript);})();",
+      "嗅探类型": "sf1-ttcdn-tos.pstatp.com,kol-fans.fp.ps.netease.com,tos.pstatp.com",
+      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+    }
+  }
+
+  (function () {
+    alert("test");
+    /*cokemv资源嗅探提示*/
+    /*  try {
+         if (location.href.startsWith("https://cokemv.me/vodplay/")) {
+             if (!document.querySelector("#newSearchButton")) {
+                 var searchButton = document.createElement("h3");
+                 searchButton.setAttribute("id", "newSearchButton");
+                 searchButton.setAttribute("class", "title text-fff");
+                 searchButton.innerText = "*当前网站不支持资源嗅探*";
+                 searchButton.style.cssText = "color:red;";
+                 var insertIndex = document.querySelector("#player-sidebar > div.col-pd.clearfix");
+                 insertIndex.insertBefore(searchButton, insertIndex.firstElementChild);
+             }
+         }
+     } catch (err) { } */
+
+    /*网站变灰度*/
+    try {
+        var myDate = new Date();
+        var myMonth = myDate.getMonth() + 1;
+        var myDay = myDate.getDate();
+        if (myMonth == 12 && myDay == 13) {
+            var insertStyle = document.createElement('style');
+            insertStyle.innerHTML = "html {filter: grayscale(100%);}";
+            document.head.appendChild(insertStyle);
+        }
+    } catch (err) { }
+
+    /*插入提示*/
+    try {
+        alert("test");
+        if (!document.querySelector("#newSearchButton")) {
+            var searchButton = document.createElement("p");
+            searchButton.setAttribute("id", "newSearchButton");
+            searchButton.setAttribute("class", "title text-fff");
+            searchButton.innerHTML = "白洞影视小技巧：<br><br>页面任意区域：长按可刷新该页面<br><br>APP底部标题区：点击可打开站点切换对话框，长按可打开操作菜单<br><br>APP底部标题：小红点出现时，点击可调用夸克播放器播放视频，长按可调用第三方应用处理视频<br>*当前页面无法播放视频时，建议使用以上功能*<br><br>Android System WebView：此应用为手机系统应用，版本过旧可能导致本APP页面加载缓慢或无法播放视频，请及时更新";
+            searchButton.style.cssText = "color:#ccc;padding:12px;";
+            document.body.append(searchButton);
+            //此处选择要插入的元素位置
+           //  var insertIndex = document.querySelector("div.stui-pannel_hd");
+           //  insertIndex.insertBefore(searchButton, insertIndex.firstElementChild);
+        }
+     } catch (err) { }
+})();
