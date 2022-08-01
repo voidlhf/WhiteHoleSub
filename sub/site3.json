@@ -68,5 +68,15 @@
       "嗅探类型": "/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
+  },
+  {
+    "阿里小站": {
+      "链接": "https://ali.pan666.cn/",
+      "屏蔽请求": "",
+      "屏蔽图片": "",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/alixiaozhan.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": ""
+    }
   }
 ]
