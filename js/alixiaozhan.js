@@ -35,6 +35,10 @@
         } catch (error) { }
 
         try {
+            document.querySelector("#content > div > div.davwheat-ad.davwheat-ad-header > p > a").href = "";
+        } catch (error) { }
+
+        try {
             document.querySelector("div.btn-close--2vCRo").click();
         } catch (error) { }
 
