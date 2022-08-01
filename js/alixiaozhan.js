@@ -31,7 +31,7 @@
             }
         } catch (err) { }*/
         try {
-            document.querySelector("#content > div > div.davwheat-ad.davwheat-ad-header > p > a > font").textContent = "--";
+            document.querySelector("#content > div > div.davwheat-ad.davwheat-ad-header > p > a > font").textContent = "  ";
         } catch (error) { }
 
         try {
