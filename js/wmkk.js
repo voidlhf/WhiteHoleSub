@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         完美看看
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://www.wanmeikk.me/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// ==/UserScript==
-
 (function () {
 
     /*设置标题*/

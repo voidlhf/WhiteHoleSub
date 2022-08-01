@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         厂长资源
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://www.czspp.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=czspp.com
-// @grant        none
-// ==/UserScript==
-
 (function () {
 
     /*设置标题*/
@@ -58,15 +47,15 @@
     } catch (err) { }
 
     try {
-        document.querySelector("div.nab").innerHTML = "<img src='https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/img/schedule.svg?download=false' style='width:28px;vertical-align: middle;'>";
+        document.querySelector("div.nab").innerHTML = "<img src='https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/img/schedule.svg' style='width:28px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
-        document.querySelector("div.liange").innerHTML = "<img src='https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/img/menu.svg?download=false' style='width:30px;vertical-align: middle;'>";
+        document.querySelector("div.liange").innerHTML = "<img src='https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/img/menu.svg' style='width:30px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
-        document.querySelector("div.chage").innerHTML = "<img src='https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/img/close.svg?download=false' style='width:30px;vertical-align: middle;'>";
+        document.querySelector("div.chage").innerHTML = "<img src='https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/img/close.svg' style='width:30px;vertical-align: middle;'>";
     } catch (error) { }
 
     /*修改样式*/

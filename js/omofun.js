@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         OMOFUN
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://omofun.tv/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// ==/UserScript==
-
 (function () {
 
 	/*设置标题*/
@@ -73,6 +62,6 @@
 	} catch (err) { }
 
 	try {
-		document.querySelector("div.logo > a > img.logo1.pcbdmap").setAttribute("src","https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/img/omofun_logo.svg?download=false");
+		document.querySelector("div.logo > a > img.logo1.pcbdmap").setAttribute("src","https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/img/omofun_logo.svg");
 	} catch (error) {}
 })();

@@ -1,14 +1,3 @@
-// ==UserScript==
-// @name         COOKMV
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://cokemv.me/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// ==/UserScript==
-
 (function () {
 
 	/*资源嗅探提示*/

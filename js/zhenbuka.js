@@ -1,13 +1,3 @@
-// ==UserScript==
-// @name         真不卡影院
-// @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
-// @match        https://www.zhenbuka5.com/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
-// @grant        none
-// ==/UserScript==
 (function () {
 
     /*设置标题*/
