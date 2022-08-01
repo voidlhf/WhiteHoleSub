@@ -4,7 +4,7 @@
       "链接": "https://www.libvio.me/",
       "屏蔽请求": "collect-v6.51.la,sdk.51.la,cdn5.maocdn.cn",
       "屏蔽图片": "https://pic.rmb.bdstatic.com/bjh/8a04cef8cfd32f84e17b14a1043ddd20.jpeg,https://pic.rmb.bdstatic.com/bjh/e2f20acf0f49b608a78f4d679f5c50c9.jpeg,https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ae4eabf5-1b15-425e-bdc9-144e48cded99/e2c9b12d-4eae-4ac0-9c41-7b586232d1e2.png,https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ae4eabf5-1b15-425e-bdc9-144e48cded99/c9d2141e-8569-4996-9c73-d633a0669fa8.gif,https://pic.rmb.bdstatic.com/bjh/12e16b0e96b7138ec9537ca2d37e3e5d.jpeg,https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ae4eabf5-1b15-425e-bdc9-144e48cded99/095f4dd8-b0ca-4303-8c9c-c04b4601e38d.png,https://vkceyugu.cdn.bspapp.com/VKCEYUGU-ab498c51-8871-421b-8e23-a43eaa306dff/dd4e38f9-6142-4534-9284-ab3370d44ee2.png,https://i0.hdslb.com/bfs/album/7cd3cf4008dd4dfccfe2e0a6dd35c254213c4d95.jpg,https://pic.rmb.bdstatic.com/bjh/c35fd103fe1b691977141d8811b14ff2.png,https://gmu-download.oss-cn-beijing.aliyuncs.com/MTY1ODIxNjI3ODI4MSM3NjEjcG5n.png",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/libvio.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/libvio.js",
       "嗅探类型": "/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
@@ -14,7 +14,7 @@
       "链接": "https://www.czspp.com/",
       "屏蔽请求": "collect-v6.51.la,gdsoq.com,ngfdn.wxkan.cc,sdk.51.la,hm.baidu.com",
       "屏蔽图片": "ec26acf3069be5994900393d03788fd57b6ee2cd,525c837d809c56cf4374b8ae8c8c1d2e,e862d957eda504f968ef1163aa0fb170,12e16b0e96b7138ec9537ca2d37e3e5d,storm_cover_0d349265ab4293b03424d1bc1beae19d,caid.png,https://dd-static.jd.com/ddimg/jfs/t1/84309/5/21530/147654/62d6ddddEdea51e43/1491b85c427bbec7.jpg",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/czzy.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/czzy.js",
       "嗅探类型": "tg=ghskr,ixigua.com,/video/tos/cn",
       "嗅探类型屏蔽": ""
     }
@@ -24,7 +24,7 @@
       "链接": "https://cokemv.me/",
       "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com",
       "屏蔽图片": "load.jpg",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/cokemv.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/cokemv.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": "m3u8,mp4,mkv"
     }
@@ -34,7 +34,7 @@
       "链接": "https://www.wanmeikk.me/",
       "屏蔽请求": "hm.baidu.com",
       "屏蔽图片": "load.gif,load.png,2c28d2b7-f058-4cea-a0f5-fb694d6970ed.png,7bc2ae0b-3cf5-4556-afa5-8f1ada7c68ba.gif,ef738805-a703-47d0-aeb1-d398d38a0c30.png",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/wmkk.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/wmkk.js",
       "嗅探类型": "ixigua.com,/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
@@ -44,7 +44,7 @@
       "链接": "https://www.hdmoli.com/",
       "屏蔽请求": "sdk.51.la,7470.mbai.cn",
       "屏蔽图片": "video_ad,220208_h.jpg,t012e830becc190c165.jpg,t0147e13e8e1971b913.png,t014248643b2b05d7bc.gif",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/hdmoli.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/hdmoli.js",
       "嗅探类型": "tg=ghskr,ixigua.com,eb.ggl.com,/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
@@ -54,7 +54,7 @@
       "链接": "https://ddrk.me/",
       "屏蔽请求": "/cdn-cgi/bm/cv/,cnzz.com/z_stat.php,sdk.51.la",
       "屏蔽图片": "220208_s.jpg,close.png,007Pu4zFly1gptwqci8flj312c0lkmxr.jpg,https://vip2.loli.io/2022/06/16/ClcNZGfIXeDVMpE.jpg,https://vip2.loli.io/2022/06/16/efDxZOLrkYWSKAI.jpg",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/ddrk.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/ddrk.js",
       "嗅探类型": "eb.ggl.com,/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
@@ -64,7 +64,7 @@
       "链接": "https://omofun.tv/",
       "屏蔽请求": "qq.com,civracbike.com,sdk.51.la",
       "屏蔽图片": "0085VwIlgy1h0bw6jrj8oj31gs09qdye.jpg,colour-bg.png,6cf71c9bd9202fb914469fbcfc105955.gif,0085VwIlgy1gy7ld0kpmvj30xw06g443.jpg,0085VwIlgy1gyt1o0e9x7j32yo1o0kjl.jpg",
-      "js植入": "https://violet.coding.net/p/whitehole/d/WhiteHoleSub/git/raw/master/js/omofun.js?download=false",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/omofun.js",
       "嗅探类型": "/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
