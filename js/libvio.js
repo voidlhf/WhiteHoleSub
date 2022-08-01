@@ -56,7 +56,7 @@
             searchButton.setAttribute("id", "newSearchButton1");
             searchButton.setAttribute("href", "https://www.libvio.me/");
             searchButton.innerText = "首页";
-            //searchButton.style.cssText = "float:left;margin-top: 5px;margin-left: 10px;color:#333;font-size: 20px;";
+            /*searchButton.style.cssText = "float:left;margin-top: 5px;margin-left: 10px;color:#333;font-size: 20px;";*/
             var insertStyle2 = document.createElement('style');
             insertStyle2.innerHTML = "a#newSearchButton1 {float:left;margin-top: 5px;margin-left: 10px;color:#333;font-size: 20px;} a#newSearchButton1:hover {color:#FF9900;}";
             document.head.appendChild(insertStyle2);
