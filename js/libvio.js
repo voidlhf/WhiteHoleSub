@@ -3,7 +3,7 @@
     /*设置标题*/
     try {
         var title = document.title;
-        document.title = title.replace("《", "").replace("》", "").replace("-1080P高清播放-LIBVIO", "");
+        document.title = title.replace("《", "").replace("》", "").replace("在线播放 - LIBVIO", "");
     } catch (err) { }
 
     /*屏蔽元素*/
