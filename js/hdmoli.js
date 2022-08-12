@@ -1,5 +1,10 @@
 (function () {
 
+  /**关闭弹窗 */
+  try {
+    document.querySelector("#layui-layer1 > span.layui-layer-setwin > a").click()
+  } catch (error) { }
+
   /*资源嗅探提示*/
   try {
     if (location.href.startsWith("https://www.hdmoli.com/play/")) {
