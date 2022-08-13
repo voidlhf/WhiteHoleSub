@@ -31,7 +31,7 @@
 
   /*屏蔽元素*/
   try {
-    var selector = "ul.myui-extra.clearfix,div.myui-foot.clearfix,div.tips.close-box,div.myui-ra-container.container,div#playlist1>p.text-muted.col-pd,div.clearfix.myui-panel-bg.myui-panel:nth-of-type(2)";
+    var selector = "ul.myui-extra.clearfix,div.myui-foot.clearfix,div.tips.close-box,div.myui-ra-container.container,div#playlist1>p.text-muted.col-pd,div.clearfix.myui-panel-bg.myui-panel:nth-of-type(2),div.myui-content__detail > div.operate.clearfix > a.btn.btn-lg.btn-primary";
     var elements = document.querySelectorAll(selector);
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.cssText = "display:none !important";
