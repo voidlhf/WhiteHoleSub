@@ -13,7 +13,7 @@
 
     /*插入提示*/
     try {
-        var arrays = ["voddetail", "detail", "project", "movie", "ddrk.me"];
+        var arrays = ["voddetail", "detail", "project", "movie", "ddys.tv"];
         arrays.forEach(element => {
             if (location.href.indexOf(element) != -1) {
                 if (!document.querySelector("#newSearchButton")) {
