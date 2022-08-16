@@ -16,7 +16,7 @@
 
     /*屏蔽元素*/
     try {
-        var selector = "div#afc_sidebar_2842,div#iaujwnefhw,#to_top_scrollup,#comments,nav.navigation.post-navigation,div.crp_related";
+        var selector = "div#afc_sidebar_2842,div#iaujwnefhw,#to_top_scrollup,#comments,nav.navigation.post-navigation,div.crp_related,#notification-1501";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
@@ -47,12 +47,6 @@
 
     try {
         document.querySelector("#sajdhfbjwhe").style.cssText = "width:5px !important;";
-    } catch (error) {
-
-    }
-
-    try {
-        document.querySelector("span.hthb-close-toggle").click();
     } catch (error) {
 
     }
