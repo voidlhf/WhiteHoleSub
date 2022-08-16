@@ -67,11 +67,11 @@
 	} catch (err) { }
 
     /*移除懒加载*/
-    try {
+    /*try {
         var selector = "img.lazy.lazyload";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].src = elements[i].getAttribute("data-original");
         }
-    } catch (err) { }
+    } catch (err) { }*/
 })();
