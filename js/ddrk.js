@@ -41,7 +41,7 @@
 
     /*改变主题*/
     try {
-        var insertStyle = document.createElement('style'); insertStyle.innerHTML = "body,.single .post,.doulist-item .mod,#ql_nav_collapse{background: white !important;} .logo_container .ql_logo,#ql_nav_btn,span.chinaSrc-a,.post-title,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,div.page-links,span.outSrc-a{color: #333 !important;} .post-box-image{-webkit-box-shadow: none; box-shadow: none;border:1px solid #eee;} .is-menu path.search-icon-path{fill:#333 !important;} .pagination a, .pagination span{background:#eee;color:#333;border:none;} .pagination .current{background:#eee;} #jqueryslidemenu ul.nav > li > a{color:#2ebf8b;text-shadow: none;} .page-header,.wp-playlist,.wp-playlist-item{border:none !important;} input, textarea{color:#333;background:#eee;} .hthb.hthb-pt--65{padding-top:0px;}";
+        var insertStyle = document.createElement('style'); insertStyle.innerHTML = "body,.single .post,.doulist-item .mod,#ql_nav_collapse{background: white !important;} .logo_container .ql_logo,#ql_nav_btn,span.chinaSrc-a,.post-title,h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6,div.page-links,span.outSrc-a{color: #333 !important;} .post-box-image{-webkit-box-shadow: none; box-shadow: none;border:1px solid #eee;} .is-menu path.search-icon-path{fill:#333 !important;} .pagination a, .pagination span{background:#eee;color:#333;border:none;} .pagination .current{background:#eee;} #jqueryslidemenu ul.nav > li > a{color:#2ebf8b;text-shadow: none;} .page-header,.wp-playlist,.wp-playlist-item{border:none !important;} input, textarea{color:#333;background:#eee;} .hthb.hthb-pt--65{padding-top:0px !important;}";
         document.head.appendChild(insertStyle);
     } catch (err) { }
 
