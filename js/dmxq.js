@@ -45,13 +45,13 @@ function removeElements(selector, texts) {
   } catch (err) { }
 
   /*自动关闭通知弹窗*/
-  try {
+  /*try {
     document.querySelector("div.popup-btn.close-pop").click();
-  } catch (err) { }
+  } catch (err) { }*/
 
-  try {
+  /*try {
     document.querySelector("body > script:nth-child(5)").nextSibling.remove();
-  } catch (err) { }
+  } catch (err) { }*/
 
   try {
     document.querySelector("div.sidebar > div.side-op").style.width = "85px";
