@@ -46,7 +46,7 @@ function removeElements(selector, texts) {
 
   /*自动关闭通知弹窗*/
   /*try {
-    document.querySelector("div.popup-btn.close-pop").click();
+    document.querySelector("div.popup-footer>div.popup-btn.close-pop").click();
   } catch (err) { }*/
 
   /*try {
