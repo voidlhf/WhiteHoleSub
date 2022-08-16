@@ -93,7 +93,7 @@
     setInterval(() => {
         /*自定义样式*/
         try {
-            var selector = "h3,a";
+            var selector = "h3";
             var includeText = ["自营秒播"];
             var elements = document.querySelectorAll(selector);
             for (var i = 0; i < elements.length; i++) {
