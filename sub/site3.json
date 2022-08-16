@@ -1,6 +1,6 @@
 [
   {
-    "达达龟": {
+    "DDG": {
       "链接": "https://www.dadagui.me/",
       "屏蔽请求": "",
       "屏蔽图片": "logo_min_f.png,load.gif,load_w.gif",
@@ -10,22 +10,12 @@
     }
   },
   {
-    "COKEMV": {
-      "链接": "https://cokemv.me/",
-      "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com",
-      "屏蔽图片": "load.jpg",
-      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/cokemv.js",
+    "555电影": {
+      "链接": "https://555dy.fun/",
+      "屏蔽请求": "",
+      "屏蔽图片": "logo.jpg,https://inews.gtimg.com/newsapp_bt/0/15026186450/1000,https://shp.qpic.cn/wanjiashequ_pic/0/0f3c7d3af3efda8ef4d1f1c1f26f5081/0,https://t1.szrtcpa.com/2022/07/12/88c2f1613357e.png,https://t1.szrtcpa.com/2022/08/01/ac6f199bfdf7c.gif",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/555dy.js",
       "嗅探类型": "",
-      "嗅探类型屏蔽": "m3u8,mp4,mkv"
-    }
-  },
-  {
-    "厂长资源": {
-      "链接": "https://www.czspp.com/",
-      "屏蔽请求": "collect-v6.51.la,gdsoq.com,ngfdn.wxkan.cc,sdk.51.la,hm.baidu.com",
-      "屏蔽图片": "ec26acf3069be5994900393d03788fd57b6ee2cd,525c837d809c56cf4374b8ae8c8c1d2e,e862d957eda504f968ef1163aa0fb170,12e16b0e96b7138ec9537ca2d37e3e5d,storm_cover_0d349265ab4293b03424d1bc1beae19d,caid.png,https://dd-static.jd.com/ddimg/jfs/t1/84309/5/21530/147654/62d6ddddEdea51e43/1491b85c427bbec7.jpg",
-      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/czzy.js",
-      "嗅探类型": "tg=ghskr,ixigua.com,/video/tos/cn",
       "嗅探类型屏蔽": ""
     }
   },
@@ -40,22 +30,32 @@
     }
   },
   {
+    "厂长资源": {
+      "链接": "https://www.czspp.com/",
+      "屏蔽请求": "collect-v6.51.la,gdsoq.com,ngfdn.wxkan.cc,sdk.51.la,hm.baidu.com",
+      "屏蔽图片": "ec26acf3069be5994900393d03788fd57b6ee2cd,525c837d809c56cf4374b8ae8c8c1d2e,e862d957eda504f968ef1163aa0fb170,12e16b0e96b7138ec9537ca2d37e3e5d,storm_cover_0d349265ab4293b03424d1bc1beae19d,caid.png,https://dd-static.jd.com/ddimg/jfs/t1/84309/5/21530/147654/62d6ddddEdea51e43/1491b85c427bbec7.jpg",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/czzy.js",
+      "嗅探类型": "tg=ghskr,ixigua.com,/video/tos/cn",
+      "嗅探类型屏蔽": ""
+    }
+  },
+  {
+    "COKEMV": {
+      "链接": "https://cokemv.me/",
+      "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com",
+      "屏蔽图片": "load.jpg",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/cokemv.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+    }
+  },
+  {
     "完美看看": {
       "链接": "https://www.wanmeikk.film/",
       "屏蔽请求": "hm.baidu.com",
       "屏蔽图片": "load.gif,load.png,2c28d2b7-f058-4cea-a0f5-fb694d6970ed.png,7bc2ae0b-3cf5-4556-afa5-8f1ada7c68ba.gif,ef738805-a703-47d0-aeb1-d398d38a0c30.png",
       "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/wmkk.js",
       "嗅探类型": "ixigua.com,/video/tos/cn/",
-      "嗅探类型屏蔽": ""
-    }
-  },
-  {
-    "555电影": {
-      "链接": "https://555dy.fun/",
-      "屏蔽请求": "",
-      "屏蔽图片": "logo.jpg,https://inews.gtimg.com/newsapp_bt/0/15026186450/1000,https://shp.qpic.cn/wanjiashequ_pic/0/0f3c7d3af3efda8ef4d1f1c1f26f5081/0,https://t1.szrtcpa.com/2022/07/12/88c2f1613357e.png,https://t1.szrtcpa.com/2022/08/01/ac6f199bfdf7c.gif",
-      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/555dy.js",
-      "嗅探类型": "",
       "嗅探类型屏蔽": ""
     }
   },
