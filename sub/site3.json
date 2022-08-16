@@ -6,7 +6,7 @@
       "屏蔽图片": "logo_min_f.png,load.gif,load_w.gif",
       "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/ddg.js",
       "嗅探类型": "",
-      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+      "嗅探类型屏蔽": ""
     }
   },
   {
