@@ -50,6 +50,16 @@
     }
   },
   {
+    "555电影": {
+      "链接": "https://555dy.fun/",
+      "屏蔽请求": "",
+      "屏蔽图片": "https://inews.gtimg.com/newsapp_bt/0/15026186450/1000,https://shp.qpic.cn/wanjiashequ_pic/0/0f3c7d3af3efda8ef4d1f1c1f26f5081/0,https://t1.szrtcpa.com/2022/07/12/88c2f1613357e.png,https://t1.szrtcpa.com/2022/08/01/ac6f199bfdf7c.gif",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/555dy.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": ""
+    }
+  },
+  {
     "HDMOLI": {
       "链接": "https://www.hdmoli.com/",
       "屏蔽请求": "sdk.51.la,7470.mbai.cn",
