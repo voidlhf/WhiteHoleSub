@@ -52,6 +52,12 @@
     }
 
     try {
+        document.querySelector("span.hthb-close-toggle").click();
+    } catch (error) {
+
+    }
+
+    try {
         document.querySelector("a.ql_logo").text = "首页";
     } catch (error) {
 
