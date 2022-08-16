@@ -1,10 +1,10 @@
 [
   {
-    "大米星球": {
-      "链接": "https://dmxq17.com/",
+    "DDG影视": {
+      "链接": "https://www.dadagui.me/",
       "屏蔽请求": "",
-      "屏蔽图片": "logo.jpg",
-      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/dmxq.js",
+      "屏蔽图片": "logo_min_f.png,load.gif,load_w.gif",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/ddg.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": ""
     }
