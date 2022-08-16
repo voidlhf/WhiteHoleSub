@@ -1,5 +1,15 @@
 [
   {
+    "DDG": {
+      "链接": "https://www.dadagui.me/",
+      "屏蔽请求": "",
+      "屏蔽图片": "logo_min_f.png,load.gif,load_w.gif",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/ddg.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+    }
+  },
+  {
     "COKEMV": {
       "链接": "https://cokemv.me/",
       "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com",
