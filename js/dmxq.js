@@ -32,7 +32,7 @@ function removeElements(selector, texts) {
   } catch (err) { }
 
   try {
-    removeElements("ul.navbar-items.swiper-wrapper>li", ["Netflix", "福利", "追剧周表", "专题列表", "排行榜"]);
+    removeElements("ul.navbar-items.swiper-wrapper>li", ["Netflix", "福利", "追剧周表", "专题列表", "排行榜","今日更新","留言求片"]);
   } catch (err) { }
 
   try {
