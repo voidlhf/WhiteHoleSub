@@ -13,15 +13,15 @@ function removeElements(selector, texts) {
 }
 
 (function () {
-
-  /*设置标题*/
+    setInterval(() => {
+    /*设置标题*/
   try {
     document.title = vod_name + vod_part;
   } catch (err) { }
 
   /*屏蔽元素*/
   try {
-    var selector = "div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"hdslb.com\"]";
+    var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"hdslb.com\"],div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"t2.picb.cc\"]";
     var elements = document.querySelectorAll(selector);
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.cssText = "display:none !important";
@@ -49,10 +49,6 @@ function removeElements(selector, texts) {
     document.querySelector("div.popup-footer>div.popup-btn.close-pop").click();
   } catch (err) { }*/
 
-  /*try {
-    document.querySelector("body > script:nth-child(5)").nextSibling.remove();
-  } catch (err) { }*/
-
   try {
     document.querySelector("div.sidebar > div.side-op").style.width = "85px";
   } catch (err) { }
@@ -71,4 +67,5 @@ function removeElements(selector, texts) {
           elements[i].src = elements[i].getAttribute("data-original");
       }
   } catch (err) { }*/
+}, 100);
 })();
