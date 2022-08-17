@@ -12,7 +12,7 @@
     } catch (err) { }
 
     /*插入提示*/
-    try {
+    /*try {
         var arrays = ["voddetail", "detail", "project", "movie", "ddys.tv"];
         arrays.forEach(element => {
             if (location.href.indexOf(element) != -1) {
@@ -29,9 +29,9 @@
         document.querySelector("#tipsTitle").onclick = function () {
             document.querySelector("#whiteholetips").style.cssText = "display: inherit;color:#aaa;";
             document.querySelector("#arrow").innerText = "▽";
-            /*this.innerText = this.innerText.replace("(点击查看)", "");*/
+            this.innerText = this.innerText.replace("(点击查看)", "");
             this.style.color = "#aaa";
-            /*this.style.fontWeight ="bold";*/
+            this.style.fontWeight ="bold";
         };
-    } catch (err) { }
+    } catch (err) { }*/
 })();
