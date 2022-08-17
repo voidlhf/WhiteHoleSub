@@ -20,7 +20,7 @@ function removeElements(selector, texts) {
 
     /*屏蔽元素*/
     try {
-        var selector = "div#page-wrap>div.mobile-nav,div#page-wrap>div.mobile-container>div.mobile-main>div.banner,#outer-container > div:nth-child(2) > div.bm-menu-wrap > div.bm-menu > nav > div > div:nth-child(2)";
+        var selector = "div#page-wrap>div.mobile-nav,div#page-wrap>div.mobile-container>div.mobile-main>div.banner,#outer-container > div:nth-child(2) > div.bm-menu-wrap > div.bm-menu > nav > div > div:nth-child(2),div.banner-box";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
