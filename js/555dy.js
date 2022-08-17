@@ -28,7 +28,7 @@ function removeElements(selector, texts) {
 	} catch (err) { }
 
 	try {
-		removeElements("div#main-content > div.homepage > div.main > div.content > div.module", ["本月最佳电影", "本周最佳电影", "Netflix奈飞蓝光4K剧", "555独家专题", "影视资讯", "每周热门"]);
+		removeElements("div.homepage > div.main > div.content > div.module", ["本月最佳电影", "本周最佳电影", "Netflix奈飞蓝光4K剧", "555独家专题", "影视资讯", "每周热门"]);
 	} catch (err) { }
 
 	try {
@@ -36,11 +36,11 @@ function removeElements(selector, texts) {
 	} catch (err) { }
 
 	try {
-		removeElements("div#main-content > div.page.view > div.main > div.content > div.module", ["相关推荐"]);
+		removeElements("div.page.view > div.main > div.content > div.module", ["相关推荐"]);
 	} catch (err) { }
 
 	try {
-		removeElements("div#main-content > div.page.player > div.main > div.content > div.module", ["相关推荐"]);
+		removeElements("div.page.player > div.main > div.content > div.module", ["相关推荐"]);
 	} catch (err) { }
 
 	/*自动关闭通知弹窗*/
