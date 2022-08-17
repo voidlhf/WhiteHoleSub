@@ -13,8 +13,7 @@ function removeElements(selector, texts) {
 }
 
 (function () {
-    setInterval(() => {
-    /*设置标题*/
+  /*设置标题*/
   try {
     document.title = vod_name + vod_part;
   } catch (err) { }
@@ -67,5 +66,4 @@ function removeElements(selector, texts) {
           elements[i].src = elements[i].getAttribute("data-original");
       }
   } catch (err) { }*/
-}, 100);
 })();
