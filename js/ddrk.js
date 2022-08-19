@@ -16,7 +16,7 @@
 
     /*屏蔽元素*/
     try {
-        var selector = "div#afc_sidebar_2842,div#iaujwnefhw,#to_top_scrollup,#comments,nav.navigation.post-navigation,div.crp_related";
+        var selector = "div#afc_sidebar_2842,div#iaujwnefhw,#to_top_scrollup,#comments,nav.navigation.post-navigation,div.crp_related,div.hthb-row";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
@@ -53,6 +53,12 @@
 
     try {
         document.querySelector("a.ql_logo").text = "首页";
+    } catch (error) {
+
+    }
+
+    try {
+        document.querySelector("body").style.cssText="padding-top:0px !important;";
     } catch (error) {
 
     }

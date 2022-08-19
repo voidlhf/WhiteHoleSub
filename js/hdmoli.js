@@ -41,7 +41,7 @@
   /*屏蔽包含某字符串的元素*/
   try {
     var selector2 = "div.myui-panel.myui-panel-bg.clearfix,ul.myui-header__menu.nav-menu>li";
-    var includeText2 = ["常用网站", "专题", "相似影片", "留言", "重磅福利"];
+    var includeText2 = ["常用网站", "专题", "相似影片", "留言", "重磅福利","APP"];
     var elements2 = document.querySelectorAll(selector2);
     for (var i1 = 0; i1 < elements2.length; i1++) {
       var tempStr1 = elements2[i1].innerText;
