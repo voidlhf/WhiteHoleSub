@@ -31,6 +31,16 @@ function removeElements(selector, texts) {
         removeElements("div.card.border-shadow", ["茶杯狐最新地址", "微信关注", "相关推荐"]);
     } catch (err) { }
 
+    /*禁止复制脏东西到剪贴板 */
+    try {
+        localStorage.setItem("copySign", "{\"sign\":\"1\",\"time\":1800000000000}");
+    } catch (error) { }
+
+    /*禁止弹窗 */
+    try {
+        localStorage.setItem("downloadAppModel", "{\"sign\":\"1\",\"time\":1800000000000}");
+    } catch (error) { }
+
     /*自动关闭通知弹窗*/
     try {
         document.querySelector("span.icon-close").click();

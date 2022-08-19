@@ -32,7 +32,7 @@ function removeElements(selector, texts) {
   } catch (err) { }
 
   try {
-    removeElements("ul.navbar-items.swiper-wrapper>li", ["Netflix", "福利", "追剧周表", "专题列表", "排行榜","今日更新","留言求片"]);
+    removeElements("ul.navbar-items.swiper-wrapper>li", ["Netflix", "福利", "追剧周表", "专题列表", "排行榜", "今日更新", "留言求片"]);
   } catch (err) { }
 
   try {
@@ -43,6 +43,9 @@ function removeElements(selector, texts) {
     removeElements("div#main-content > div.page.player > div.main > div.content > div.module", ["相关推荐"]);
   } catch (err) { }
 
+  try {
+    removeElements("a.mac_ulog.btn-large.btn-collect", ["收藏"]);
+  } catch (err) { }
   /*自动关闭通知弹窗*/
   /*try {
     document.querySelector("div.popup-footer>div.popup-btn.close-pop").click();

@@ -43,6 +43,9 @@ function removeElements(selector, texts) {
 		removeElements("div.page.player > div.main > div.content > div.module", ["相关推荐"]);
 	} catch (err) { }
 
+	try {
+		removeElements("a.mac_ulog.btn-large.btn-collect", ["收藏"]);
+	  } catch (err) { }
 	/*自动关闭通知弹窗*/
 	/*try {
 		document.querySelector("div.popup-footer>div.popup-btn.close-pop").click();
