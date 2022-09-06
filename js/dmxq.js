@@ -14,11 +14,10 @@ function removeElements(selector, texts) {
 
 (function () {
   /*设置标题*/
-  setInterval(() => {
-    try {
-      document.title = vod_name + vod_part;
-    } catch (err) { }
-  }, 100);
+  try {
+    var title = document.title;
+    document.title = title.replace("完整版免费在线观看-大米星球", "");
+  } catch (err) { }
 
   /*屏蔽元素*/
   try {
