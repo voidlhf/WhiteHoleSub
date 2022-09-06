@@ -17,7 +17,7 @@ function removeElements(selector, texts) {
 	try {
 		var title = document.title;
 		document.title = title.replace("完整版免费在线观看-555电影", "");
-	  } catch (err) { }
+	} catch (err) { }
 
 	/*屏蔽元素*/
 	try {
@@ -46,7 +46,7 @@ function removeElements(selector, texts) {
 
 	try {
 		removeElements("a.mac_ulog.btn-large.btn-collect", ["收藏"]);
-	  } catch (err) { }
+	} catch (err) { }
 	/*自动关闭通知弹窗*/
 	/*try {
 		document.querySelector("div.popup-footer>div.popup-btn.close-pop").click();
