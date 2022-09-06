@@ -31,7 +31,7 @@
 
   /*屏蔽元素*/
   try {
-    var selector = "ul.myui-extra.clearfix,div.myui-foot.clearfix,div.tips.close-box,div.myui-ra-container.container,div#playlist1>p.text-muted.col-pd,div.clearfix.myui-panel-bg.myui-panel:nth-of-type(2),div.myui-content__detail > div.operate.clearfix > a.btn.btn-lg.btn-primary,div.ldgb.ldg";
+    var selector = "ul.myui-extra.clearfix,div.myui-foot.clearfix,div.tips.close-box,div.myui-ra-container.container,div#playlist1>p.text-muted.col-pd,div.clearfix.myui-panel-bg.myui-panel:nth-of-type(2),div.myui-content__detail > div.operate.clearfix > a.btn.btn-lg.btn-primary";
     var elements = document.querySelectorAll(selector);
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.cssText = "display:none !important";
@@ -41,7 +41,7 @@
   /*屏蔽包含某字符串的元素*/
   try {
     var selector2 = "div.myui-panel.myui-panel-bg.clearfix,ul.myui-header__menu.nav-menu>li";
-    var includeText2 = ["常用网站", "专题", "相似影片", "留言", "重磅福利","APP"];
+    var includeText2 = ["常用网站", "专题", "相似影片", "留言", "重磅福利", "APP"];
     var elements2 = document.querySelectorAll(selector2);
     for (var i1 = 0; i1 < elements2.length; i1++) {
       var tempStr1 = elements2[i1].innerText;
@@ -82,6 +82,10 @@
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentWindow.dpclose = null;
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentDocument.querySelector("div#ad").remove();
       }
+    } catch (error) { }
+
+    try {
+      document.querySelector("body > div.ldgb.ldg").remove();
     } catch (error) { }
   }, 100);
 })();
