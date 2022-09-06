@@ -14,9 +14,11 @@ function removeElements(selector, texts) {
 
 (function () {
   /*设置标题*/
-  try {
-    document.title = vod_name + vod_part;
-  } catch (err) { }
+  setInterval(() => {
+    try {
+      document.title = vod_name + vod_part;
+    } catch (err) { }
+  }, 100);
 
   /*屏蔽元素*/
   try {
