@@ -21,7 +21,7 @@ function removeElements(selector, texts) {
 
   /*屏蔽元素*/
   try {
-    var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"hdslb.com\"],div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"t2.picb.cc\"]";
+    var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"hdslb.com\"],div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"ugc.hitv.com\"]";
     var elements = document.querySelectorAll(selector);
     for (var i = 0; i < elements.length; i++) {
       elements[i].style.cssText = "display:none !important";
