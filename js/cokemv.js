@@ -21,7 +21,7 @@
 
 	/*屏蔽元素*/
 	try {
-		var selector = "div.fixedGroup,div.footer,div.module-player-handle-items,div.member_group";
+		var selector = "div.fixedGroup,div.footer,div.module-player-handle-items,div.member_group,body > div > strong > div > div > div.search-box > div > form > div.searchbar > a";
 		var elements = document.querySelectorAll(selector);
 		for (var i = 0; i < elements.length; i++) {
 			elements[i].style.cssText = "display:none !important";
