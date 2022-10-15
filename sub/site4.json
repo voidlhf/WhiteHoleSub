@@ -3,7 +3,7 @@
     "大米星球": {
       "链接": "https://dami7.me/",
       "屏蔽请求": "",
-      "屏蔽图片": "logo.png,https://img.ynajax.com:2323/2022/06/17/f14541d86d302.png,https://dmxq17.com/static/images/touxiang.png,https://img.ynajax.com:2323/2022/08/17/545b5200baa54.png",
+      "屏蔽图片": "logo.png,https://img.ynajax.com:2323/2022/06/17/f14541d86d302.png,https://dmxq17.com/static/images/touxiang.png,https://img.ynajax.com:2323/2022/08/17/545b5200baa54.png,https://t1.szrtcpa.com/2022/08/11/a4888ab8513d4.gif",
       "js植入": "https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/dmxq.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": ""
