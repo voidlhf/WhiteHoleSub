@@ -21,7 +21,7 @@
 
 	/*屏蔽元素*/
 	try {
-		var selector = "div.fixedGroup,div.footer,div.module-player-handle-items";
+		var selector = "div.fixedGroup,div.footer,div.module-player-handle-items,div.member_group";
 		var elements = document.querySelectorAll(selector);
 		for (var i = 0; i < elements.length; i++) {
 			elements[i].style.cssText = "display:none !important";
@@ -31,7 +31,7 @@
 	/*屏蔽包含某字符串的元素*/
 	try {
 		var selector2 = "li.swiper-slide.navbar-item,div.module";
-		var includeText2 = ["APP", "留言板", "相关推荐"];
+		var includeText2 = ["APP", "留言板", "相关推荐", "今日更新", "热搜榜"];
 		var elements2 = document.querySelectorAll(selector2);
 		for (var i1 = 0; i1 < elements2.length; i1++) {
 			var tempStr1 = elements2[i1].innerText;
@@ -44,10 +44,36 @@
 		}
 	} catch (err) { }
 
+	/*屏蔽包含某字符串的元素2*/
+	try {
+		if (location.href.startsWith("https://cokemv.me/voddetail/")) {
+			var selector2 = "div.module";
+			var includeText2 = ["正在热映"];
+			var elements2 = document.querySelectorAll(selector2);
+			for (var i1 = 0; i1 < elements2.length; i1++) {
+				var tempStr1 = elements2[i1].innerText;
+				for (var j = 0; j < includeText2.length; j++) {
+					var tempStr2 = includeText2[j];
+					if (tempStr1.indexOf(tempStr2) != -1) {
+						elements2[i1].style.cssText = "display:none !important";
+					}
+				}
+			}
+		}
+	} catch (err) { }
+
 	/*自动关闭通知弹窗*/
 	/*try {
 		document.querySelector("div.popup-btn.close-pop").click();
 	} catch (err) { }*/
+
+	try {
+		document.querySelector("div.sidebar > div.side-op").style.width = "85px";
+	} catch (err) { }
+
+	try {
+		document.querySelector("div#popup").remove();
+	} catch (err) { }
 
 	try {
 		document.querySelector("body > script:nth-child(5)").nextSibling.remove();
