@@ -18,7 +18,7 @@
     /*屏蔽包含某字符串的元素*/
     try {
         var selector2 = "div.mikd,div.mi_ne_kd";
-        var includeText2 = ["猜您还喜欢","评论"];
+        var includeText2 = ["猜您还喜欢", "评论"];
         var elements2 = document.querySelectorAll(selector2);
         for (var i1 = 0; i1 < elements2.length; i1++) {
             var tempStr1 = elements2[i1].innerText;
@@ -58,19 +58,23 @@
         document.querySelector("div.chage").innerHTML = "<img src='https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/img/close.svg' style='width:30px;vertical-align: middle;'>";
     } catch (error) { }
 
+    try {
+        document.cookie = "myannoun=1";
+    } catch (error) { }
+
     /*修改样式*/
     try {
-      var selector2 = "div.mi_cont";
-      var includeText2 = ["厂长推荐"];
-      var elements2 = document.querySelectorAll(selector2);
-      for (var i1 = 0; i1 < elements2.length; i1++) {
-          var tempStr1 = elements2[i1].innerText;
-          for (var j = 0; j < includeText2.length; j++) {
-              var tempStr2 = includeText2[j];
-              if (tempStr1.indexOf(tempStr2) != -1) {
-                  elements2[i1].style.cssText = "margin-top:50px;";
-              }
-          }
-      }
-  } catch (err) { }
+        var selector2 = "div.mi_cont";
+        var includeText2 = ["厂长推荐"];
+        var elements2 = document.querySelectorAll(selector2);
+        for (var i1 = 0; i1 < elements2.length; i1++) {
+            var tempStr1 = elements2[i1].innerText;
+            for (var j = 0; j < includeText2.length; j++) {
+                var tempStr2 = includeText2[j];
+                if (tempStr1.indexOf(tempStr2) != -1) {
+                    elements2[i1].style.cssText = "margin-top:50px;";
+                }
+            }
+        }
+    } catch (err) { }
 })();
