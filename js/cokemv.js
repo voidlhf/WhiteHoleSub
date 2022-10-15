@@ -49,9 +49,9 @@
 		document.querySelector("div.popup-btn.close-pop").click();
 	} catch (err) { }
 
-	try {
+	/*try {
 		document.querySelector("body > script:nth-child(5)").nextSibling.remove();
-	} catch (err) { }
+	} catch (err) { }*/
 
 	/*改变主题*/
 	try {
