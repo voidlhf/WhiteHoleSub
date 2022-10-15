@@ -77,12 +77,12 @@
   } catch (err) { }
 
   setInterval(() => {
-    /*try {
+    try {
       if (document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentDocument.querySelector("div#ad")) {
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentWindow.dpclose = null;
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentDocument.querySelector("div#ad").remove();
       }
-    } catch (error) { }*/
+    } catch (error) { }
 
     try {
       document.querySelector("#cciframe").contentWindow.adClose();
