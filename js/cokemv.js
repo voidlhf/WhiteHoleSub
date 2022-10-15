@@ -29,7 +29,7 @@
 	} catch (err) { }*/
 
 	/*屏蔽包含某字符串的元素*/
-	try {
+	/*try {
 		var selector2 = "li.swiper-slide.navbar-item,div.module";
 		var includeText2 = ["APP", "留言板", "相关推荐"];
 		var elements2 = document.querySelectorAll(selector2);
@@ -42,7 +42,7 @@
 				}
 			}
 		}
-	} catch (err) { }
+	} catch (err) { }*/
 
 	/*自动关闭通知弹窗*/
 	/*try {
