@@ -45,9 +45,9 @@
 	} catch (err) { }*/
 
 	/*自动关闭通知弹窗*/
-	try {
+	/*try {
 		document.querySelector("div.popup-btn.close-pop").click();
-	} catch (err) { }
+	} catch (err) { }*/
 
 	try {
 		document.querySelector("body > script:nth-child(5)").nextSibling.remove();
