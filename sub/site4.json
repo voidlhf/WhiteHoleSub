@@ -43,7 +43,7 @@
     "COKEMV": {
       "链接": "https://cokemv.me/",
       "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com",
-      "屏蔽图片": "load.jpg",
+      "屏蔽图片": "load.jpg,load.gif",
       "js植入": "https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/cokemv.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": "m3u8,mp4,mkv"

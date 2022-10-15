@@ -46,7 +46,7 @@
 
 	/*屏蔽包含某字符串的元素2*/
 	try {
-		if (location.href.startsWith("https://cokemv.me/voddetail/")) {
+		if (location.href.startsWith("https://cokemv.me/voddetail/")||location.href.startsWith("https://cokemv.me/vodplay/")) {
 			var selector2 = "div.module";
 			var includeText2 = ["正在热映"];
 			var elements2 = document.querySelectorAll(selector2);
