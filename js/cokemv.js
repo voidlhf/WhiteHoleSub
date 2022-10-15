@@ -20,13 +20,13 @@
 	} catch (err) { }
 
 	/*屏蔽元素*/
-	/*try {
+	try {
 		var selector = "div.fixedGroup,div.footer,div.module-player-handle-items";
 		var elements = document.querySelectorAll(selector);
 		for (var i = 0; i < elements.length; i++) {
 			elements[i].style.cssText = "display:none !important";
 		}
-	} catch (err) { }*/
+	} catch (err) { }
 
 	/*屏蔽包含某字符串的元素*/
 	/*try {
@@ -45,13 +45,13 @@
 	} catch (err) { }*/
 
 	/*自动关闭通知弹窗*/
-	/*try {
+	try {
 		document.querySelector("div.popup-btn.close-pop").click();
-	} catch (err) { }*/
+	} catch (err) { }
 
-	/*try {
+	try {
 		document.querySelector("body > script:nth-child(5)").nextSibling.remove();
-	} catch (err) { }*/
+	} catch (err) { }
 
 	/*改变主题*/
 	try {
