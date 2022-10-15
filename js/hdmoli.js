@@ -57,7 +57,7 @@
   /*屏蔽包含某字符串的元素*/
   try {
     var selector2 = "p.text-muted.col-pd";
-    var includeText2 = ["广告", "贴士", "推荐："];
+    var includeText2 = ["广告", "贴士", "推荐：", "建议使用"];
     var elements2 = document.querySelectorAll(selector2);
     for (var i1 = 0; i1 < elements2.length; i1++) {
       var tempStr1 = elements2[i1].innerText;
@@ -77,11 +77,15 @@
   } catch (err) { }
 
   setInterval(() => {
-    try {
+    /*try {
       if (document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentDocument.querySelector("div#ad")) {
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentWindow.dpclose = null;
         document.querySelector("#cciframe").contentDocument.querySelector("div#player > iframe").contentDocument.querySelector("div#ad").remove();
       }
+    } catch (error) { }*/
+
+    try {
+      document.querySelector("#cciframe").contentWindow.adClose();
     } catch (error) { }
 
     try {
