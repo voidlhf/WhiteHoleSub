@@ -70,16 +70,6 @@
     }
   },
   {
-    "OMOFUN": {
-      "链接": "https://omofun.tv/",
-      "屏蔽请求": "qq.com,civracbike.com,sdk.51.la",
-      "屏蔽图片": "0085VwIlgy1h0bw6jrj8oj31gs09qdye.jpg,colour-bg.png,6cf71c9bd9202fb914469fbcfc105955.gif,0085VwIlgy1gy7ld0kpmvj30xw06g443.jpg,0085VwIlgy1gyt1o0e9x7j32yo1o0kjl.jpg",
-      "js植入": "https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/omofun.js",
-      "嗅探类型": "/video/tos/cn/",
-      "嗅探类型屏蔽": ""
-    }
-  },
-  {
     "茶杯狐搜索": {
       "链接": "https://cupfox.app/",
       "屏蔽请求": "",
