@@ -442,3 +442,14 @@
     }
   }
 ]
+
+  {
+    "完美看看": {
+      "链接": "https://www.wanmeikk.film/",
+      "屏蔽请求": "hm.baidu.com",
+      "屏蔽图片": "load.gif,load.png,2c28d2b7-f058-4cea-a0f5-fb694d6970ed.png,7bc2ae0b-3cf5-4556-afa5-8f1ada7c68ba.gif,ef738805-a703-47d0-aeb1-d398d38a0c30.png",
+      "js植入": "https://raw.iqiq.io/voidlhf/WhiteHoleSub/master/js/wmkk.js",
+      "嗅探类型": "ixigua.com,/video/tos/cn/",
+      "嗅探类型屏蔽": ""
+    }
+  },
