@@ -7,7 +7,7 @@
 
     /*屏蔽元素*/
     try {
-        var selector = "#hth616,div.marquee_outer,div.stui-pannel_hd[style],p.text-muted.text-center.visible-xs,span.more.text-muted.pull-right,ul.stui-vodlist__bd.clearfix,a[href*=\"https://www.ybvip1879.vip\"],a#ad_a,div.stui-header__logo,div.stui-foot.clearfix,a[href=\"/voddetail/74109\"],div.col-lg-wide-75.col-xs-1 > hr,div.stui-pannel-box.clearfix:nth-child(3),ul.stui-extra.clearfix,iframe[style=\"height: 5px; width: 5px;\"],div#layui-layer1,div#layui-layer-shade1,font[color=\"blue\"],div.jq-toast-wrap,iframe#buffer";
+        var selector = "img#hth,#hth616,div.marquee_outer,div.stui-pannel_hd[style],p.text-muted.text-center.visible-xs,span.more.text-muted.pull-right,ul.stui-vodlist__bd.clearfix,a[href*=\"https://www.ybvip1879.vip\"],a#ad_a,div.stui-header__logo,div.stui-foot.clearfix,a[href=\"/voddetail/74109\"],div.col-lg-wide-75.col-xs-1 > hr,div.stui-pannel-box.clearfix:nth-child(3),ul.stui-extra.clearfix,iframe[style=\"height: 5px; width: 5px;\"],div#layui-layer1,div#layui-layer-shade1,font[color=\"blue\"],div.jq-toast-wrap,iframe#buffer";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
