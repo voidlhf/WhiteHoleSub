@@ -77,4 +77,8 @@
             }
         }
     } catch (err) { }
+
+    try {
+        document.querySelector("a[href='http://ha467.com']").parentElement.parentElement.parentElement.parentElement.remove();
+    } catch (error) { }
 })();
