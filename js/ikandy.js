@@ -15,7 +15,7 @@
     } catch (err) { }
 
     try {
-      document.querySelector("#layui-layer1 > div.layui-layer-btn.layui-layer-btn- > a").click();
+        document.querySelector("#layui-layer1 > div.layui-layer-btn.layui-layer-btn- > a").click();
     } catch (error) { }
 
     /*屏蔽包含某字符串的元素*/
@@ -106,6 +106,14 @@
                     }
                 } catch (error) { }
             }
+        } catch (error) { }
+
+        try {
+            document.querySelector("div.kataer").remove();
+        } catch (error) { }
+
+        try {
+            document.querySelector("img[src=\"https://customer-service.cos.tx.xmcdn.com/storages/9666-customerservice/56/CB/GMCoOSYG7I4lAAGo5AGdHEDm.jpg\"]").parentElement.parentElement.parentElement.remove();
         } catch (error) { }
     }, 100);
 })();
