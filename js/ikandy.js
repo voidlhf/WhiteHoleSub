@@ -115,5 +115,17 @@
         try {
             document.querySelector("img[src=\"https://customer-service.cos.tx.xmcdn.com/storages/9666-customerservice/56/CB/GMCoOSYG7I4lAAGo5AGdHEDm.jpg\"]").parentElement.parentElement.parentElement.remove();
         } catch (error) { }
+
+        try {
+            var tempElement = document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").parentElement.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.querySelector("a");
+
+            var tempHref = tempElement.href;
+
+            var tempStyle = tempElement.getAttribute("style");
+
+            document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").href = tempHref;
+
+            document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").setAttribute("style", tempStyle);
+        } catch (error) { }
     }, 100);
 })();
