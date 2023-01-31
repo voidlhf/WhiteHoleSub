@@ -2,7 +2,7 @@
 
     /*资源嗅探提示*/
     try {
-        if (location.href.startsWith("https://ddys.tv/")) {
+        if (location.href.startsWith("https://ddys.pro/")) {
             if (!document.querySelector("#newSearchButton1")) {
                 var searchButton = document.createElement("h3");
                 searchButton.setAttribute("id", "newSearchButton1");

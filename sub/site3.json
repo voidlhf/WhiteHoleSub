@@ -51,7 +51,7 @@
   },
   {
     "低端影视": {
-      "链接": "https://ddys.tv/",
+      "链接": "https://ddys.pro/",
       "屏蔽请求": "/cdn-cgi/bm/cv/,cnzz.com/z_stat.php,sdk.51.la",
       "屏蔽图片": "220208_s.jpg,close.png,007Pu4zFly1gptwqci8flj312c0lkmxr.jpg,https://vip2.loli.io/2022/06/16/ClcNZGfIXeDVMpE.jpg,https://vip2.loli.io/2022/06/16/efDxZOLrkYWSKAI.jpg,https://vip2.loli.io/2022/08/16/cJBlhiSbEdnA9Fy.jpg",
       "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/js/ddrk.js",
