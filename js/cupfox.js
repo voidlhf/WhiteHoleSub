@@ -49,7 +49,11 @@ function removeElements(selector, texts) {
 
     setInterval(() => {
         try {
-            removeElements("div.card.border-shadow", ["相关推荐","搜索结果来自"]);
+            removeElements("div.card.border-shadow", ["相关推荐", "搜索结果来自"]);
+        } catch (err) { }
+
+        try {
+            removeElements("div.tab-bar", ["在线播放"]);
         } catch (err) { }
     }, 100);
 })();
