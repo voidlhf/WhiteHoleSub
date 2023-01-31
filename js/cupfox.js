@@ -20,7 +20,7 @@ function removeElements(selector, texts) {
 
     /*屏蔽元素*/
     try {
-        var selector = "div.mobile-nav,div.banner,div.bm-menu-wrap > div.bm-menu > nav > div > div:nth-child(2),div.banner-box,div.mobile-container > div > div.cupfox-box,div.mobile-container > div > div.card.border-shadow > div > div.cupfox-box";
+        var selector = "div.mobile-nav,div.banner,div.bm-menu-wrap > div.bm-menu > nav > div > div:nth-child(2),div.banner-box,div.mobile-container > div > div.cupfox-box,div.mobile-container > div > div.card.border-shadow > div > div.cupfox-box,div.tab-bar";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
@@ -52,8 +52,8 @@ function removeElements(selector, texts) {
             removeElements("div.card.border-shadow", ["相关推荐", "搜索结果来自"]);
         } catch (err) { }
 
-        try {
+        /*try {
             removeElements("div.tab-bar", ["在线播放"]);
-        } catch (err) { }
+        } catch (err) { }*/
     }, 100);
 })();
