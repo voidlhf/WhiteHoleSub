@@ -453,3 +453,14 @@
       "嗅探类型屏蔽": ""
     }
   },
+
+    {
+    "茶杯狐搜索": {
+      "链接": "https://cupfox.app/",
+      "屏蔽请求": "",
+      "屏蔽图片": "",
+      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/js/cupfox.js",
+      "嗅探类型": "/video/tos/cn/",
+      "嗅探类型屏蔽": ""
+    }
+  }
