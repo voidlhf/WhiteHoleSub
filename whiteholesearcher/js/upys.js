@@ -1,3 +1,3 @@
 (function () {
-    document.activeElement.blur();
+    
 })();
