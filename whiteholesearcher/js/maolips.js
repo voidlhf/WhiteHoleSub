@@ -24,4 +24,9 @@
             }
         }
     } catch (err) { }
+
+    /*修改样式 */
+    try {
+        document.querySelector("div#app>div[style*=\"padding-top\"]").style.cssText = "padding-top:50%;";
+    } catch (err) { }
 })();
