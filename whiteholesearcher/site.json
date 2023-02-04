@@ -2,7 +2,7 @@
   {
     "阿里小站": {
       "链接": "https://pan666.cn/",
-      "屏蔽请求": "",
+      "屏蔽请求": "google",
       "屏蔽图片": "",
       "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
       "嗅探类型": "",
@@ -12,7 +12,7 @@
   {
     "猫狸盘搜": {
       "链接": "https://www.alipansou.com/",
-      "屏蔽请求": "",
+      "屏蔽请求": "google",
       "屏蔽图片": "",
       "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
       "嗅探类型": "",
@@ -22,27 +22,7 @@
   {
     "UP云搜": {
       "链接": "https://www.upyunso.com/",
-      "屏蔽请求": "",
-      "屏蔽图片": "",
-      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
-      "嗅探类型": "",
-      "嗅探类型屏蔽": ""
-    }
-  },
-  {
-    "易搜": {
-      "链接": "https://yiso.fun/",
-      "屏蔽请求": "",
-      "屏蔽图片": "",
-      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
-      "嗅探类型": "",
-      "嗅探类型屏蔽": ""
-    }
-  },
-  {
-    "PanSearch": {
-      "链接": "https://pansearch.long2ice.io/",
-      "屏蔽请求": "",
+      "屏蔽请求": "google",
       "屏蔽图片": "",
       "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
       "嗅探类型": "",
