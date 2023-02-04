@@ -1,3 +1,3 @@
 (function () {
-    document.querySelector("#keyword").removeAttribute("autofocus");
+    document.activeElement.blur();
 })();
