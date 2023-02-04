@@ -10,8 +10,8 @@
     }
   },
   {
-    "猫狸盘搜": {
-      "链接": "https://www.alipansou.com/",
+    "UP云搜": {
+      "链接": "https://www.upyunso.com/",
       "屏蔽请求": "google",
       "屏蔽图片": "",
       "js植入": "",
@@ -20,8 +20,8 @@
     }
   },
   {
-    "UP云搜": {
-      "链接": "https://www.upyunso.com/",
+    "猫狸盘搜": {
+      "链接": "https://www.alipansou.com/",
       "屏蔽请求": "google",
       "屏蔽图片": "",
       "js植入": "",
