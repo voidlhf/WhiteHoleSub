@@ -7,7 +7,7 @@
 
     /*屏蔽元素*/
     try {
-        var selector = "div.footer,div#header-primary,div#header-secondary>ul.Header-controls>li.item-nightmode,main.App-content>footer,ins.adsbygoogle";
+        var selector = "div.footer,div#header-primary,div#header-secondary>ul.Header-controls>li.item-nightmode,main.App-content>footer,ins.adsbygoogle,div#content>div.IndexPage>div.davwheat-ad.davwheat-ad-header";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
