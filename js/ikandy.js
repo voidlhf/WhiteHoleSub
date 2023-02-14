@@ -41,7 +41,7 @@
         document.head.appendChild(insertStyle);
         try {
             var selector = "h3.title";
-            var inText = ["[推荐]"];
+            var inText = ["[独家]"];
             if (selector.length == 0) return;
             if (inText.length == 0) inText = ["需要屏蔽的文本"];
             var a = document.querySelectorAll(selector);
