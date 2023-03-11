@@ -81,4 +81,13 @@
     try {
         document.querySelector("a[href='http://ha467.com']").parentElement.parentElement.parentElement.parentElement.remove();
     } catch (error) { }
+    
+    try {
+        document.querySelector("h2>a[href=\"/reyingzhong\"]").parentElement.parentElement.parentElement.remove();
+    } catch (error) { }
+
+    try {
+        window.scrollTo(0,10);
+        window.scrollTo(0,0);
+    } catch (error) { }
 })();
