@@ -87,7 +87,6 @@
     } catch (error) { }
 
     try {
-        window.scrollTo(0,10);
         window.scrollTo(0,0);
     } catch (error) { }
 })();
