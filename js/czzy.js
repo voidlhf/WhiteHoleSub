@@ -87,6 +87,6 @@
     } catch (error) { }
 
     try {
-        window.scrollTo(0,0);
+        
     } catch (error) { }
 })();
