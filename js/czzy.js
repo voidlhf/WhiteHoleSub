@@ -92,4 +92,8 @@
             window.scrollTo(0,0);
         }
     } catch (error) { }
+    
+    try {
+        document.querySelector("a.h2_closeclick").click();
+    } catch (error) { }
 })();
