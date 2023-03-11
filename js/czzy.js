@@ -47,15 +47,15 @@
     } catch (err) { }
 
     try {
-        document.querySelector("div.nab").innerHTML = "<img src='https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/img/schedule.svg' style='width:28px;vertical-align: middle;'>";
+        document.querySelector("div.nab").innerHTML = "<img src='https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/img/schedule.svg' style='width:28px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
-        document.querySelector("div.liange").innerHTML = "<img src='https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/img/menu.svg' style='width:30px;vertical-align: middle;'>";
+        document.querySelector("div.liange").innerHTML = "<img src='https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/img/menu.svg' style='width:30px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
-        document.querySelector("div.chage").innerHTML = "<img src='https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/img/close.svg' style='width:30px;vertical-align: middle;'>";
+        document.querySelector("div.chage").innerHTML = "<img src='https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/img/close.svg' style='width:30px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
