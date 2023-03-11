@@ -47,7 +47,7 @@
     } catch (err) { }
 
     try {
-        document.querySelector("div.nab").innerHTML = "<img src='https://jsd.cdn.zzko.cn/gh/voidlhf/WhiteHoleSub@master/img/schedule.svg' style='width:28px;vertical-align: middle;'>";
+        document.querySelector("div.nab").innerHTML = "<img src='https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/img/schedule.svg' style='width:28px;vertical-align: middle;'>";
     } catch (error) { }
 
     try {
