@@ -85,8 +85,11 @@
     try {
         document.querySelector("h2>a[href=\"/reyingzhong\"]").parentElement.parentElement.parentElement.remove();
     } catch (error) { }
-
+    
     try {
-        
+        if(!document.querySelector("div.bt_img.mi_ne_kd.newindex>ul>li>a>img").style.display) {
+            window.scrollTo(0,10);
+            window.scrollTo(0,0);
+        }
     } catch (error) { }
 })();
