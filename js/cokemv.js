@@ -1,6 +1,6 @@
 (function () {
 
-	/*资源嗅探提示*/
+	/*资源嗅探提示
 	try {
 		if (location.href.startsWith("https://cokemv.me/vodplay/")) {
 			if (!document.querySelector("#newSearchButton1")) {
@@ -12,7 +12,7 @@
 				insertIndex.insertBefore(searchButton, insertIndex.firstElementChild);
 			}
 		}
-	} catch (err) { }
+	} catch (err) { }*/
 
 	/*设置标题*/
 	try {
