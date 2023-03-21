@@ -1,7 +1,7 @@
 (function () {
 
-	/*资源嗅探提示
-	try {
+	/*资源嗅探提示*/
+	/*try {
 		if (location.href.startsWith("https://cokemv.me/vodplay/")) {
 			if (!document.querySelector("#newSearchButton1")) {
 				var searchButton = document.createElement("h3");
