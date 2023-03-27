@@ -4,7 +4,7 @@
       "链接": "https://pan666.net/",
       "屏蔽请求": "google",
       "屏蔽图片": "",
-      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/alixiaozhan.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": ""
     }
@@ -14,7 +14,7 @@
       "链接": "https://www.upyunso.com/",
       "屏蔽请求": "google",
       "屏蔽图片": "",
-      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/upys.js",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/upys.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": ""
     }
@@ -24,7 +24,7 @@
       "链接": "https://www.alipansou.com/",
       "屏蔽请求": "google,baidu",
       "屏蔽图片": "",
-      "js植入": "https://raw.fastgit.org/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/maolips.js",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/whiteholesearcher/js/maolips.js",
       "嗅探类型": "",
       "嗅探类型屏蔽": ""
     }
