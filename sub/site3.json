@@ -62,8 +62,8 @@
   {
     "HDMOLI": {
       "链接": "https://www.hdmoli.com/",
-      "屏蔽请求": "sdk.51.la,7470.mbai.cn,j.guanjiabo.net,img.souche.com",
-      "屏蔽图片": "video_ad,220208_h.jpg,t012e830becc190c165.jpg,t0147e13e8e1971b913.png,t014248643b2b05d7bc.gif",
+      "屏蔽请求": "sdk.51.la,7470.mbai.cn,j.guanjiabo.net",
+      "屏蔽图片": "video_ad,220208_h.jpg,t012e830becc190c165.jpg,t0147e13e8e1971b913.png,t014248643b2b05d7bc.gif,ba71bfebbb0dd4193a7f23e228ba40e3.gif",
       "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/hdmoli.js",
       "嗅探类型": "tg=ghskr,ixigua.com,eb.ggl.com,/video/tos/cn/",
       "嗅探类型屏蔽": ""
