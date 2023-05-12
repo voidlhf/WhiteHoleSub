@@ -1,23 +1,19 @@
 (function () {
-
     /*设置标题*/
     try {
         document.title = vod_name + vod_part;
     } catch (err) { }
-
     /*屏蔽元素*/
     try {
-        var selector = "img#hth,#hth616,div.marquee_outer,div.stui-pannel_hd[style],p.text-muted.text-center.visible-xs,span.more.text-muted.pull-right,ul.stui-vodlist__bd.clearfix,a[href*=\"https://www.ybvip1879.vip\"],a#ad_a,div.stui-header__logo,div.stui-foot.clearfix,a[href=\"/voddetail/74109\"],div.col-lg-wide-75.col-xs-1 > hr,div.stui-pannel-box.clearfix:nth-child(3),ul.stui-extra.clearfix,iframe[style=\"height: 5px; width: 5px;\"],div#layui-layer1,div#layui-layer-shade1,font[color=\"blue\"],div.jq-toast-wrap,iframe#buffer";
+        var selector = "img#hth,#hth616,div.marquee_outer,div.stui-pannel_hd[style],p.text-muted.text-center.visible-xs,span.more.text-muted.pull-right,ul.stui-vodlist__bd.clearfix,a[href*=\"https://www.ybvip1879.vip\"],a#ad_a,div.stui-header__logo,div.stui-foot.clearfix,a[href=\"/voddetail/74109\"],div.col-lg-wide-75.col-xs-1 > hr,div.stui-pannel-box.clearfix:nth-child(3),ul.stui-extra.clearfix,iframe[style=\"height: 5px; width: 5px;\"],div#layui-layer1,div#layui-layer-shade1,font[color=\"blue\"],div.jq-toast-wrap,iframe#buffer,div.carousel_center.flickity-page.flickity-enabled.is-draggable";
         var elements = document.querySelectorAll(selector);
         for (var i = 0; i < elements.length; i++) {
             elements[i].style.cssText = "display:none !important";
         }
     } catch (err) { }
-
     try {
         document.querySelector("#layui-layer1 > div.layui-layer-btn.layui-layer-btn- > a").click();
     } catch (error) { }
-
     /*屏蔽包含某字符串的元素*/
     try {
         var selector = "div.stui-pannel.stui-pannel-bg.clearfix,h3.title,body > div.container > div > div.stui-pannel.stui-pannel-bg.hidden-sm.hidden-xs.clearfix";
@@ -33,7 +29,6 @@
             }
         }
     } catch (err) { }
-
     /*改变主题*/
     try {
         var insertStyle = document.createElement('style');
@@ -57,14 +52,12 @@
                 }
             }
         } catch (error) { }
-
         try {
             var a = document.querySelectorAll(".stui-header__menu > li .dropdown");
             for (var i = 0; i < a.length; i++) {
                 a[i].style.left = "-60px";
             }
         } catch (error) { }
-
         /*try {
             var a = document.querySelectorAll("body");
             for (var i = 0; i < a.length; i++) {
@@ -74,7 +67,6 @@
                 }
             }
         } catch (error) { }*/
-
         try {
             var selector2 = "img#nice_u_know_img,img[width=\"100%\"]";
             if (selector2.length == 0) return;
@@ -84,15 +76,12 @@
                 a[i].style.cssText = "width:1px !important;height:1px !important;";
             }
         } catch (error) { }
-
     } catch (err) { }
-
     /*计时器 */
     setInterval(() => {
         try {
             document.querySelector("div.stui-header__logo").remove();
         } catch (error) { }
-
         try {
             var url = location.href;
             if (url == ("https://www.ikandy.fun/") || url.startsWith("https://www.ikandy.fun/?btwaf")) {
@@ -105,27 +94,24 @@
                         document.querySelector("div.flickity-viewport").style.height = height + "px";
                     }
                 } catch (error) { }
+                
+                try {
+        	document.querySelector("body > div.container > div > div:nth-child(1)").style.cssText = "margin-top: 30px !important;"
+		} catch (error) { }
             }
         } catch (error) { }
-
         try {
             document.querySelector("div.kataer").remove();
         } catch (error) { }
-
         try {
             document.querySelector("img[src=\"https://customer-service.cos.tx.xmcdn.com/storages/9666-customerservice/56/CB/GMCoOSYG7I4lAAGo5AGdHEDm.jpg\"]").parentElement.parentElement.parentElement.remove();
         } catch (error) { }
-
-        try {
+        /*try {
             var tempElement = document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").parentElement.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.nextElementSibling.querySelector("a");
-
             var tempHref = tempElement.href;
-
             var tempStyle = tempElement.getAttribute("style");
-
             document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").href = tempHref;
-
             document.querySelector("body > div.carousel_center.flickity-page.flickity-enabled.is-draggable > div > div > div[style=\"position: absolute; left: 0%;\"] > a").setAttribute("style", tempStyle);
-        } catch (error) { }
+        } catch (error) { }*/
     }, 100);
 })();
