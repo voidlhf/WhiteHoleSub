@@ -94,10 +94,10 @@
                         document.querySelector("div.flickity-viewport").style.height = height + "px";
                     }
                 } catch (error) { }
-                
+
                 try {
-        	document.querySelector("body > div.container > div > div:nth-child(1)").style.cssText = "margin-top: 30px !important;"
-		} catch (error) { }
+                    document.querySelector("body > div.container > div > div:nth-child(1)").style.cssText = "margin-top: 30px !important;"
+                } catch (error) { }
             }
         } catch (error) { }
         try {
