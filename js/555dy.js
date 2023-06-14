@@ -21,7 +21,7 @@ function removeElements(selector, texts) {
 
 	/*屏蔽元素*/
 	try {
-		var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"a.yximgs.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"bytednsdoc.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"cms.qq.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"p0.meituan.net\"],div[style=\"margin:-27px 0 12px 0;\"";
+		var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"a.yximgs.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"bytednsdoc.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"cms.qq.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"p0.meituan.net\"],div[style*=\"margin:-27px 0 12px 0;\"";
 		var elements = document.querySelectorAll(selector);
 		for (var i = 0; i < elements.length; i++) {
 			elements[i].style.cssText = "display:none !important";
