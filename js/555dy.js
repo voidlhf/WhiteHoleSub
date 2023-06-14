@@ -70,10 +70,4 @@ function removeElements(selector, texts) {
 					elements[i].src = elements[i].getAttribute("data-original");
 			}
 	} catch (err) { }*/
-	
-	setInterval(() => {
-		try {
-			var ele = document.querySelectorAll("");
-			
-		} catch (error) { }
 })();
