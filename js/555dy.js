@@ -21,7 +21,7 @@ function removeElements(selector, texts) {
 
 	/*屏蔽元素*/
 	try {
-		var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"a.yximgs.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"bytednsdoc.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"cms.qq.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"p0.meituan.net\"]";
+		var selector = "div#popup,div.fixedGroup,div.footer,div.module-player-handle-items,a.pcbdmap,div.tz,div.logo,div.member_group,div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"a.yximgs.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"bytednsdoc.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"cms.qq.com\"],div[class^=\"is_\"] > a > img[referrerpolicy=\"no-referrer\"][src*=\"p0.meituan.net\"],div#648a430978e83,div#648a430978e86";
 		var elements = document.querySelectorAll(selector);
 		for (var i = 0; i < elements.length; i++) {
 			elements[i].style.cssText = "display:none !important";
