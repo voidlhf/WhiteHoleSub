@@ -68,5 +68,15 @@
       "嗅探类型": "tg=ghskr,ixigua.com,eb.ggl.com,/video/tos/cn/",
       "嗅探类型屏蔽": ""
     }
+  },
+  {
+    "网盘搜索": {
+      "链接": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/html/wpss.html",
+      "屏蔽请求": "",
+      "屏蔽图片": "",
+      "js植入": "",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": ""
+    }
   }
 ]
