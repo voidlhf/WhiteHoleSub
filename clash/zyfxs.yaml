@@ -1,4 +1,4 @@
-﻿port: 7890
+port: 7890
 socks-port: 7891
 allow-lan: true
 mode: Rule
@@ -1909,7 +1909,6 @@ rules:
  - DOMAIN,dl.google.com,🎯 全球直连
  - DOMAIN,dl.l.google.com,🎯 全球直连
  - DOMAIN,update.googleapis.com,🎯 全球直连
- - DOMAIN,translate.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.googleapis.com,🎯 全球直连
  - DOMAIN,fonts.gstatic.com,🎯 全球直连
  - DOMAIN,mtalk.google.com,🎯 全球直连
