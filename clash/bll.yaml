@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 塞舌尔-1.95MB/s(Youtube:不良林), server: amszxc.66666654.xyz, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /hgcefomn, headers: {Host: amszx.66666654.xyz}}}
-  - {name: 🇺🇸 美国-229.2KB/s(Youtube:不良林), server: cdn.narutos.top, port: 8880, type: vmess, uuid: 4b5e4565-322f-4223-a891-78a84f189726, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /GdtYWlsLmNvbSJ9LCJjb3V, headers: {Host: newyork.yj2022.gq}}}
-  - {name: 🇫🇷 法国-1.08MB/s(Youtube:不良林), server: 195.154.118.40, port: 443, type: ssr, cipher: aes-256-ctr, password: NewBypasser2023, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国-1.64MB/s(Youtube:不良林), server: 142.4.126.69, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
-  - {name: 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林), server: 91.192.81.166, port: 443, type: ssr, cipher: aes-256-ctr, password: NewBypasser2023, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
-  - {name: 🇺🇸 美国-2.62MB/s(Youtube:不良林), server: 140.99.77.12, port: 54774, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 中国-5.45MB/s(Youtube:不良林), server: iplc-enter-tw-xe.fib-sys.xyz, port: 11451, type: trojan, password: 11a4e5be-3c87-37d2-aac8-00b85ef0fcdc, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-408.5KB/s(Youtube:不良林), server: 156.245.8.129, port: 48123, type: vmess, uuid: 3ca912da-6ac2-418f-b9cf-45b6f694579b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-1.82MB/s(Youtube:不良林), server: 23.224.110.182, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080712342310}}
+  - {name: 🇺🇸 美国-1.51MB/s(Youtube:不良林), server: 216.52.183.244, port: 80, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: obfs, plugin-opts: {mode: http, host: ""}}
+  - {name: 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林), server: 45.144.179.138, port: 443, type: vmess, uuid: 96cbe4a6-5728-42df-dc7a-ceb9b51a3db5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 未知国家-3.79MB/s(Youtube:不良林), server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: us.ilovescp.com}}}
+  - {name: 🇺🇸 美国-1.72MB/s(Youtube:不良林), server: 163.123.192.155, port: 443, type: trojan, password: d31792a4-b843-469f-9185-4a6111ff7612, skip-cert-verify: true}
+  - {name: 🇫🇷 法国-2.64MB/s(Youtube:不良林), server: 156.249.18.163, port: 42292, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-5.23MB/s(Youtube:不良林), server: 140.99.49.57, port: 55602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-2.69MB/s(Youtube:不良林), server: 173.82.67.195, port: 34412, type: vmess, uuid: 82620a6e-dbfd-4d57-8a59-9004a4bb9e92, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-4.74MB/s(Youtube:不良林), server: 198.2.208.68, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1689068934789}}
+  - {name: 🇺🇸 美国-4.29MB/s(Youtube:不良林), server: 64.32.20.104, port: 40039, type: vmess, uuid: c1bad9a6-1482-4941-a0c4-e85f3cbbcb5a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-4.53MB/s(Youtube:不良林), server: 142.4.126.69, port: 52212, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 塞舌尔-1.95MB/s(Youtube:不良林)
-      - 🇺🇸 美国-229.2KB/s(Youtube:不良林)
-      - 🇫🇷 法国-1.08MB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.64MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-1.65MB/s(Youtube:不良林)
-      - 🇷🇺 俄罗斯联邦-341.2KB/s(Youtube:不良林)
-      - 🇺🇸 美国-2.62MB/s(Youtube:不良林)
-      - 中国-5.45MB/s(Youtube:不良林)
-      - 🇭🇰 香港-408.5KB/s(Youtube:不良林)
-      - 🇺🇸 美国-1.82MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.51MB/s(Youtube:不良林)
+      - 🇷🇺 俄罗斯联邦-2.32MB/s(Youtube:不良林)
+      - 未知国家-3.79MB/s(Youtube:不良林)
+      - 🇺🇸 美国-1.72MB/s(Youtube:不良林)
+      - 🇫🇷 法国-2.64MB/s(Youtube:不良林)
+      - 🇺🇸 美国-5.23MB/s(Youtube:不良林)
+      - 🇺🇸 美国-2.69MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.74MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.29MB/s(Youtube:不良林)
+      - 🇺🇸 美国-4.53MB/s(Youtube:不良林)
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -208,11 +208,12 @@ rules:
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
  - DOMAIN,rewards.hypixel.net,🎯 全球直连
+ - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+ - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
- - DOMAIN-KEYWORD,adservice,🛑 全球拦截
  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
@@ -1986,6 +1987,7 @@ rules:
  - DOMAIN-SUFFIX,aaplimg.com,🍎 苹果服务
  - DOMAIN-SUFFIX,akadns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-cloudkit.com,🍎 苹果服务
+ - DOMAIN-SUFFIX,apple-dns.net,🍎 苹果服务
  - DOMAIN-SUFFIX,apple-mapkit.com,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.co,🍎 苹果服务
  - DOMAIN-SUFFIX,apple.com,🍎 苹果服务
@@ -2049,6 +2051,7 @@ rules:
  - DOMAIN-SUFFIX,aiv-cdn.net,🌍 国外媒体
  - DOMAIN-SUFFIX,aiv-delivery.net,🌍 国外媒体
  - DOMAIN-SUFFIX,amazon.jobs,🌍 国外媒体
+ - DOMAIN-SUFFIX,amazontools.com,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonuniversity.jobs,🌍 国外媒体
  - DOMAIN-SUFFIX,amazonvideo.com,🌍 国外媒体
  - DOMAIN-SUFFIX,media-amazon.com,🌍 国外媒体
@@ -2235,6 +2238,7 @@ rules:
  - IP-CIDR,192.173.64.0/18,🌍 国外媒体,no-resolve
  - IP-CIDR,198.38.96.0/19,🌍 国外媒体,no-resolve
  - IP-CIDR,198.45.48.0/20,🌍 国外媒体,no-resolve
+ - IP-CIDR,203.75.84.0/24,🌍 国外媒体,no-resolve
  - IP-CIDR,207.45.72.0/22,🌍 国外媒体,no-resolve
  - IP-CIDR,208.75.76.0/22,🌍 国外媒体,no-resolve
  - DOMAIN-SUFFIX,dmc.nico,🌍 国外媒体
@@ -2772,6 +2776,7 @@ rules:
  - DOMAIN-SUFFIX,pdfwifi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.biz,🎯 全球直连
  - DOMAIN-SUFFIX,zhenguanyu.com,🎯 全球直连
+ - DOMAIN-SUFFIX,snapdrop.net,🎯 全球直连
  - DOMAIN-SUFFIX,cn,🎯 全球直连
  - DOMAIN-SUFFIX,xn--fiqs8s,🎯 全球直连
  - DOMAIN-SUFFIX,xn--55qx5d,🎯 全球直连
@@ -3092,130 +3097,6 @@ rules:
  - DOMAIN-SUFFIX,zmzapi.com,🎯 全球直连
  - DOMAIN-SUFFIX,zmzapi.net,🎯 全球直连
  - DOMAIN-SUFFIX,zmzfile.com,🎯 全球直连
- - DOMAIN-KEYWORD,announce,🎯 全球直连
- - DOMAIN-KEYWORD,torrent,🎯 全球直连
- - DOMAIN-KEYWORD,tracker,🎯 全球直连
- - DOMAIN-KEYWORD,announce,🎯 全球直连
- - DOMAIN-KEYWORD,torrent,🎯 全球直连
- - DOMAIN-KEYWORD,tracker,🎯 全球直连
- - DOMAIN-SUFFIX,52pt.site,🎯 全球直连
- - DOMAIN-SUFFIX,aidoru-online.me,🎯 全球直连
- - DOMAIN-SUFFIX,alpharatio.cc,🎯 全球直连
- - DOMAIN-SUFFIX,animebytes.tv,🎯 全球直连
- - DOMAIN-SUFFIX,animetorrents.me,🎯 全球直连
- - DOMAIN-SUFFIX,anthelion.me,🎯 全球直连
- - DOMAIN-SUFFIX,asiancinema.me,🎯 全球直连
- - DOMAIN-SUFFIX,audiences.me,🎯 全球直连
- - DOMAIN-SUFFIX,avgv.cc,🎯 全球直连
- - DOMAIN-SUFFIX,avistaz.to,🎯 全球直连
- - DOMAIN-SUFFIX,awesome-hd.me,🎯 全球直连
- - DOMAIN-SUFFIX,beitai.pt,🎯 全球直连
- - DOMAIN-SUFFIX,beyond-hd.me,🎯 全球直连
- - DOMAIN-SUFFIX,bibliotik.me,🎯 全球直连
- - DOMAIN-SUFFIX,bittorrent.com,🎯 全球直连
- - DOMAIN-SUFFIX,blutopia.xyz,🎯 全球直连
- - DOMAIN-SUFFIX,broadcasthe.net,🎯 全球直连
- - DOMAIN-SUFFIX,bt.byr.cn,🎯 全球直连
- - DOMAIN-SUFFIX,bt.neu6.edu.cn,🎯 全球直连
- - DOMAIN-SUFFIX,btschool.club,🎯 全球直连
- - DOMAIN-SUFFIX,bwtorrents.tv,🎯 全球直连
- - DOMAIN-SUFFIX,byr.pt,🎯 全球直连
- - DOMAIN-SUFFIX,ccfbits.org,🎯 全球直连
- - DOMAIN-SUFFIX,cgpeers.com,🎯 全球直连
- - DOMAIN-SUFFIX,chdbits.co,🎯 全球直连
- - DOMAIN-SUFFIX,cinemageddon.net,🎯 全球直连
- - DOMAIN-SUFFIX,cinematik.net,🎯 全球直连
- - DOMAIN-SUFFIX,cinemaz.to,🎯 全球直连
- - DOMAIN-SUFFIX,classix-unlimited.co.uk,🎯 全球直连
- - DOMAIN-SUFFIX,concertos.live,🎯 全球直连
- - DOMAIN-SUFFIX,dicmusic.club,🎯 全球直连
- - DOMAIN-SUFFIX,discfan.net,🎯 全球直连
- - DOMAIN-SUFFIX,dxdhd.com,🎯 全球直连
- - DOMAIN-SUFFIX,eastgame.org,🎯 全球直连
- - DOMAIN-SUFFIX,empornium.me,🎯 全球直连
- - DOMAIN-SUFFIX,et8.org,🎯 全球直连
- - DOMAIN-SUFFIX,exoticaz.to,🎯 全球直连
- - DOMAIN-SUFFIX,extremlymtorrents.ws,🎯 全球直连
- - DOMAIN-SUFFIX,filelist.io,🎯 全球直连
- - DOMAIN-SUFFIX,gainbound.net,🎯 全球直连
- - DOMAIN-SUFFIX,gazellegames.net,🎯 全球直连
- - DOMAIN-SUFFIX,gfxpeers.net,🎯 全球直连
- - DOMAIN-SUFFIX,hd-space.org,🎯 全球直连
- - DOMAIN-SUFFIX,hd-torrents.org,🎯 全球直连
- - DOMAIN-SUFFIX,hd4.xyz,🎯 全球直连
- - DOMAIN-SUFFIX,hd4fans.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdarea.co,🎯 全球直连
- - DOMAIN-SUFFIX,hdatmos.club,🎯 全球直连
- - DOMAIN-SUFFIX,hdbd.us,🎯 全球直连
- - DOMAIN-SUFFIX,hdbits.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdchina.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdcity.city,🎯 全球直连
- - DOMAIN-SUFFIX,hddolby.com,🎯 全球直连
- - DOMAIN-SUFFIX,hdfans.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdhome.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdpost.top,🎯 全球直连
- - DOMAIN-SUFFIX,hdroute.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdsky.me,🎯 全球直连
- - DOMAIN-SUFFIX,hdstreet.club,🎯 全球直连
- - DOMAIN-SUFFIX,hdtime.org,🎯 全球直连
- - DOMAIN-SUFFIX,hdupt.com,🎯 全球直连
- - DOMAIN-SUFFIX,hdzone.me,🎯 全球直连
- - DOMAIN-SUFFIX,hhanclub.top,🎯 全球直连
- - DOMAIN-SUFFIX,hitpt.com,🎯 全球直连
- - DOMAIN-SUFFIX,hitpt.org,🎯 全球直连
- - DOMAIN-SUFFIX,hudbt.hust.edu.cn,🎯 全球直连
- - DOMAIN-SUFFIX,icetorrent.org,🎯 全球直连
- - DOMAIN-SUFFIX,iptorrents.com,🎯 全球直连
- - DOMAIN-SUFFIX,j99.info,🎯 全球直连
- - DOMAIN-SUFFIX,joyhd.net,🎯 全球直连
- - DOMAIN-SUFFIX,jpopsuki.eu,🎯 全球直连
- - DOMAIN-SUFFIX,karagarga.in,🎯 全球直连
- - DOMAIN-SUFFIX,keepfrds.com,🎯 全球直连
- - DOMAIN-SUFFIX,landof.tv,🎯 全球直连
- - DOMAIN-SUFFIX,leaguehd.com,🎯 全球直连
- - DOMAIN-SUFFIX,lemonhd.org,🎯 全球直连
- - DOMAIN-SUFFIX,lztr.me,🎯 全球直连
- - DOMAIN-SUFFIX,m-team.cc,🎯 全球直连
- - DOMAIN-SUFFIX,madsrevolution.net,🎯 全球直连
- - DOMAIN-SUFFIX,moecat.best,🎯 全球直连
- - DOMAIN-SUFFIX,morethan.tv,🎯 全球直连
- - DOMAIN-SUFFIX,msg.vg,🎯 全球直连
- - DOMAIN-SUFFIX,myanonamouse.net,🎯 全球直连
- - DOMAIN-SUFFIX,nanyangpt.com,🎯 全球直连
- - DOMAIN-SUFFIX,ncore.cc,🎯 全球直连
- - DOMAIN-SUFFIX,nebulance.io,🎯 全球直连
- - DOMAIN-SUFFIX,nicept.net,🎯 全球直连
- - DOMAIN-SUFFIX,npupt.com,🎯 全球直连
- - DOMAIN-SUFFIX,nwsuaf6.edu.cn,🎯 全球直连
- - DOMAIN-SUFFIX,open.cd,🎯 全球直连
- - DOMAIN-SUFFIX,oppaiti.me,🎯 全球直连
- - DOMAIN-SUFFIX,orpheus.network,🎯 全球直连
- - DOMAIN-SUFFIX,ourbits.club,🎯 全球直连
- - DOMAIN-SUFFIX,passthepopcorn.me,🎯 全球直连
- - DOMAIN-SUFFIX,pornbits.net,🎯 全球直连
- - DOMAIN-SUFFIX,privatehd.to,🎯 全球直连
- - DOMAIN-SUFFIX,pterclub.com,🎯 全球直连
- - DOMAIN-SUFFIX,pthome.net,🎯 全球直连
- - DOMAIN-SUFFIX,ptsbao.club,🎯 全球直连
- - DOMAIN-SUFFIX,pttime.org,🎯 全球直连
- - DOMAIN-SUFFIX,pussytorrents.org,🎯 全球直连
- - DOMAIN-SUFFIX,redacted.ch,🎯 全球直连
- - DOMAIN-SUFFIX,sdbits.org,🎯 全球直连
- - DOMAIN-SUFFIX,sharkpt.net,🎯 全球直连
- - DOMAIN-SUFFIX,sjtu.edu.cn,🎯 全球直连
- - DOMAIN-SUFFIX,skyey2.com,🎯 全球直连
- - DOMAIN-SUFFIX,soulvoice.club,🎯 全球直连
- - DOMAIN-SUFFIX,springsunday.net,🎯 全球直连
- - DOMAIN-SUFFIX,tju.pt,🎯 全球直连
- - DOMAIN-SUFFIX,tjupt.org,🎯 全球直连
- - DOMAIN-SUFFIX,torrentday.com,🎯 全球直连
- - DOMAIN-SUFFIX,torrentleech.org,🎯 全球直连
- - DOMAIN-SUFFIX,torrentseeds.org,🎯 全球直连
- - DOMAIN-SUFFIX,totheglory.im,🎯 全球直连
- - DOMAIN-SUFFIX,trontv.com,🎯 全球直连
- - DOMAIN-SUFFIX,u2.dmhy.org,🎯 全球直连
- - DOMAIN-SUFFIX,uhdbits.org,🎯 全球直连
- - DOMAIN-SUFFIX,xauat6.edu.cn,🎯 全球直连
  - DOMAIN-SUFFIX,teamviewer.com,🎯 全球直连
  - IP-CIDR,139.220.243.27/32,🎯 全球直连,no-resolve
  - IP-CIDR,172.16.102.56/32,🎯 全球直连,no-resolve
@@ -3230,6 +3111,10 @@ rules:
  - DOMAIN-SUFFIX,jiasule.com,🎯 全球直连
  - DOMAIN-SUFFIX,staticfile.org,🎯 全球直连
  - DOMAIN-SUFFIX,upaiyun.com,🎯 全球直连
+ - DOMAIN-SUFFIX,doh.pub,🎯 全球直连
+ - DOMAIN-SUFFIX,dns.alidns.com,🎯 全球直连
+ - DOMAIN-SUFFIX,doh.360.cn,🎯 全球直连
+ - IP-CIDR,1.12.12.12/32,🎯 全球直连,no-resolve
  - DOMAIN-SUFFIX,10010.com,🎯 全球直连
  - DOMAIN-SUFFIX,115.com,🎯 全球直连
  - DOMAIN-SUFFIX,12306.com,🎯 全球直连
@@ -3294,6 +3179,7 @@ rules:
  - DOMAIN-SUFFIX,eastday.com,🎯 全球直连
  - DOMAIN-SUFFIX,eastmoney.com,🎯 全球直连
  - DOMAIN-SUFFIX,ecitic.com,🎯 全球直连
+ - DOMAIN-SUFFIX,element-plus.org,🎯 全球直连
  - DOMAIN-SUFFIX,ewqcxz.com,🎯 全球直连
  - DOMAIN-SUFFIX,fang.com,🎯 全球直连
  - DOMAIN-SUFFIX,fantasy.tv,🎯 全球直连
