@@ -84,7 +84,7 @@
         } catch (error) { }
         try {
             var url = location.href;
-            if (url == ("https://www.ikandy.fun/") || url.startsWith("https://www.ikandy.fun/?btwaf")) {
+            if (url == ("https://www.ikandy2.fun/") || url.startsWith("https://www.ikandy2.fun/?btwaf")) {
                 var headerHeight = document.querySelector("#header-top").clientHeight;
                 document.querySelector("div.flickity-slider").style.top = headerHeight + "px";
                 try {

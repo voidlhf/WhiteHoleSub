@@ -1,0 +1,20 @@
+ {
+    "555电影": {
+      "链接": "https://www.zxk555.com/",
+      "屏蔽请求": "",
+      "屏蔽图片": "logo.jpg,https://inews.gtimg.com/newsapp_bt/0/15026186450/1000,https://shp.qpic.cn/wanjiashequ_pic/0/0f3c7d3af3efda8ef4d1f1c1f26f5081/0,https://t1.szrtcpa.com/2022/07/12/88c2f1613357e.png,https://t1.szrtcpa.com/2022/08/01/ac6f199bfdf7c.gif",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/555dy.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": ""
+    }
+  },
+  {
+    "COKEMV": {
+      "链接": "https://cokemv.co/",
+      "屏蔽请求": "kut.kmpxq.cn,js.tydouke.com,abb.puchengrenli.com,sdk.51.la,webmine.cz,hm.baidu.com,suggest",
+      "屏蔽图片": "load.jpg,load.gif",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/cokemv.js",
+      "嗅探类型": "",
+      "嗅探类型屏蔽": "m3u8,mp4,mkv"
+    }
+  },
