@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡-2.62MB/s, server: 5.44.249.50, port: 3306, type: trojan, password: 26a663656e575c0b, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fgateway%252Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 新加坡-2.47MB/s, server: 5.44.249.43, port: 3306, type: trojan, password: d4e41ff772c7fd45, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fgateway%252Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 新加坡-2.24MB/s, server: 5.44.249.50, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fgateway%252Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 新加坡-2.59MB/s, server: 5.44.249.44, port: 3306, type: trojan, password: 8a1ab0df6abea549, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fgateway%252Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇸🇬 新加坡-2.57MB/s, server: 5.44.249.44, port: 3306, type: trojan, password: dc2d9db59868ba6b, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: "%252Fgateway%252Fconnect", headers: {Host: n2.gladns.com}}}
-  - {name: 🇺🇸 美国-3.20MB/s, server: 45.199.138.158, port: 49955, type: vmess, uuid: f5250c4e-f855-4eff-b73c-a02226d42fe7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-3.55MB/s, server: 154.85.1.204, port: 54885, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-3.11MB/s, server: 156.245.8.144, port: 42914, type: vmess, uuid: 63b4b829-7f01-4e26-b037-f04b1f098765, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-3.92MB/s, server: 37.1.211.52, port: 3000, type: vmess, uuid: b97ad283-287e-4e20-a741-f16f7d074590, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇫🇷 法国-726.3KB/s, server: 51.38.99.96, port: 443, type: trojan, password: eadf99d1-a4ab-4574-8e43-1a1050675bd3, sni: sourceforge.net, skip-cert-verify: true}
+  - {name: 未知国家-1.97MB/s, server: db2.shabijichang.com, port: 80, type: vmess, uuid: 53701585-591f-48a3-9515-8831ed0524ac, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: db2.shabijichang.com}}}
+  - {name: 🇸🇬 新加坡-843.3KB/s, server: 103.172.116.79, port: 9044, type: ss, cipher: aes-256-cfb, password: KBGjZYcy4SyRShmA}
+  - {name: 🇪🇸 西班牙-1.69MB/s, server: 5.188.181.201, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN}
+  - {name: 🇺🇸 美国-338.1KB/s, server: 172.67.76.172, port: 80, type: vmess, uuid: fc426675-5daa-46c0-d998-61f9f5323e3f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /TG:@hkaa0, headers: {Host: sg2.wyhkaa0.cf}}}
+  - {name: 🇺🇸 美国-198.3KB/s, server: cf-lt.sharecentre.online, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker, headers: {Host: buyvm3.ilovescp.com}}}
+  - {name: 🇻🇳 越南-1018.6KB/s, server: hcm03.4ghatde.com, port: 80, type: vmess, uuid: 7c810704-e3d7-4e14-92c1-a8e2f63dd52d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /svip2.4ghatde.com, headers: {Host: hcm03.4ghatde.com}}}
+  - {name: 🇺🇸 美国-2.55MB/s, server: 45.199.138.211, port: 53535, type: vmess, uuid: 6fa560d4-35c5-4968-adfc-812c52878b84, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇳🇱 荷兰-3.27MB/s, server: 154.85.1.243, port: 32282, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 中转节点-2.58MB/s, server: 09.kccic2pa.xyz, port: 50009, type: vmess, uuid: b1c9fdae-2c24-4e41-b89f-503716a0650d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-2.95MB/s, server: 45.199.138.161, port: 45522, type: vmess, uuid: 9549a2cf-129b-43a1-88db-ef7f648de74a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡-2.62MB/s
-      - 🇸🇬 新加坡-2.47MB/s
-      - 🇸🇬 新加坡-2.24MB/s
-      - 🇸🇬 新加坡-2.59MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇺🇸 美国-3.20MB/s
-      - 🇳🇱 荷兰-3.55MB/s
-      - 🇭🇰 香港-3.11MB/s
-      - 🇺🇸 美国-3.92MB/s
-      - 🇫🇷 法国-726.3KB/s
+      - 未知国家-1.97MB/s
+      - 🇸🇬 新加坡-843.3KB/s
+      - 🇪🇸 西班牙-1.69MB/s
+      - 🇺🇸 美国-338.1KB/s
+      - 🇺🇸 美国-198.3KB/s
+      - 🇻🇳 越南-1018.6KB/s
+      - 🇺🇸 美国-2.55MB/s
+      - 🇳🇱 荷兰-3.27MB/s
+      - 中转节点-2.58MB/s
+      - 🇺🇸 美国-2.95MB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
