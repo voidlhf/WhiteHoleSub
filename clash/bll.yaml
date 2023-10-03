@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇺🇸 美国-5.61MB/s, server: 46caadb.f2.gladns.com, port: 3331, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /s/46caadb.fm.apple.com:60980, headers: {Host: 46caadb.f2.gladns.com}}}
-  - {name: 🇺🇸 美国-2.69MB/s, server: 64.32.24.222, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/080822272914}}
-  - {name: 中转节点-3.03MB/s, server: 07.kccic2pa.xyz, port: 50007, type: vmess, uuid: 027c4518-7488-4b12-9fc4-65af80c6af75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-304.3KB/s, server: 154.85.1.244, port: 54982, type: vmess, uuid: 1d474f0b-e78d-4af9-bc4a-a467467bc7a7, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-4.39MB/s, server: bpus22.mybestjj.com, port: 443, type: trojan, password: 65b2cf63-a998-417f-88df-8e1c4ff27a98, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-334.6KB/s, server: 172.64.161.58, port: 80, type: vmess, uuid: 5f751c6e-50b1-4797-ba8e-6ffe324a0bce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /shirker}}
-  - {name: 🇺🇸 美国-429.6KB/s, server: 137.175.0.148, port: 48813, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-3.23MB/s, server: 67.21.84.164, port: 443, type: vmess, uuid: cff9d860-7330-4ee1-b072-7142ddf1571d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1694429908748}}
-  - {name: 🇨🇾 塞浦路斯-4.67MB/s, server: csgo.com, port: 443, type: vmess, uuid: 6383e7fb-3128-41de-e6cf-5db0868f84fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /scp比赛专用节点, headers: {Host: scp.cloudflare88.eu.org}}}
-  - {name: 🇺🇸 美国-1.76MB/s, server: 45.199.138.220, port: 55107, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-1.81MB/s, server: 5.161.44.202, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇫🇷 法国-1.12MB/s, server: 57.128.173.6, port: 443, type: trojan, password: 0ddff0f8-04d6-4eae-a5a6-5af7746bb30d, sni: fifa.com, skip-cert-verify: true}
+  - {name: 🇩🇪 德国-3.13MB/s, server: 94.130.24.110, port: 2083, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇺🇸 美国-642.9KB/s, server: 5.161.191.195, port: 2083, type: vmess, uuid: 1c5cd450-a5cc-4803-d0ef-1ea424cc4ba2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇺🇸 美国-1.88MB/s, server: 5.161.71.112, port: 2083, type: vmess, uuid: 90e968f5-58a5-42ce-a2de-c81894054563, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 🇺🇸 美国-1.41MB/s, server: 216.52.183.243, port: 1001, type: ss, cipher: aes-128-gcm, password: 83XvX4Vo%*3a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: "", path: "", tls: false, mux: true, skip-cert-verify: true}}
+  - {name: 🇺🇸 美国-2.28MB/s, server: 5.161.58.40, port: 2083, type: vmess, uuid: 47b93627-da5f-4f2a-bcd6-f44ac26b90c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}}
+  - {name: 未知国家-2.51MB/s, server: cdn-downloads.000023.xyz, port: 443, type: trojan, password: A3A1371F-017B-4A5A-99F2-8F4AFF0798B1, sni: downloads.000023.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: "%2F3f5h8j4k6p0r2t4v6x9z1b3d5f6h8j", headers: {Host: downloads.000023.xyz}}}
+  - {name: 中转节点-2.60MB/s, server: hz-cu.timiwc.com, port: 17770, type: ss, cipher: aes-256-gcm, password: 0ea9950e-f1ac-40ed-9b77-c629ef502bd3}
+  - {name: 中转节点-4.91MB/s, server: 41.kccic2pa.xyz, port: 50041, type: vmess, uuid: 3814af1d-9358-46d5-824d-567d4532e66e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸 美国-5.61MB/s
-      - 🇺🇸 美国-2.69MB/s
-      - 中转节点-3.03MB/s
-      - 🇳🇱 荷兰-304.3KB/s
-      - 🇺🇸 美国-4.39MB/s
-      - 🇺🇸 美国-334.6KB/s
-      - 🇺🇸 美国-429.6KB/s
-      - 🇺🇸 美国-3.23MB/s
-      - 🇨🇾 塞浦路斯-4.67MB/s
-      - 🇺🇸 美国-1.76MB/s
+      - 🇺🇸 美国-1.81MB/s
+      - 🇫🇷 法国-1.12MB/s
+      - 🇩🇪 德国-3.13MB/s
+      - 🇺🇸 美国-642.9KB/s
+      - 🇺🇸 美国-1.88MB/s
+      - 🇺🇸 美国-1.41MB/s
+      - 🇺🇸 美国-2.28MB/s
+      - 未知国家-2.51MB/s
+      - 中转节点-2.60MB/s
+      - 中转节点-4.91MB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
