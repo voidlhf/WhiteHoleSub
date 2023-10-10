@@ -5,125 +5,125 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 新加坡-3.85MB/s, server: 54.179.68.240, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇸🇬 新加坡-128.1KB/s, server: cfzzb.starnetcn.top, port: 81, type: vmess, uuid: e4e9c59c-8444-4f6e-882b-123ce6d16c8d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /1c1123, headers: {Host: cfzzb.starnetcn.top}}}
-  - {name: 🇯🇵 日本-136.7KB/s, server: 52.193.30.4, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇫🇷 法国-598.7KB/s, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
-  - {name: 🇺🇸 美国-294.3KB/s, server: 44.228.78.115, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trj.rollingnext.co.uk, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-283.9KB/s, server: ams.asoul-diana.xyz, port: 443, type: vmess, uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /acetaffy, headers: {Host: ams.asoul-diana.xyz}}}
-  - {name: 🇺🇸 美国-1.32MB/s, server: 45.199.138.152, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696598013851}}
-  - {name: 🇨🇦 加拿大-3.43MB/s, server: 108.181.24.37, port: 443, type: trojan, password: e0ca72b2-eb7c-4498-b05e-28a3681bacbf, sni: glc-us1.windowsupdatea.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡-1.72MB/s, server: 18.142.229.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
-  - {name: 🇷🇺 俄罗斯联邦-2.80MB/s, server: 212.192.15.145, port: 49487, type: trojan, password: 57a5a57b-8d70-40d0-9bb4-2fefe44762f2, sni: bphk3.mybestjj.com, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-3.57MB/s, server: 209.141.51.75, port: 443, type: trojan, password: 4399583f-06c7-4ec5-bfab-cd5841d4af62, sni: www.visa.cn, skip-cert-verify: true}
+  - {name: 🇭🇰 香港-6.12MB/s, server: 219.78.234.13, port: 80, type: vmess, uuid: ceb4d8ea-2165-4c30-99a7-99d6e76248ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /coco/11, headers: {Host: ap-east-hkt.lnaspiring.com}}}
+  - {name: 中转节点-14.85MB/s, server: 112.29.156.241, port: 47246, type: ss, cipher: chacha20-ietf-poly1305, password: 5d380b1b-a4c9-4e3f-b8d0-088b2e5a3e11}
+  - {name: 🇺🇸 美国-2.38MB/s, server: 107.174.192.54, port: 80, type: vmess, uuid: 09b8b21b-57ed-4ec6-95e0-5a734ae69348, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us-three.1234585.xyz}}}
+  - {name: 中转节点-474.9KB/s, server: 112.29.200.33, port: 17345, type: ss, cipher: chacha20-ietf-poly1305, password: 66bcb880-6b98-4861-8b93-43e3bedbf7a4}
+  - {name: 🇦🇺 澳大利亚-364.2KB/s, server: 37.128.253.239, port: 80, type: vmess, uuid: 09b8b21b-57ed-4ec6-95e0-5a734ae69348, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tw-one.1234585.xyz}}}
+  - {name: 🇫🇷 法国-181.6KB/s, server: 51.158.195.96, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa}
+  - {name: 🇦🇺 澳大利亚-3.01MB/s, server: 54.252.213.127, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: JosjzSvfhlg5ahepnwLgkQ}
+  - {name: 🇺🇸 美国-226.1KB/s, server: 66.42.100.214, port: 60222, type: vmess, uuid: 84134d90-e4fe-4a86-c8d6-4d7bedb3c333, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess}}
+  - {name: 🇫🇷 法国-217.3KB/s, server: fr-am1-5.eqsunshine.com, port: 8181, type: ssr, cipher: aes-256-cfb, password: RcfVcDzzB, protocol: origin, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: ""}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -146,16 +146,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 新加坡-3.85MB/s
-      - 🇸🇬 新加坡-128.1KB/s
-      - 🇯🇵 日本-136.7KB/s
-      - 🇫🇷 法国-598.7KB/s
-      - 🇺🇸 美国-294.3KB/s
-      - 🇺🇸 美国-283.9KB/s
-      - 🇺🇸 美国-1.32MB/s
-      - 🇨🇦 加拿大-3.43MB/s
-      - 🇸🇬 新加坡-1.72MB/s
-      - 🇷🇺 俄罗斯联邦-2.80MB/s
+      - 🇺🇸 美国-3.57MB/s
+      - 🇭🇰 香港-6.12MB/s
+      - 中转节点-14.85MB/s
+      - 🇺🇸 美国-2.38MB/s
+      - 中转节点-474.9KB/s
+      - 🇦🇺 澳大利亚-364.2KB/s
+      - 🇫🇷 法国-181.6KB/s
+      - 🇦🇺 澳大利亚-3.01MB/s
+      - 🇺🇸 美国-226.1KB/s
+      - 🇫🇷 法国-217.3KB/s
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
