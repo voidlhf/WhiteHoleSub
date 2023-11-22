@@ -18,3 +18,14 @@
       "嗅探类型屏蔽": "m3u8,mp4,mkv"
     }
   },
+  
+  {
+    "爱看电影": {
+      "链接": "https://www.ikandy2.fun/",
+      "屏蔽请求": "kbt.yhbsk.cn,.cn/j/,.top/j/,/j/6572,collect-v6.51.la,hm.baidu.com,bdstatic.com/linksubmit/push.js,/share/share_,stgowan.com,/trans/logger.js,/share_view.,zz.bdstatic.com,sdk.51.la,pc.stgowan.com,knt.viplp.top,hnt.tianvip.top,kmt.cslpf.cn,prt.uwnvcxb.cn,hnrfe.yangwb.com,gbnhrt.isdfbvkvsc.xyz,hnqdc.kmbopoie.com,hgnwd.qpowbjk.com,fvbqw.oiknldwlkop.com,gbnea.iabefnkok.net,dfvwe.owprmops.com,fvasd.wqiufbjpo.com,ghnmsd.dwibjkdsn.com,ffgnnv.mnhbfgvc.com,hnmwer.qwiudbnaiio.com,polk.sunyu11.cn",
+      "屏蔽图片": "loading_ik.gif,load_w.png,logo_min_f.png,https://m.ykimg.com/material/0A03/A1/202204/0424/3078289/1650787162745/0D01000062650E79125243228839384E.jpg,https://customer-service.cos.tx.xmcdn.com/storages/239c-customerservice/5F/8C/GKwRIRwGlKHRAAQLIwF1gGCc.jpg,https://customer-service.cos.tx.xmcdn.com/storages/ff34-customerservice/B2/11/GMCoOSEGlKF9AAQLIwF1gDi7.jpg,https://customer-service.cos.tx.xmcdn.com/storages/e42d-customerservice/18/3B/GKwRIW4GlKH8AAQLIwF1gHSj.jpg,https://m.360buyimg.com/babel/jfs/t1/191095/13/23528/299185/627b7b53E2ae4c1eb/2f5725036c5dfd69.jpg,https://customer-service.cos.tx.xmcdn.com/storages/e42d-customerservice/18/3B/GKwRIW4GlKH8AAQLIwF1gHSj.jpg,https://customer-service.cos.tx.xmcdn.com/storages/2dee-customerservice/B6/65/GKwRIasGh0wVAAQLIwFvKKHU.jpg,https://customer-service.cos.tx.xmcdn.com/storages/c28a-customerservice/90/BF/GKwRIW4Gh0yvAAQLIwFvKQvo.jpg,https://sp.fp.ps.netease.com/file/6372154d8c3784b07cbf3b7fg7GB42I904,https://customer-service.cos.tx.xmcdn.com/storages/9666-customerservice/56/CB/GMCoOSYG7I4lAAGo5AGdHEDm.jpg",
+      "js植入": "https://ghproxy.net/https://raw.githubusercontent.com/voidlhf/WhiteHoleSub/master/js/ikandy.js",
+      "嗅探类型": "/video/tos/cn/",
+      "嗅探类型屏蔽": ""
+    }
+  },
