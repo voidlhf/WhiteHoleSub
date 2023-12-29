@@ -17,29 +17,44 @@ dns:
 proxies:
   - {name: 🇨🇦 加拿大-4.81MB/s, server: 23.227.39.36, port: 443, client-fingerprint: chrome, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jsg1.jsjc.sbs, skip-cert-verify: true}
   - {name: 🇩🇪 德国-1.43MB/s, server: 213.202.216.14, port: 443, client-fingerprint: chrome, type: trojan, password: a0b94904-68f1-4e35-9509-0b188cf84505, sni: downloadde.xn--mes358acgm99l.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-2.87MB/s, server: 52.78.207.28, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇭🇰 香港-242.2KB/s, server: 47.243.34.184, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
   - {name: 中转节点-12.65MB/s, server: nc.cm.go002.xyz, port: 19511, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, tfo: false}
   - {name: 🇸🇬 新加坡-2.57MB/s, server: 185.151.146.186, port: 443, client-fingerprint: chrome, type: trojan, password: df6f27115ac04e4494b2ddd034259611, sni: www.gpt123.one, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-3.69MB/s, server: 43.201.84.71, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 韩国-10.85MB/s, server: 64.110.90.224, port: 40004, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
   - {name: 🇰🇷 韩国-233.0KB/s, server: 43.201.253.32, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇨🇦 加拿大-3.40MB/s, server: frontend.kuangbiaoyun.com, port: 40004, client-fingerprint: chrome, type: trojan, password: 9737c85e-ad5c-48f5-93f6-9bdb0361d04c, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大-3.29MB/s, server: 68.233.121.121, port: 40003, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大-3.12MB/s, server: 68.233.121.121, port: 40004, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, skip-cert-verify: true}
   - {name: 🇨🇦 加拿大-3.48MB/s, server: frontend.kuangbiaoyun.com, port: 40003, client-fingerprint: chrome, type: trojan, password: 9737c85e-ad5c-48f5-93f6-9bdb0361d04c, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-417.2KB/s, server: unlk2.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 20802, client-fingerprint: chrome, type: trojan, password: 6ca647f5-91c2-4bf6-b444-762f171ad696, sni: 206.237.5.220, skip-cert-verify: true}
   - {name: 中转节点-3.59MB/s, server: cm.awslcn.info, port: 25258, client-fingerprint: chrome, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
-  - {name: 🇸🇬 新加坡-216.1KB/s, server: 18.143.143.167, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 韩国-3.18MB/s, server: unlk3.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21852, client-fingerprint: chrome, type: trojan, password: 682ac5bf-c171-4c8b-a896-a9a6ac327a53, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-1.21MB/s, server: 57.180.15.88, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇯🇵 日本-180.0KB/s, server: 13.230.132.209, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 🇨🇦 加拿大-3.44MB/s, server: frontend.kuangbiaoyun.com, port: 40005, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国-2.99MB/s, server: 43.201.64.47, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
   - {name: 中转节点-3.46MB/s, server: cu.awslcn.info, port: 25284, client-fingerprint: chrome, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 中转节点-167.2KB/s, server: nc.ct1.go002.xyz, port: 19551, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: dcbc1c7f-c323-4365-bd48-cf767f9081ce, tfo: false}
-  - {name: 🇰🇷 韩国-487.8KB/s, server: unlk4.lvwf8n-hh8e-2300-nmoo-d2e9naobeacn.9d8f269f96b25232-759cbb36d6548597.kaufen, port: 21152, client-fingerprint: chrome, type: trojan, password: 682ac5bf-c171-4c8b-a896-a9a6ac327a53, sni: ip3691376078.mobgslb.tbcache.com, skip-cert-verify: true}
   - {name: 🇰🇷 韩国-208.7KB/s, server: 43.200.254.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 中转节点-7.51MB/s, server: zz101.maikcloud.com, port: 4177, client-fingerprint: chrome, type: vmess, uuid: d81a4bd4-ba86-49ad-b6bd-6d57e6b07577, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
+  - {name: 🇹🇼 台湾-1.62MB/s, server: 3gzdx1.233235.xyz, port: 42311, client-fingerprint: chrome, type: trojan, password: ac0a45fa-d23d-4c44-bfba-371cc52f8267, sni: 3gzdx1.233235.xyz, skip-cert-verify: true}
+  - {name: 🇬🇧 英国-333.7KB/s, server: uk01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-4.72MB/s, server: 142.171.122.68, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, servername: www.21463847.xyz, network: ws, ws-opts: {path: /path/1703231262875, headers: {Host: www.21463847.xyz}}}
+  - {name: 🇺🇸 美国-4.86MB/s, server: 198.2.202.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}}
+  - {name: 🇬🇧 英国-8.45MB/s, server: hk04.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡-2.35MB/s, server: 157.245.52.0, port: 2092, client-fingerprint: chrome, type: vmess, uuid: 26b592f4-b447-4de8-cbef-d517d17dfd76, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram:@hkaa0, headers: {Host: Telegram-Channel.hkaa0.66688888.xyz}}}
+  - {name: 🇩🇪 德国-117.4KB/s, server: 85.208.104.22, port: 40400, client-fingerprint: chrome, type: vmess, uuid: eb6f75a1-3cee-4935-c76c-115114a36c09, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /eb6f75a1}}
+  - {name: 🇪🇪 爱沙尼亚-160.0KB/s, server: ee1-vmess.sshmax.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
+  - {name: 🇺🇸 美国-4.94MB/s, server: 142.171.202.130, port: 443, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702650992491}}
+  - {name: 🇰🇷 韩国-3.69MB/s, server: 43.201.53.4, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇸🇬 新加坡-2.34MB/s, server: 207.148.77.215, port: 2, client-fingerprint: chrome, type: trojan, password: uLMSiafRJ2, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯联邦-3.46MB/s, server: 89.221.224.94, port: 80, client-fingerprint: chrome, type: trojan, password: 28c79056-ccfd-4cc1-93d4-c337cc782e65, sni: is2-t.sshmax.xyz, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-3.89MB/s, server: aws-us-dallas-1.f1rocketnode.com, port: 443, client-fingerprint: chrome, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
+  - {name: 🇸🇪 瑞典-2.82MB/s, server: 172.234.99.161, port: 443, client-fingerprint: chrome, type: trojan, password: 5f610684-118f-46cf-aa34-9951475b75ad, skip-cert-verify: true}
+  - {name: 🇺🇸 美国-3.98MB/s, server: 15.181.201.80, port: 443, client-fingerprint: chrome, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
+  - {name: 🇮🇳 印度-2.34MB/s, server: 103.82.133.201, port: 443, client-fingerprint: chrome, type: trojan, password: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南-217.4KB/s, server: hanoi4.5gsieutocdo.com, port: 443, client-fingerprint: chrome, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇷🇺 俄罗斯联邦-981.6KB/s, server: 45.144.30.202, port: 28490, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: yZdRgske85Hou96z2dRdtH, tfo: false}
+  - {name: 🇸🇬 新加坡-1.30MB/s, server: 52.221.240.143, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
+  - {name: 🇭🇰 香港-9.44MB/s, server: hk01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
+  - {name: 🇬🇧 英国-8.28MB/s, server: tw02.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
+  - {name: 🇻🇳 越南-1.90MB/s, server: 58.187.206.121, port: 443, client-fingerprint: chrome, type: trojan, password: 522NIIFovz, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇻🇳 越南-396.5KB/s, server: hanoi4.speed4g.click, port: 443, client-fingerprint: chrome, type: trojan, password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
+  - {name: 🇬🇧 英国-115.2KB/s, server: 95.164.37.226, port: 8388, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: NjJkZmYw, tfo: false}
+  - {name: 🇳🇱 荷兰-3.08MB/s, server: 45.58.153.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702392255355}}
+  - {name: 🇺🇸 美国-863.7KB/s, server: 38.75.136.49, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, tfo: false}
+  - {name: 🇻🇳 越南-1.97MB/s, server: 103.179.173.233, port: 443, client-fingerprint: chrome, type: trojan, password: mothai34, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -57,29 +72,44 @@ proxy-groups:
     proxies:
       - 🇨🇦 加拿大-4.81MB/s
       - 🇩🇪 德国-1.43MB/s
-      - 🇰🇷 韩国-2.87MB/s
-      - 🇭🇰 香港-242.2KB/s
       - 中转节点-12.65MB/s
       - 🇸🇬 新加坡-2.57MB/s
-      - 🇰🇷 韩国-3.69MB/s
-      - 🇰🇷 韩国-10.85MB/s
       - 🇰🇷 韩国-233.0KB/s
       - 🇨🇦 加拿大-3.40MB/s
-      - 🇨🇦 加拿大-3.29MB/s
-      - 🇨🇦 加拿大-3.12MB/s
       - 🇨🇦 加拿大-3.48MB/s
-      - 🇰🇷 韩国-417.2KB/s
       - 中转节点-3.59MB/s
-      - 🇸🇬 新加坡-216.1KB/s
-      - 🇰🇷 韩国-3.18MB/s
-      - 🇯🇵 日本-1.21MB/s
-      - 🇯🇵 日本-180.0KB/s
       - 🇨🇦 加拿大-3.44MB/s
       - 🇰🇷 韩国-2.99MB/s
       - 中转节点-3.46MB/s
-      - 中转节点-167.2KB/s
-      - 🇰🇷 韩国-487.8KB/s
       - 🇰🇷 韩国-208.7KB/s
+      - 中转节点-7.51MB/s
+      - 🇹🇼 台湾-1.62MB/s
+      - 🇬🇧 英国-333.7KB/s
+      - 🇺🇸 美国-4.72MB/s
+      - 🇺🇸 美国-4.86MB/s
+      - 🇬🇧 英国-8.45MB/s
+      - 🇸🇬 新加坡-2.35MB/s
+      - 🇩🇪 德国-117.4KB/s
+      - 🇪🇪 爱沙尼亚-160.0KB/s
+      - 🇺🇸 美国-4.94MB/s
+      - 🇰🇷 韩国-3.69MB/s
+      - 🇸🇬 新加坡-2.34MB/s
+      - 🇷🇺 俄罗斯联邦-3.46MB/s
+      - 🇺🇸 美国-3.89MB/s
+      - 🇸🇪 瑞典-2.82MB/s
+      - 🇺🇸 美国-3.98MB/s
+      - 🇮🇳 印度-2.34MB/s
+      - 🇻🇳 越南-217.4KB/s
+      - 🇷🇺 俄罗斯联邦-981.6KB/s
+      - 🇸🇬 新加坡-1.30MB/s
+      - 🇭🇰 香港-9.44MB/s
+      - 🇬🇧 英国-8.28MB/s
+      - 🇻🇳 越南-1.90MB/s
+      - 🇻🇳 越南-396.5KB/s
+      - 🇬🇧 英国-115.2KB/s
+      - 🇳🇱 荷兰-3.08MB/s
+      - 🇺🇸 美国-863.7KB/s
+      - 🇻🇳 越南-1.97MB/s
   - name: 📲 电报消息
     type: select
     proxies:
@@ -270,37 +300,38 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港-242.2KB/s
+      - 🇭🇰 香港-9.44MB/s
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本-1.21MB/s
-      - 🇯🇵 日本-180.0KB/s
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - DIRECT
+      - 🇺🇸 美国-4.72MB/s
+      - 🇺🇸 美国-4.86MB/s
+      - 🇺🇸 美国-4.94MB/s
+      - 🇺🇸 美国-3.89MB/s
+      - 🇺🇸 美国-3.98MB/s
+      - 🇺🇸 美国-863.7KB/s
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
       - 🇸🇬 新加坡-2.57MB/s
-      - 🇸🇬 新加坡-216.1KB/s
+      - 🇸🇬 新加坡-2.35MB/s
+      - 🇸🇬 新加坡-2.34MB/s
+      - 🇸🇬 新加坡-1.30MB/s
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇼 台湾-1.62MB/s
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 韩国-2.87MB/s
-      - 🇰🇷 韩国-3.69MB/s
-      - 🇰🇷 韩国-10.85MB/s
       - 🇰🇷 韩国-233.0KB/s
-      - 🇰🇷 韩国-417.2KB/s
-      - 🇰🇷 韩国-3.18MB/s
       - 🇰🇷 韩国-2.99MB/s
-      - 🇰🇷 韩国-487.8KB/s
       - 🇰🇷 韩国-208.7KB/s
+      - 🇰🇷 韩国-3.69MB/s
   - name: 🎥 奈飞节点
     type: select
     proxies:
