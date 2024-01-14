@@ -15,59 +15,60 @@ dns:
     fallback: ['https://doh.dns.sb/dns-query', 'https://dns.cloudflare.com/dns-query', 'https://dns.twnic.tw/dns-query', 'tls://8.8.4.4:853']
     fallback-filter: { geoip: true, ipcidr: [240.0.0.0/4, 0.0.0.0/32] }
 proxies:
-    - { name: 香港01, type: trojan, server: tiananmen.19890604.day, port: 10801, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港02, type: trojan, server: tiananmen.19890604.day, port: 10802, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港03, type: trojan, server: tiananmen.19890604.day, port: 10803, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港04, type: trojan, server: tiananmen.19890604.day, port: 10804, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港05, type: trojan, server: tiananmen.19890604.day, port: 10805, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港06, type: trojan, server: tiananmen.19890604.day, port: 10806, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港07, type: trojan, server: tiananmen.19890604.day, port: 10807, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港08, type: trojan, server: tiananmen.19890604.day, port: 10808, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港09家宽, type: trojan, server: tiananmen.19890604.day, port: 10809, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 香港10家宽, type: trojan, server: tiananmen.19890604.day, port: 10810, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本01, type: trojan, server: xijinping.19890604.day, port: 10811, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本02, type: trojan, server: xijinping.19890604.day, port: 10812, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本03, type: trojan, server: xijinping.19890604.day, port: 10813, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本04, type: trojan, server: xijinping.19890604.day, port: 10814, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本05, type: trojan, server: xijinping.19890604.day, port: 10815, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本06, type: trojan, server: xijinping.19890604.day, port: 10816, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本07, type: trojan, server: xijinping.19890604.day, port: 10817, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 日本08, type: trojan, server: xijinping.19890604.day, port: 10818, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国01, type: trojan, server: falungong.19890604.day, port: 10819, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国02, type: trojan, server: falungong.19890604.day, port: 10820, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国03, type: trojan, server: falungong.19890604.day, port: 10821, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国04, type: trojan, server: falungong.19890604.day, port: 10822, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国05, type: trojan, server: falungong.19890604.day, port: 10823, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国06, type: trojan, server: falungong.19890604.day, port: 10824, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国07, type: trojan, server: falungong.19890604.day, port: 10825, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 美国08, type: trojan, server: falungong.19890604.day, port: 10826, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡01, type: trojan, server: tank.19890604.day, port: 10827, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡02, type: trojan, server: tank.19890604.day, port: 10828, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡03, type: trojan, server: tank.19890604.day, port: 10829, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡04, type: trojan, server: tank.19890604.day, port: 10830, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡05, type: trojan, server: tank.19890604.day, port: 10831, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡06, type: trojan, server: tank.19890604.day, port: 10832, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡07, type: trojan, server: tank.19890604.day, port: 10833, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 新加坡08, type: trojan, server: tank.19890604.day, port: 10834, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 台湾01, type: trojan, server: xibaozi.19890604.day, port: 10835, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 韩国01, type: trojan, server: xibaozi.19890604.day, port: 10836, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 英国01, type: trojan, server: xibaozi.19890604.day, port: 10837, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 法国01, type: trojan, server: xibaozi.19890604.day, port: 10838, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 德国01, type: trojan, server: xibaozi.19890604.day, port: 10839, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 印度01, type: trojan, server: xibaozi.19890604.day, port: 10840, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 迪拜01, type: trojan, server: xibaozi.19890604.day, port: 10841, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 俄罗斯01, type: trojan, server: xibaozi.19890604.day, port: 10844, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 乌克兰01, type: trojan, server: xibaozi.19890604.day, port: 10845, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 土耳其01, type: trojan, server: xibaozi.19890604.day, port: 10846, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 阿根廷01, type: trojan, server: xibaozi.19890604.day, port: 10847, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 奥地利01, type: trojan, server: xibaozi.19890604.day, port: 10848, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 意大利01, type: trojan, server: xibaozi.19890604.day, port: 10849, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
-    - { name: 爱尔兰01, type: trojan, server: xibaozi.19890604.day, port: 10850, password: a5fe20ed-fd14-4692-885f-f94678403283, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港01, type: trojan, server: tiananmen.19890604.day, port: 10801, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港02, type: trojan, server: tiananmen.19890604.day, port: 10802, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港03, type: trojan, server: tiananmen.19890604.day, port: 10803, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港04, type: trojan, server: tiananmen.19890604.day, port: 10804, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港05, type: trojan, server: tiananmen.19890604.day, port: 10805, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港06, type: trojan, server: tiananmen.19890604.day, port: 10806, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港07, type: trojan, server: tiananmen.19890604.day, port: 10807, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港08, type: trojan, server: tiananmen.19890604.day, port: 10808, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港09家宽, type: trojan, server: tiananmen.19890604.day, port: 10809, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 香港10家宽, type: trojan, server: tiananmen.19890604.day, port: 10810, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本01, type: trojan, server: xijinping.19890604.day, port: 10811, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本02, type: trojan, server: xijinping.19890604.day, port: 10812, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本03, type: trojan, server: xijinping.19890604.day, port: 10813, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本04, type: trojan, server: xijinping.19890604.day, port: 10814, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本05, type: trojan, server: xijinping.19890604.day, port: 10815, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本06, type: trojan, server: xijinping.19890604.day, port: 10816, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本07, type: trojan, server: xijinping.19890604.day, port: 10817, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 日本08, type: trojan, server: xijinping.19890604.day, port: 10818, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国01, type: trojan, server: falungong.19890604.day, port: 10819, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国02, type: trojan, server: falungong.19890604.day, port: 10820, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国03, type: trojan, server: falungong.19890604.day, port: 10821, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国04, type: trojan, server: falungong.19890604.day, port: 10822, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国05, type: trojan, server: falungong.19890604.day, port: 10823, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国06, type: trojan, server: falungong.19890604.day, port: 10824, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国07, type: trojan, server: falungong.19890604.day, port: 10825, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 美国08, type: trojan, server: falungong.19890604.day, port: 10826, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡01, type: trojan, server: tank.19890604.day, port: 10827, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡02, type: trojan, server: tank.19890604.day, port: 10828, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡03, type: trojan, server: tank.19890604.day, port: 10829, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡04, type: trojan, server: tank.19890604.day, port: 10830, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡05, type: trojan, server: tank.19890604.day, port: 10831, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡06, type: trojan, server: tank.19890604.day, port: 10832, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡07, type: trojan, server: tank.19890604.day, port: 10833, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 新加坡08, type: trojan, server: tank.19890604.day, port: 10834, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 台湾01, type: trojan, server: xibaozi.19890604.day, port: 10835, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 韩国01, type: trojan, server: xibaozi.19890604.day, port: 10836, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 英国01, type: trojan, server: xibaozi.19890604.day, port: 10837, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 法国01, type: trojan, server: xibaozi.19890604.day, port: 10838, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 德国01, type: trojan, server: xibaozi.19890604.day, port: 10839, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 印度01, type: trojan, server: xibaozi.19890604.day, port: 10840, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 迪拜01, type: trojan, server: xibaozi.19890604.day, port: 10841, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 俄罗斯01, type: trojan, server: xibaozi.19890604.day, port: 10844, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 乌克兰01, type: trojan, server: xibaozi.19890604.day, port: 10845, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 土耳其01, type: trojan, server: xibaozi.19890604.day, port: 10846, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 阿根廷01, type: trojan, server: xibaozi.19890604.day, port: 10847, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 奥地利01, type: trojan, server: xibaozi.19890604.day, port: 10848, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 意大利01, type: trojan, server: xibaozi.19890604.day, port: 10849, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
+    - { name: 爱尔兰01, type: trojan, server: xibaozi.19890604.day, port: 10850, password: 47af250c-7c4c-4eaa-87ea-c308c2f9f851, udp: true, sni: cloudflare.node-ssl.cdn-alibaba.com, skip-cert-verify: true }
 proxy-groups:
     - { name: 泡泡Dog, type: select, proxies: [自动选择, 故障转移,香港01, 香港02, 香港03, 香港04, 香港05, 香港06, 香港07, 香港08, 香港09家宽, 香港10家宽, 日本01, 日本02, 日本03, 日本04, 日本05, 日本06, 日本07, 日本08, 美国01, 美国02, 美国03, 美国04, 美国05, 美国06, 美国07, 美国08, 新加坡01, 新加坡02, 新加坡03, 新加坡04, 新加坡05, 新加坡06, 新加坡07, 新加坡08, 台湾01, 韩国01, 英国01, 法国01, 德国01, 印度01, 迪拜01, 俄罗斯01, 乌克兰01, 土耳其01, 阿根廷01, 奥地利01, 意大利01, 爱尔兰01] }
     - { name: 自动选择, type: url-test, proxies: [香港01, 香港02, 香港03, 香港04, 香港05, 香港06, 香港07, 香港08, 香港09家宽, 香港10家宽, 日本01, 日本02, 日本03, 日本04, 日本05, 日本06, 日本07, 日本08, 美国01, 美国02, 美国03, 美国04, 美国05, 美国06, 美国07, 美国08, 新加坡01, 新加坡02, 新加坡03, 新加坡04, 新加坡05, 新加坡06, 新加坡07, 新加坡08, 台湾01, 韩国01, 英国01, 法国01, 德国01, 印度01, 迪拜01, 俄罗斯01, 乌克兰01, 土耳其01, 阿根廷01, 奥地利01, 意大利01, 爱尔兰01], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
     - { name: 故障转移, type: fallback, proxies: [香港01, 香港02, 香港03, 香港04, 香港05, 香港06, 香港07, 香港08, 香港09家宽, 香港10家宽, 日本01, 日本02, 日本03, 日本04, 日本05, 日本06, 日本07, 日本08, 美国01, 美国02, 美国03, 美国04, 美国05, 美国06, 美国07, 美国08, 新加坡01, 新加坡02, 新加坡03, 新加坡04, 新加坡05, 新加坡06, 新加坡07, 新加坡08, 台湾01, 韩国01, 英国01, 法国01, 德国01, 印度01, 迪拜01, 俄罗斯01, 乌克兰01, 土耳其01, 阿根廷01, 奥地利01, 意大利01, 爱尔兰01], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
+    - 'DOMAIN-KEYWORD,mtalk,DIRECT'
     - 'DOMAIN,v3.dogapi.yachts,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,泡泡Dog'
     - 'DOMAIN-SUFFIX,xn--ngstr-lra8j.com,泡泡Dog'
