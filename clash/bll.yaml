@@ -15,63 +15,22 @@ dns:
     - tls://1.0.0.1:853
     - tls://dns.google:853
 proxies:
-  - {name: 🇨🇦 加拿大-4.81MB/s, server: 23.227.39.36, port: 443, client-fingerprint: chrome, type: trojan, password: 3f23c1eb-ace4-49ec-a7f0-f591b006b95a, sni: jsg1.jsjc.sbs, skip-cert-verify: true}
-  - {name: 🇩🇪 德国-1.43MB/s, server: 213.202.216.14, port: 443, client-fingerprint: chrome, type: trojan, password: a0b94904-68f1-4e35-9509-0b188cf84505, sni: downloadde.xn--mes358acgm99l.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡-2.57MB/s, server: 185.151.146.186, port: 443, client-fingerprint: chrome, type: trojan, password: df6f27115ac04e4494b2ddd034259611, sni: www.gpt123.one, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大-3.40MB/s, server: frontend.kuangbiaoyun.com, port: 40004, client-fingerprint: chrome, type: trojan, password: 9737c85e-ad5c-48f5-93f6-9bdb0361d04c, skip-cert-verify: true}
-  - {name: 🇨🇦 加拿大-3.48MB/s, server: frontend.kuangbiaoyun.com, port: 40003, client-fingerprint: chrome, type: trojan, password: 9737c85e-ad5c-48f5-93f6-9bdb0361d04c, skip-cert-verify: true}
-  - {name: 中转节点-3.59MB/s, server: cm.awslcn.info, port: 25258, client-fingerprint: chrome, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
-  - {name: 🇨🇦 加拿大-3.44MB/s, server: frontend.kuangbiaoyun.com, port: 40005, client-fingerprint: chrome, type: trojan, password: 57edfecf-5694-4a34-8072-54a4f0636a62, sni: frontend.kuangbiaoyun.com, skip-cert-verify: true}
-  - {name: 中转节点-3.46MB/s, server: cu.awslcn.info, port: 25284, client-fingerprint: chrome, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cu.awslcn.info}}}
-  - {name: 🇬🇧 英国-8.45MB/s, server: hk04.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
-  - {name: 🇪🇪 爱沙尼亚-160.0KB/s, server: ee1-vmess.sshmax.xyz, port: 80, client-fingerprint: chrome, type: vmess, uuid: 34d4f393-ead9-48df-9370-ca8b52e6aabd, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ee1-vmess.sshmax.xyz}}}
-  - {name: 🇺🇸 美国-3.89MB/s, server: aws-us-dallas-1.f1rocketnode.com, port: 443, client-fingerprint: chrome, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
-  - {name: 🇸🇪 瑞典-2.82MB/s, server: 172.234.99.161, port: 443, client-fingerprint: chrome, type: trojan, password: 5f610684-118f-46cf-aa34-9951475b75ad, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-3.98MB/s, server: 15.181.201.80, port: 443, client-fingerprint: chrome, type: trojan, password: pjdnqv, sni: aws-us-dallas-1.f1rocketnode.com, skip-cert-verify: true}
-  - {name: 🇮🇳 印度-2.34MB/s, server: 103.82.133.201, port: 443, client-fingerprint: chrome, type: trojan, password: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡-1.30MB/s, server: 52.221.240.143, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇭🇰 香港-9.44MB/s, server: hk01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, skip-cert-verify: true}
-  - {name: 🇻🇳 越南-396.5KB/s, server: hanoi4.speed4g.click, port: 443, client-fingerprint: chrome, type: trojan, password: b379fd8e-75c6-4bd6-8a5b-88f3e64bb3fa, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-3.08MB/s, server: 45.58.153.24, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 4242f9e0-6b7e-4257-9e93-7ad38015c46a, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702392255355}}
-  - {name: 🇺🇸 美国-863.7KB/s, server: 38.75.136.49, port: 7306, client-fingerprint: chrome, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, tfo: false}
-  - {name: 🇻🇳 越南-1.97MB/s, server: 103.179.173.233, port: 443, client-fingerprint: chrome, type: trojan, password: mothai34, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 中转节点-370.3KB/s, server: 112.28.208.10, port: 45055, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-1.58MB/s, server: hk02.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk02.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-8.95MB/s, server: hk03.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: hk03.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇭🇰 香港-8.17MB/s, server: tw01.trojanyyds.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, sni: tw01.trojanyyds.xyz, skip-cert-verify: true}
-  - {name: 🇻🇳 越南-327.5KB/s, server: antiddos1.5gtocdocao.com, port: 443, client-fingerprint: chrome, type: trojan, password: 7a2c5296-683d-48db-9856-373cafac48b5, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国-326.0KB/s, server: 51.141.100.112, port: 24007, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: kYlKGnPRNwVk4RQEi7oqQs, tfo: false}
-  - {name: 🇻🇳 越南-153.6KB/s, server: 103.82.134.110, port: 80, client-fingerprint: chrome, type: vmess, uuid: bfb9f927-eef3-4dfd-adbe-05bcc8279b41, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /ongtrumdata.com}}
-  - {name: 🇩🇪 德国-3.12MB/s, server: 80.92.204.106, port: 9094, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, tfo: false}
-  - {name: 中转节点-8.02MB/s, server: cm.awslcn.info, port: 25233, client-fingerprint: chrome, type: vmess, uuid: 93ec7261-1c92-4149-848a-26b6fb9fc4ce, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: cm.awslcn.info}}}
-  - {name: 🇩🇪 德国-146.4KB/s, server: www.casperco.online, port: 1935, client-fingerprint: chrome, type: trojan, password: 74811f39-8f69-4334-9e0f-a8a25d7413c1, skip-cert-verify: true}
-  - {name: 🇳🇱 荷兰-111.1KB/s, server: 45.87.153.246, port: 6199, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: f7EI0dGWQM42T8gwN9CZIj, tfo: false}
-  - {name: 🇯🇵 日本-1.29MB/s, server: 109.123.230.157, port: 80, client-fingerprint: chrome, type: vmess, uuid: 59517e0b-ae1c-41d3-9c44-c44cea6f7546, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: internet.life.com.by}}}
-  - {name: 🇭🇰 香港-267.1KB/s, server: 8.217.217.138, port: 80, client-fingerprint: chrome, type: ss, cipher: aes-128-gcm, password: a-wym4ovY4Yw, tfo: false, plugin: obfs, plugin-opts: {mode: http, host: ""}}
-  - {name: 🇯🇵 日本-1.78MB/s, server: jp.takeshi.wiki, port: 80, client-fingerprint: chrome, type: vmess, uuid: a19f357b-c836-4cf6-9e43-72390e6a00df, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /takeshi.wiki, headers: {Host: dl.kgvn.garenanow.com}}}
-  - {name: 🇻🇳 越南-1.96MB/s, server: hn5.fuzzypn.me, port: 80, client-fingerprint: chrome, type: vmess, uuid: 7a9eab7e-f9be-4b4d-8cbb-eaaee62d9eee, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: lienquan.garena.vn}}}
-  - {name: 🇻🇳 越南-124.6KB/s, server: vip.zinok.pro, port: 443, client-fingerprint: chrome, type: trojan, password: mothai3456789080898, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-3.65MB/s, server: 68.183.159.199, port: 2092, client-fingerprint: chrome, type: vmess, uuid: 038e2714-5cbf-4812-fcfb-8726665c63b6, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /telegram:@hkaa0}}
-  - {name: 🇺🇸 美国-4.08MB/s, server: 45.56.73.46, port: 443, client-fingerprint: chrome, type: trojan, password: 9b57d792-fe3e-42f7-9561-0f0833ed6556, skip-cert-verify: true}
-  - {name: 🇬🇧 英国-4.01MB/s, server: 51.141.101.197, port: 65167, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: mpbNXygSyEFjShgMh7tWHX, tfo: false}
-  - {name: 🇻🇳 越南-2.14MB/s, server: antiddos88.5gtocdocao.com, port: 443, client-fingerprint: chrome, type: trojan, password: 7a2c5296-683d-48db-9856-373cafac48b5, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇻🇳 越南-290.1KB/s, server: hanoi4.5gsieutocdo.com, port: 443, client-fingerprint: chrome, type: trojan, password: c95357eb-2869-4511-8940-f0dc5e1ec9b1, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 中转节点-604.9KB/s, server: service.ouluyun9803.com, port: 50002, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73637cec-699d-4d87-99af-0776ac880604, tfo: false}
-  - {name: 🇯🇵 日本-1.81MB/s, server: 54.95.21.57, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇻🇳 越南-1.98MB/s, server: gaming.ht4gvpn.com, port: 443, client-fingerprint: chrome, type: trojan, password: 2b69324d-5fe2-48c2-923f-049c3093cd56, sni: dl.kgvn.garenanow.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-6.32MB/s, server: microsoft-hk03.syjd.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 51eebef7-beaa-417b-9584-2794d10377c9, sni: microsoft-hk03.syjd.xyz, skip-cert-verify: true}
-  - {name: 中转节点-569.7KB/s, server: service.ouluyun9803.com, port: 20003, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73637cec-699d-4d87-99af-0776ac880604, tfo: false}
-  - {name: 中转节点-157.8KB/s, server: service.ouluyun9803.com, port: 20007, client-fingerprint: chrome, type: ss, cipher: chacha20-ietf-poly1305, password: 73637cec-699d-4d87-99af-0776ac880604, tfo: false}
-  - {name: 🇯🇵 日本-1.68MB/s, server: microsoft-hk02.syjd.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 51eebef7-beaa-417b-9584-2794d10377c9, sni: microsoft-hk02.syjd.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-3.78MB/s, server: 15.165.15.228, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 韩国-404.5KB/s, server: 52.79.193.91, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇸🇬 新加坡-3.32MB/s, server: 158.178.227.16, port: 30839, client-fingerprint: chrome, type: vmess, uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81, alterId: 0, cipher: auto, tls: false, tfo: false, skip-cert-verify: true}
-  - {name: 🇯🇵 日本-1.84MB/s, server: microsoft-hk01.syjd.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 51eebef7-beaa-417b-9584-2794d10377c9, sni: microsoft-hk01.syjd.xyz, skip-cert-verify: true}
-  - {name: 🇺🇸 美国-2.98MB/s, server: 198.2.200.37, port: 30000, client-fingerprint: chrome, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1702215223320}}
-  - {name: 🇯🇵 日本-952.7KB/s, server: microsoft-hk.syjd.xyz, port: 443, client-fingerprint: chrome, type: trojan, password: 51eebef7-beaa-417b-9584-2794d10377c9, sni: microsoft-hk.syjd.xyz, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国-141.8KB/s, server: 43.201.100.232, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 🇰🇷 韩国-110.2KB/s, server: 43.200.254.135, port: 443, client-fingerprint: chrome, type: ss, cipher: aes-256-cfb, password: amazonskr05, tfo: false}
-  - {name: 中转节点-104.6KB/s, server: gbs.pptv-tv.store, port: 17728, client-fingerprint: chrome, type: trojan, password: 299a6171-b4ce-403a-8157-c3dad55ef3a2, skip-cert-verify: true}
+  - {name: 未知国家-177.4KB/s, server: 104.18.15.147, port: 80, type: vmess, uuid: 9b170ad4-3211-4f0f-8bc9-80d356b67662, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: us3.889611.com}}}
+  - {name: 🇰🇷 韩国-3.73MB/s, server: 43.200.254.135, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇪🇪 爱沙尼亚-180.5KB/s, server: 95.164.8.106, port: 80, type: vmess, uuid: c1ebe8c7-bdd9-4aca-a2f7-01bea79279b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmess, headers: {Host: ee2-vmess.sshmax.xyz}}}
+  - {name: 🇰🇷 韩国-2.46MB/s, server: p237.panda004.net, port: 2003, type: ss, cipher: aes-256-cfb, password: qwerREWQ@@}
+  - {name: 未知国家-171.2KB/s, server: cfcdn2.sanfencdn9.com, port: 2052, type: vmess, uuid: 2b48622d-307c-40cf-88ca-954f83f3a9dd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/u4eCZTxW, headers: {Host: jpafzyhfsg3.yofnhkfc.xyz}}}
+  - {name: 🇸🇬 新加坡-662.0KB/s, server: 103.172.116.103, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ}
+  - {name: 🇸🇬 新加坡-1.21MB/s, server: 103.172.116.103, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY}
+  - {name: 🇯🇵 日本-2.05MB/s, server: 43.207.197.15, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇻🇳 越南-1.77MB/s, server: 115.79.238.34, port: 443, type: trojan, password: fbccfed7-1aeb-416a-a4fd-7af1747f9f3b, sni: lienquan.garena.vn, skip-cert-verify: true}
+  - {name: 🇸🇬 新加坡-163.6KB/s, server: 103.172.116.103, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb}
+  - {name: 🇩🇪 德国-1.49MB/s, server: 5.104.108.120, port: 443, type: trojan, password: 56e1f11c-1217-46ab-b127-6afbc23bafba, sni: 20-24-33-134.nhost.00cdn.com, skip-cert-verify: true}
+  - {name: 🇹🇼 台湾-5.90MB/s, server: b23.ntbq.dynu.net, port: 2024, type: vmess, uuid: 05f1e2ad-1d21-449b-9bbb-97a8b4662934, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true}
+  - {name: 🇯🇵 日本-175.6KB/s, server: 18.176.215.63, port: 2377, type: ss, cipher: chacha20-ietf-poly1305, password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv, plugin: obfs, plugin-opts: {mode: tls, host: (TG@kkouokk)7112bba:140737}}
+  - {name: 🇯🇵 日本-399.6KB/s, server: 13.231.164.174, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05}
+  - {name: 🇸🇬 新加坡-151.9KB/s, server: 103.172.116.103, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ}
+  - {name: 🇸🇬 新加坡-109.4KB/s, server: 103.172.116.103, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -87,63 +46,22 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - 🇨🇦 加拿大-4.81MB/s
-      - 🇩🇪 德国-1.43MB/s
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇨🇦 加拿大-3.40MB/s
-      - 🇨🇦 加拿大-3.48MB/s
-      - 中转节点-3.59MB/s
-      - 🇨🇦 加拿大-3.44MB/s
-      - 中转节点-3.46MB/s
-      - 🇬🇧 英国-8.45MB/s
-      - 🇪🇪 爱沙尼亚-160.0KB/s
-      - 🇺🇸 美国-3.89MB/s
-      - 🇸🇪 瑞典-2.82MB/s
-      - 🇺🇸 美国-3.98MB/s
-      - 🇮🇳 印度-2.34MB/s
-      - 🇸🇬 新加坡-1.30MB/s
-      - 🇭🇰 香港-9.44MB/s
-      - 🇻🇳 越南-396.5KB/s
-      - 🇳🇱 荷兰-3.08MB/s
-      - 🇺🇸 美国-863.7KB/s
-      - 🇻🇳 越南-1.97MB/s
-      - 中转节点-370.3KB/s
-      - 🇯🇵 日本-1.58MB/s
-      - 🇭🇰 香港-8.95MB/s
-      - 🇭🇰 香港-8.17MB/s
-      - 🇻🇳 越南-327.5KB/s
-      - 🇬🇧 英国-326.0KB/s
-      - 🇻🇳 越南-153.6KB/s
-      - 🇩🇪 德国-3.12MB/s
-      - 中转节点-8.02MB/s
-      - 🇩🇪 德国-146.4KB/s
-      - 🇳🇱 荷兰-111.1KB/s
-      - 🇯🇵 日本-1.29MB/s
-      - 🇭🇰 香港-267.1KB/s
-      - 🇯🇵 日本-1.78MB/s
-      - 🇻🇳 越南-1.96MB/s
-      - 🇻🇳 越南-124.6KB/s
-      - 🇺🇸 美国-3.65MB/s
-      - 🇺🇸 美国-4.08MB/s
-      - 🇬🇧 英国-4.01MB/s
-      - 🇻🇳 越南-2.14MB/s
-      - 🇻🇳 越南-290.1KB/s
-      - 中转节点-604.9KB/s
-      - 🇯🇵 日本-1.81MB/s
-      - 🇻🇳 越南-1.98MB/s
-      - 🇯🇵 日本-6.32MB/s
-      - 中转节点-569.7KB/s
-      - 中转节点-157.8KB/s
-      - 🇯🇵 日本-1.68MB/s
-      - 🇰🇷 韩国-3.78MB/s
-      - 🇰🇷 韩国-404.5KB/s
-      - 🇸🇬 新加坡-3.32MB/s
-      - 🇯🇵 日本-1.84MB/s
-      - 🇺🇸 美国-2.98MB/s
-      - 🇯🇵 日本-952.7KB/s
-      - 🇰🇷 韩国-141.8KB/s
-      - 🇰🇷 韩国-110.2KB/s
-      - 中转节点-104.6KB/s
+      - 未知国家-177.4KB/s
+      - 🇰🇷 韩国-3.73MB/s
+      - 🇪🇪 爱沙尼亚-180.5KB/s
+      - 🇰🇷 韩国-2.46MB/s
+      - 未知国家-171.2KB/s
+      - 🇸🇬 新加坡-662.0KB/s
+      - 🇸🇬 新加坡-1.21MB/s
+      - 🇯🇵 日本-2.05MB/s
+      - 🇻🇳 越南-1.77MB/s
+      - 🇸🇬 新加坡-163.6KB/s
+      - 🇩🇪 德国-1.49MB/s
+      - 🇹🇼 台湾-5.90MB/s
+      - 🇯🇵 日本-175.6KB/s
+      - 🇯🇵 日本-399.6KB/s
+      - 🇸🇬 新加坡-151.9KB/s
+      - 🇸🇬 新加坡-109.4KB/s
   - name: 📲 电报消息
     type: select
     proxies:
@@ -334,47 +252,34 @@ proxy-groups:
   - name: 🇭🇰 香港节点
     type: select
     proxies:
-      - 🇭🇰 香港-9.44MB/s
-      - 🇭🇰 香港-8.95MB/s
-      - 🇭🇰 香港-8.17MB/s
-      - 🇭🇰 香港-267.1KB/s
+      - DIRECT
   - name: 🇯🇵 日本节点
     type: select
     proxies:
-      - 🇯🇵 日本-1.58MB/s
-      - 🇯🇵 日本-1.29MB/s
-      - 🇯🇵 日本-1.78MB/s
-      - 🇯🇵 日本-1.81MB/s
-      - 🇯🇵 日本-6.32MB/s
-      - 🇯🇵 日本-1.68MB/s
-      - 🇯🇵 日本-1.84MB/s
-      - 🇯🇵 日本-952.7KB/s
+      - 🇯🇵 日本-2.05MB/s
+      - 🇯🇵 日本-175.6KB/s
+      - 🇯🇵 日本-399.6KB/s
   - name: 🇺🇲 美国节点
     type: select
     proxies:
-      - 🇺🇸 美国-3.89MB/s
-      - 🇺🇸 美国-3.98MB/s
-      - 🇺🇸 美国-863.7KB/s
-      - 🇺🇸 美国-3.65MB/s
-      - 🇺🇸 美国-4.08MB/s
-      - 🇺🇸 美国-2.98MB/s
+      - DIRECT
   - name: 🇸🇬 狮城节点
     type: select
     proxies:
-      - 🇸🇬 新加坡-2.57MB/s
-      - 🇸🇬 新加坡-1.30MB/s
-      - 🇸🇬 新加坡-3.32MB/s
+      - 🇸🇬 新加坡-662.0KB/s
+      - 🇸🇬 新加坡-1.21MB/s
+      - 🇸🇬 新加坡-163.6KB/s
+      - 🇸🇬 新加坡-151.9KB/s
+      - 🇸🇬 新加坡-109.4KB/s
   - name: 🇨🇳 台湾节点
     type: select
     proxies:
-      - DIRECT
+      - 🇹🇼 台湾-5.90MB/s
   - name: 🇰🇷 韩国节点
     type: select
     proxies:
-      - 🇰🇷 韩国-3.78MB/s
-      - 🇰🇷 韩国-404.5KB/s
-      - 🇰🇷 韩国-141.8KB/s
-      - 🇰🇷 韩国-110.2KB/s
+      - 🇰🇷 韩国-3.73MB/s
+      - 🇰🇷 韩国-2.46MB/s
   - name: 🎥 奈飞节点
     type: select
     proxies:
@@ -2457,10 +2362,12 @@ rules:
   - DOMAIN-SUFFIX,bigfunapp.cn,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biliapi.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biliapi.net,📺 哔哩哔哩
+  - DOMAIN-SUFFIX,bilibili.co,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilibili.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilibili.tv,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biligame.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,biligame.net,📺 哔哩哔哩
+  - DOMAIN-SUFFIX,biliintl.co,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilivideo.cn,📺 哔哩哔哩
   - DOMAIN-SUFFIX,bilivideo.com,📺 哔哩哔哩
   - DOMAIN-SUFFIX,hdslb.com,📺 哔哩哔哩
@@ -2560,6 +2467,9 @@ rules:
   - DOMAIN,gamer2-cds.cdn.hinet.net,🌍 国外媒体
   - DOMAIN-SUFFIX,bahamut.com.tw,🌍 国外媒体
   - DOMAIN-SUFFIX,gamer.com.tw,🌍 国外媒体
+  - DOMAIN-SUFFIX,bilibili.tv,🌍 国外媒体
+  - DOMAIN-SUFFIX,bstarstatic.com,🌍 国外媒体
+  - DOMAIN,pic-bstarstatic.akamaized.net,🌍 国外媒体
   - DOMAIN-KEYWORD,voddazn,🌍 国外媒体
   - DOMAIN,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
   - DOMAIN-SUFFIX,d151l6v8er5bdm.cloudfront.net,🌍 国外媒体
@@ -2609,7 +2519,6 @@ rules:
   - DOMAIN-SUFFIX,hbomax.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbomaxcdn.com,🌍 国外媒体
   - DOMAIN-SUFFIX,hbonow.com,🌍 国外媒体
-  - DOMAIN-KEYWORD,.hbogoasia.,🌍 国外媒体
   - DOMAIN-KEYWORD,hbogoasia,🌍 国外媒体
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com,🌍 国外媒体
   - DOMAIN,bcbolthboa-a.akamaihd.net,🌍 国外媒体
@@ -3592,6 +3501,7 @@ rules:
   - DOMAIN-SUFFIX,caijinglengyan.com,🚀 节点选择
   - DOMAIN-SUFFIX,calameo.com,🚀 节点选择
   - DOMAIN-SUFFIX,calebelston.com,🚀 节点选择
+  - DOMAIN-SUFFIX,calendarz.com,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.ca,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.com,🚀 节点选择
   - DOMAIN-SUFFIX,calgarychinese.net,🚀 节点选择
@@ -3661,6 +3571,7 @@ rules:
   - DOMAIN-SUFFIX,cdef.org,🚀 节点选择
   - DOMAIN-SUFFIX,cdig.info,🚀 节点选择
   - DOMAIN-SUFFIX,cdjp.org,🚀 节点选择
+  - DOMAIN-SUFFIX,cdn-telegram.org,🚀 节点选择
   - DOMAIN-SUFFIX,cdnews.com.tw,🚀 节点选择
   - DOMAIN-SUFFIX,cdninstagram.com,🚀 节点选择
   - DOMAIN-SUFFIX,cdp1989.org,🚀 节点选择
@@ -3889,6 +3800,7 @@ rules:
   - DOMAIN-SUFFIX,comic-mega.me,🚀 节点选择
   - DOMAIN-SUFFIX,comico.tw,🚀 节点选择
   - DOMAIN-SUFFIX,commandarms.com,🚀 节点选择
+  - DOMAIN-SUFFIX,comments.app,🚀 节点选择
   - DOMAIN-SUFFIX,commentshk.com,🚀 节点选择
   - DOMAIN-SUFFIX,communistcrimes.org,🚀 节点选择
   - DOMAIN-SUFFIX,communitychoicecu.com,🚀 节点选择
@@ -4741,6 +4653,7 @@ rules:
   - DOMAIN-SUFFIX,geekheart.info,🚀 节点选择
   - DOMAIN-SUFFIX,gekikame.com,🚀 节点选择
   - DOMAIN-SUFFIX,gelbooru.com,🚀 节点选择
+  - DOMAIN-SUFFIX,generated.photos,🚀 节点选择
   - DOMAIN-SUFFIX,genius.com,🚀 节点选择
   - DOMAIN-SUFFIX,geocities.co.jp,🚀 节点选择
   - DOMAIN-SUFFIX,geocities.com,🚀 节点选择
@@ -5114,10 +5027,10 @@ rules:
   - DOMAIN-SUFFIX,grammaly.com,🚀 节点选择
   - DOMAIN-SUFFIX,grandtrial.org,🚀 节点选择
   - DOMAIN-SUFFIX,grangorz.org,🚀 节点选择
+  - DOMAIN-SUFFIX,graph.org,🚀 节点选择
   - DOMAIN-SUFFIX,graphis.ne.jp,🚀 节点选择
   - DOMAIN-SUFFIX,graphql.org,🚀 节点选择
   - DOMAIN-SUFFIX,gravatar.com,🚀 节点选择
-  - DOMAIN-SUFFIX,greasespot.net,🚀 节点选择
   - DOMAIN-SUFFIX,great-firewall.com,🚀 节点选择
   - DOMAIN-SUFFIX,great-roc.org,🚀 节点选择
   - DOMAIN-SUFFIX,greatfire.org,🚀 节点选择
@@ -5407,6 +5320,8 @@ rules:
   - DOMAIN-SUFFIX,hudatoriq.web.id,🚀 节点选择
   - DOMAIN-SUFFIX,hudson.org,🚀 节点选择
   - DOMAIN-SUFFIX,huffingtonpost.com,🚀 节点选择
+  - DOMAIN-SUFFIX,huffpost.com,🚀 节点选择
+  - DOMAIN-SUFFIX,huggingface.co,🚀 节点选择
   - DOMAIN-SUFFIX,hugoroy.eu,🚀 节点选择
   - DOMAIN-SUFFIX,huhaitai.com,🚀 节点选择
   - DOMAIN-SUFFIX,huhamhire.com,🚀 节点选择
@@ -6556,6 +6471,7 @@ rules:
   - DOMAIN-SUFFIX,oauth.net,🚀 节点选择
   - DOMAIN-SUFFIX,observechina.net,🚀 节点选择
   - DOMAIN-SUFFIX,obutu.com,🚀 节点选择
+  - DOMAIN-SUFFIX,obyte.org,🚀 节点选择
   - DOMAIN-SUFFIX,ocaspro.com,🚀 节点选择
   - DOMAIN-SUFFIX,occupytiananmen.com,🚀 节点选择
   - DOMAIN-SUFFIX,oclp.hk,🚀 节点选择
@@ -6921,6 +6837,7 @@ rules:
   - DOMAIN-SUFFIX,psiphon.ca,🚀 节点选择
   - DOMAIN-SUFFIX,psiphon3.com,🚀 节点选择
   - DOMAIN-SUFFIX,psiphontoday.com,🚀 节点选择
+  - DOMAIN-SUFFIX,pstatic.net,🚀 节点选择
   - DOMAIN-SUFFIX,pt.im,🚀 节点选择
   - DOMAIN-SUFFIX,pts.org.tw,🚀 节点选择
   - DOMAIN-SUFFIX,ptt.cc,🚀 节点选择
@@ -6979,6 +6896,7 @@ rules:
   - DOMAIN-SUFFIX,questvisual.com,🚀 节点选择
   - DOMAIN-SUFFIX,quitccp.net,🚀 节点选择
   - DOMAIN-SUFFIX,quitccp.org,🚀 节点选择
+  - DOMAIN-SUFFIX,quiz.directory,🚀 节点选择
   - DOMAIN-SUFFIX,quora.com,🚀 节点选择
   - DOMAIN-SUFFIX,quoracdn.net,🚀 节点选择
   - DOMAIN-SUFFIX,quran.com,🚀 节点选择
@@ -7677,9 +7595,11 @@ rules:
   - DOMAIN-SUFFIX,tehrantimes.com,🚀 节点选择
   - DOMAIN-SUFFIX,telecomspace.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
+  - DOMAIN-SUFFIX,telegram-cdn.org,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.dog,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.me,🚀 节点选择
   - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
+  - DOMAIN-SUFFIX,telegram.space,🚀 节点选择
   - DOMAIN-SUFFIX,telegramdownload.com,🚀 节点选择
   - DOMAIN-SUFFIX,telegraph.co.uk,🚀 节点选择
   - DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
@@ -7748,6 +7668,7 @@ rules:
   - DOMAIN-SUFFIX,thomasbernhard.org,🚀 节点选择
   - DOMAIN-SUFFIX,thongdreams.com,🚀 节点选择
   - DOMAIN-SUFFIX,threadreaderapp.com,🚀 节点选择
+  - DOMAIN-SUFFIX,threads.net,🚀 节点选择
   - DOMAIN-SUFFIX,threatchaos.com,🚀 节点选择
   - DOMAIN-SUFFIX,throughnightsfire.com,🚀 节点选择
   - DOMAIN-SUFFIX,thumbzilla.com,🚀 节点选择
@@ -8374,6 +8295,7 @@ rules:
   - DOMAIN-SUFFIX,wav.tv,🚀 节点选择
   - DOMAIN-SUFFIX,waveprotocol.org,🚀 节点选择
   - DOMAIN-SUFFIX,waymo.com,🚀 节点选择
+  - DOMAIN-SUFFIX,wd.bible,🚀 节点选择
   - DOMAIN-SUFFIX,wda.gov.tw,🚀 节点选择
   - DOMAIN-SUFFIX,wdf5.com,🚀 节点选择
   - DOMAIN-SUFFIX,wealth.com.tw,🚀 节点选择
@@ -8489,12 +8411,12 @@ rules:
   - DOMAIN-SUFFIX,witopia.net,🚀 节点选择
   - DOMAIN-SUFFIX,wizcrafts.net,🚀 节点选择
   - DOMAIN-SUFFIX,wjbk.org,🚀 节点选择
+  - DOMAIN-SUFFIX,wmflabs.org,🚀 节点选择
   - DOMAIN-SUFFIX,wn.com,🚀 节点选择
   - DOMAIN-SUFFIX,wnacg.com,🚀 节点选择
   - DOMAIN-SUFFIX,wnacg.org,🚀 节点选择
   - DOMAIN-SUFFIX,wo.tc,🚀 节点选择
   - DOMAIN-SUFFIX,woeser.com,🚀 节点选择
-  - DOMAIN-SUFFIX,woesermiddle-way.net,🚀 节点选择
   - DOMAIN-SUFFIX,wokar.org,🚀 节点选择
   - DOMAIN-SUFFIX,wolfax.com,🚀 节点选择
   - DOMAIN-SUFFIX,wombo.ai,🚀 节点选择
@@ -8652,6 +8574,7 @@ rules:
   - DOMAIN-SUFFIX,yam.org.tw,🚀 节点选择
   - DOMAIN-SUFFIX,yande.re,🚀 节点选择
   - DOMAIN-SUFFIX,yandex.com,🚀 节点选择
+  - DOMAIN-SUFFIX,yandex.ru,🚀 节点选择
   - DOMAIN-SUFFIX,yanghengjun.com,🚀 节点选择
   - DOMAIN-SUFFIX,yangjianli.com,🚀 节点选择
   - DOMAIN-SUFFIX,yasni.co.uk,🚀 节点选择
@@ -9182,6 +9105,8 @@ rules:
   - DOMAIN-SUFFIX,biliapi.com,🎯 全球直连
   - DOMAIN-SUFFIX,biliapi.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilibili.com,🎯 全球直连
+  - DOMAIN-SUFFIX,bilibili.co,🎯 全球直连
+  - DOMAIN-SUFFIX,biliintl.co,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.com,🎯 全球直连
   - DOMAIN-SUFFIX,biligame.net,🎯 全球直连
   - DOMAIN-SUFFIX,bilivideo.com,🎯 全球直连
