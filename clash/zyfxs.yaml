@@ -1,1 +1,573 @@
-error code: 502
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 🇺🇸 美国 惠普公司, server: 15.236.238.159, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点, server: 104.21.82.39, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 2, server: 172.67.152.170, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
+  - {name: 🇨🇳 广东省 移动, server: vip.basicnode.host, port: 16627, type: vmess, uuid: 2ab54438-8af9-3711-bf1a-676fcc144586, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /niuniu, headers: {Host: 193.25.215.160}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 3, server: 104.21.238.94, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 4, server: m07.tk4433.com, port: 2053, type: vmess, uuid: 5e2b3a4d-bd24-4a58-f55d-ed7bdcd421d3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /m07.tk4433.com, headers: {Host: m07.tk4433.com}}, udp: true}
+  - {name: 🇺🇸 北美地区 V2CROSS.COM, server: us.sptnk.space, port: 57456, type: ss, cipher: chacha20-ietf-poly1305, password: 3fbeb668f48414f6, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 5, server: 104.21.225.25, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 6, server: 172.67.192.61, port: 443, type: trojan, password: 2e75beeb-25d1-4419-b8bb-95933f7d8488, sni: vpnerormmvb.arminhadadi.site, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 7, server: 104.18.19.116, port: 2052, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /video/GQ2qE5Us9g, headers: {Host: tw1bQiWSE4x.fzbqfrse.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心, server: 45.56.69.64, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: QxS7HoM6VSTGHCJg8sVFBS, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 8, server: yh2.freeh1.xyz, port: 8080, type: vmess, uuid: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: d9c5ec6a-a8d8-4732-8447-56fbd2f93e96-vm, headers: {Host: pcs-referenced-camera-concerns.trycloudflare.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 9, server: mahilu.site, port: 2052, type: vmess, uuid: 7a737f41-b792-4260-94ff-3d864da67b80, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mahilu.site}}, udp: true}
+  - {name: 🇺🇸 美国 CacheFly全球Anycast节点, server: 205.234.231.204, port: 19755, type: vmess, uuid: f3f8eb00-67b7-4254-f692-7f87e195925a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 10, server: 172.67.66.46, port: 8080, type: vmess, uuid: aa1dbb68-bfb5-4484-f7e7-7335eac3988c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: eu2.openxai.link}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 11, server: 172.67.49.214, port: 80, type: vmess, uuid: 22a13aa2-4854-44cb-e090-ec71ab84b1ff, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wap.hostmjj.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 12, server: 104.21.231.56, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify), server: 23.227.38.23, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 34c0bb5e-c120-432d-9c58-bd7d82c7397b-vm, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 13, server: 104.21.224.184, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳@WangCai_8", headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 🇺🇸 美国 华盛顿Cogent通信公司, server: 38.68.134.9, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: 🇺🇸 美国 华盛顿州昆西Microsoft公司, server: 51.143.178.216, port: 19496, type: ss, cipher: chacha20-ietf-poly1305, password: rGMbZNb8q570tLfwH2OXn8, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 14, server: 104.21.231.57, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳", headers: {Host: a.prapt4.ir}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 15, server: yh1.dtku41.xyz, port: 8080, type: vmess, uuid: 34c0bb5e-c120-432d-9c58-bd7d82c7397b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: uh-lawyers-instruments-kernel.trycloudflare.com}}, udp: true}
+  - {name: 🇮🇳 印度 V2CROSS.COM, server: 113.30.149.31, port: 24981, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 0bWb5D7XZeYCOG9EZSD+QHcfb+iO5sPenxas9Q35kTo=:JuSiOM3tX+TVFMLBDf09ApTE1XUxviMH1gwbgaHrkHI=, udp: true}
+  - {name: 🇬🇧 英国 伦敦Amazon数据中心, server: 35.179.21.184, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 16, server: 104.21.221.219, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 🇺🇸 美国 V2CROSS.COM, server: 157.254.231.37, port: 20000, type: vmess, uuid: 4eec0ed9-3b38-49fb-cc84-669b088a6af6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /fat}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2, server: 23.227.38.22, port: 8080, type: vmess, uuid: 9258153a-dc97-4e39-9037-009abfc4fed0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 9258153a-dc97-4e39-9037-009abfc4fed0-vm, headers: {Host: per-essex-patterns-bowling.trycloudflare.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 17, server: cfcdn3.sanfencdn9.com, port: 80, type: vmess, uuid: a564b1ec-2d51-418a-ba01-e9ab22736afc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: oA5FSz9Tjp1.yofnhkfc.xyz}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 18, server: 162.159.130.208, port: 8080, type: vmess, uuid: 55021a7c-bd6c-418e-be95-ceac8ba27b45, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: 55021a7c-bd6c-418e-be95-ceac8ba27b45-vm, headers: {Host: widescreen-instruction-breakdown-postage.trycloudflare.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 19, server: 104.21.224.201, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 20, server: 104.16.192.146, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: jobscareertoday.com, skip-cert-verify: true, network: ws, ws-opts: {path: 6b777a91, headers: {Host: jobscareertoday.com}}, udp: true}
+  - {name: 🇺🇸 美国 CloudFlare节点 21, server: 104.21.227.37, port: 80, type: vmess, uuid: 7022982f-da4c-48c9-c660-b2315abdcf7e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.prapt1.ir}}, udp: true}
+  - {name: 🇰🇷 韩国 蘑菇主机BGP数据中心, server: 103.214.68.57, port: 10003, type: trojan, password: 6x8HcghsjS, sni: yes998.chickenkiller.com, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心, server: 18.219.123.200, port: 22222, type: trojan, password: telegram-id-directvpn, sni: trojan.burgerip.co.uk, skip-cert-verify: true, udp: true}
+proxy-groups:
+  - name: 🚀 节点选择
+    type: select
+    proxies:
+      - ♻️ 自动选择
+      - DIRECT
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: ♻️ 自动选择
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    tolerance: 50
+    proxies:
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: 🌍 国外媒体
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - ♻️ 自动选择
+      - 🎯 全球直连
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: 📲 电报信息
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: Ⓜ️ 微软服务
+    type: select
+    proxies:
+      - 🎯 全球直连
+      - 🚀 节点选择
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: 🍎 苹果服务
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: 📢 谷歌FCM
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+  - name: 🎯 全球直连
+    type: select
+    proxies:
+      - DIRECT
+      - 🚀 节点选择
+      - ♻️ 自动选择
+  - name: 🛑 全球拦截
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🍃 应用净化
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+  - name: 🐟 漏网之鱼
+    type: select
+    proxies:
+      - 🚀 节点选择
+      - 🎯 全球直连
+      - ♻️ 自动选择
+      - 🇺🇸 美国 惠普公司
+      - 🇺🇸 美国 CloudFlare节点
+      - 🇺🇸 美国 CloudFlare节点 2
+      - 🇨🇳 广东省 移动
+      - 🇺🇸 美国 CloudFlare节点 3
+      - 🇺🇸 美国 CloudFlare节点 4
+      - 🇺🇸 北美地区 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare节点 5
+      - 🇺🇸 美国 CloudFlare节点 6
+      - 🇺🇸 美国 CloudFlare节点 7
+      - 🇺🇸 美国 德克萨斯州达拉斯Linode数据中心
+      - 🇺🇸 美国 CloudFlare节点 8
+      - 🇺🇸 美国 CloudFlare节点 9
+      - 🇺🇸 美国 CacheFly全球Anycast节点
+      - 🇺🇸 美国 CloudFlare节点 10
+      - 🇺🇸 美国 CloudFlare节点 11
+      - 🇺🇸 美国 CloudFlare节点 12
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify)
+      - 🇺🇸 美国 CloudFlare节点 13
+      - 🇺🇸 美国 华盛顿Cogent通信公司
+      - 🇺🇸 美国 华盛顿州昆西Microsoft公司
+      - 🇺🇸 美国 CloudFlare节点 14
+      - 🇺🇸 美国 CloudFlare节点 15
+      - 🇮🇳 印度 V2CROSS.COM
+      - 🇬🇧 英国 伦敦Amazon数据中心
+      - 🇺🇸 美国 CloudFlare节点 16
+      - 🇺🇸 美国 V2CROSS.COM
+      - 🇺🇸 美国 CloudFlare公司CDN节点(shopify) 2
+      - 🇺🇸 美国 CloudFlare节点 17
+      - 🇺🇸 美国 CloudFlare节点 18
+      - 🇺🇸 美国 CloudFlare节点 19
+      - 🇺🇸 美国 CloudFlare节点 20
+      - 🇺🇸 美国 CloudFlare节点 21
+      - 🇰🇷 韩国 蘑菇主机BGP数据中心
+      - 🇺🇸 美国 俄亥俄州都柏林Amazon数据中心
+rules:
+  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
+  - DOMAIN-SUFFIX,ip6-loopback,🎯 全球直连
+  - DOMAIN-SUFFIX,lan,🎯 全球直连
+  - DOMAIN-SUFFIX,local,🎯 全球直连
+  - DOMAIN-SUFFIX,localhost,🎯 全球直连
+  - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
+  - IP-CIDR,127.0.0.0/8,🎯 全球直连,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 全球直连,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,198.18.0.0/16,🎯 全球直连,no-resolve
+  - IP-CIDR,224.0.0.0/4,🎯 全球直连,no-resolve
+  - IP-CIDR6,::1/128,🎯 全球直连,no-resolve
+  - IP-CIDR6,fc00::/7,🎯 全球直连,no-resolve
+  - IP-CIDR6,fe80::/10,🎯 全球直连,no-resolve
+  - IP-CIDR6,fd00::/8,🎯 全球直连,no-resolve
+  - DOMAIN,instant.arubanetworks.com,🎯 全球直连
+  - DOMAIN,setmeup.arubanetworks.com,🎯 全球直连
+  - DOMAIN,router.asus.com,🎯 全球直连
+  - DOMAIN,www.asusrouter.com,🎯 全球直连
+  - DOMAIN-SUFFIX,hiwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,leike.cc,🎯 全球直连
+  - DOMAIN-SUFFIX,miwifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,my.router,🎯 全球直连
+  - DOMAIN-SUFFIX,p.to,🎯 全球直连
+  - DOMAIN-SUFFIX,peiluyou.com,🎯 全球直连
+  - DOMAIN-SUFFIX,phicomm.me,🎯 全球直连
+  - DOMAIN-SUFFIX,router.ctc,🎯 全球直连
+  - DOMAIN-SUFFIX,routerlogin.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tendawifi.com,🎯 全球直连
+  - DOMAIN-SUFFIX,zte.home,🎯 全球直连
+  - DOMAIN-SUFFIX,tplogin.cn,🎯 全球直连
+  - DOMAIN-SUFFIX,wifi.cmcc,🎯 全球直连
+  - DOMAIN-SUFFIX,ol.epicgames.com,🎯 全球直连
+  - DOMAIN-SUFFIX,dizhensubao.getui.com,🎯 全球直连
+  - DOMAIN,dl.google.com,🎯 全球直连
+  - DOMAIN-SUFFIX,googletraveladservices.com,🎯 全球直连
+  - DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net,🎯 全球直连
+  - DOMAIN,origin-a.akamaihd.net,🎯 全球直连
+  - DOMAIN,fairplay.l.qq.com,🎯 全球直连
+  - DOMAIN,livew.l.qq.com,🎯 全球直连
+  - DOMAIN,vd.l.qq.com,🎯 全球直连
+  - DOMAIN,errlog.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umeng.com,🎯 全球直连
+  - DOMAIN,msg.umengcloud.com,🎯 全球直连
+  - DOMAIN,tracking.miui.com,🎯 全球直连
+  - DOMAIN,app.adjust.com,🎯 全球直连
+  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+  - DOMAIN,rewards.hypixel.net,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.com,🎯 全球直连
+  - DOMAIN-SUFFIX,koodomobile.ca,🎯 全球直连
+  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
+  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsensor,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsmogo,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsrvmedia,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsserving,🛑 全球拦截
+  - DOMAIN-KEYWORD,adsystem,🛑 全球拦截
+  - DOMAIN-KEYWORD,adwords,🛑 全球拦截
+  - DOMAIN-KEYWORD,applovin,🛑 全球拦截
+  - DOMAIN-KEYWORD,appsflyer,🛑 全球拦截
+  - DOMAIN-KEYWORD,domob,🛑 全球拦截
+  - DOMAIN-KEYWORD,duomeng,🛑 全球拦截
+  - DOMAIN-KEYWORD,dwtrack,🛑 全球拦截
+  - DOMAIN-KEYWORD,guanggao,🛑 全球拦截
+  - DOMAIN-KEYWORD,omgmta,🛑 全球拦截
+  - DOMAIN-KEYWORD,omniture,🛑 全球拦截
+  - DOMAIN-KEYWORD,openx,🛑 全球拦截
+  - DOMAIN-KEYWORD,partnerad,🛑 全球拦截
+  - DOMAIN-KEYWORD,pingfore,🛑 全球拦截
+  - DOMAIN-KEYWORD,socdm,🛑 全球拦截
+  - DOMAIN-KEYWORD,supersonicads,🛑 全球拦截
+  - DOMAIN-KEYWORD,wlmonitor,🛑 全球拦截
+  - DOMAIN-KEYWORD,zjtoolbar,🛑 全球拦截
+  - DOMAIN-SUFFIX,09mk.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,100peng.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,114la.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,123juzi.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,138lm.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,17un.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,2cnt.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,3gmimo.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,3xx.vip,🛑 全球拦截
+  - DOMAIN-SUFFIX,51.la,🛑 全球拦截
+  - DOMAIN-SUFFIX,51taifu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,51yes.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,600ad.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,6dad.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,70e.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,86.cc,🛑 全球拦截
+  - DOMAIN-SUFFIX,8le8le.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,8ox.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,95558000.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,99click.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,99youmeng.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,a3p4.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,acs86.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,acxiom-online.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad-brix.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad-delivery.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad-locus.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad-plus.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,ad7.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adadapted.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adadvisor.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,adap.tv,🛑 全球拦截
+  - DOMAIN-SUFFIX,adbana.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adchina.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adcome.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,ader.mobi,🛑 全球拦截
+  - DOMAIN-SUFFIX,adform.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,adfuture.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adhouyi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adinfuse.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adirects.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adjust.io,🛑 全球拦截
+  - DOMAIN-SUFFIX,adkmob.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adlive.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adlocus.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,admaji.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,admin6.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,admon.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adnyg.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adpolestar.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,adpro.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adpush.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adquan.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adreal.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,ads8.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsame.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsmogo.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsmogo.org,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsunflower.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adsunion.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adtrk.me,🛑 全球拦截
+  - DOMAIN-SUFFIX,adups.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,aduu.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,advertising.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adview.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,advmob.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,adwetec.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adwhirl.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adwo.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adxmi.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adyun.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,adzerk.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,agrant.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,agrantsem.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,aihaoduo.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,ajapk.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,allyes.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,allyes.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,amazon-adsystem.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,analysys.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,angsrvr.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,anquan.org,🛑 全球拦截
+  - DOMAIN-SUFFIX,anysdk.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appadhoc.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appads.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appboy.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appdriver.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,appjiagu.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,applifier.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,appsflyer.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,atdmt.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,baifendian.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,banmamedia.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,baoyatu.cc,🛑 全球拦截
+  - DOMAIN-SUFFIX,baycode.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,bayimob.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,behe.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bfshan.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,biddingos.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,biddingx.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bjvvqu.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,bjxiaohua.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bloggerads.net,🛑 全球拦截
+  - DOMAIN-SUFFIX,branch.io,🛑 全球拦截
+  - DOMAIN-SUFFIX,bsdev.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,bshare.cn,🛑 全球拦截
+  - DOMAIN-SUFFIX,btyou.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,bugtags.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,buysellads.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,c0563.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,cacafly.com,🛑 全球拦截
+  - DOMAIN-SUFFIX,casee.cn,🛑 全球
